@@ -21,7 +21,7 @@ D1_SYMS = [
     "^GDAXI", "^N225", "^HSI", "^STOXX50E", "DX-Y.NYB", "EURUSD=X", "JPY=X", "CNY=X",
     "^TNX", "^FVX", "^TYX", "^IRX", "2YY=F", "^VIX", "^VXN", "^GVZ", "^MOVE", "^VIX3M",
     "BTC-USD", "HYG", "LQD", "TLT", "QQQ", "GLD", "SMH", "NVDA", "AAPL", "MSFT", "AMZN",
-    "META", "GOOGL", "AVGO", "TSLA",
+    "META", "GOOGL", "AVGO", "TSLA", "TIP", "UUP", "^SPX",
 ]
 status = {}
 
@@ -146,7 +146,10 @@ def main():
         time.sleep(1)
     for s in D1_SYMS:
         try:
-            n = merge_save(yahoo(s, "1d", "2y"), os.path.join(D1, safe(s) + ".csv"))
+            p = os.path.join(D1, safe(s) + ".csv")
+            # ilk çekimde tüm geçmiş, sonra son 3 ay (birleştirilir)
+            per = "3mo" if os.path.exists(p) and os.path.getsize(p) > 200_000 else "max"
+            n = merge_save(yahoo(s, "1d", per), p)
             status[f"d1:{s}"] = n
         except Exception as e:
             status[f"d1:{s}"] = f"hata {e}"
