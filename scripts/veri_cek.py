@@ -139,7 +139,10 @@ def main():
         return ny_window()
     for s in M5_SYMS:
         try:
-            n = merge_save(yahoo(s, "5m", "5d"), os.path.join(M5, safe(s) + ".csv"))
+            p = os.path.join(M5, safe(s) + ".csv")
+            # ilk çekimde 60 gün (Yahoo 5 dk sınırı), sonra son 5 gün birleştirilir
+            per = "5d" if os.path.exists(p) and os.path.getsize(p) > 400_000 else "60d"
+            n = merge_save(yahoo(s, "5m", per), p)
             status[f"m5:{s}"] = n
         except Exception as e:
             status[f"m5:{s}"] = f"hata {e}"
