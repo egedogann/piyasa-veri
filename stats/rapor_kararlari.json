@@ -1,0 +1,16 @@
+{
+ "_aciklama": "Hangi istatistik rapora hangi etiketle girer. Kural: OOS'ta taban/naif modelden iyi olan 'model', tanımlayıcı olan 'bilgi', yön içeren ve anlamsız olan 'yon_bilgisi_yok'. 16 Kas 2026.",
+ "aralik_tahmini": {"kullan": "v2.<SEMBOL>.ima_edilen_vol_modeli", "etiket": "model", "OOS_R2": {"US100": 0.437, "XAUUSD": 0.709}, "naif_ATR_R2": {"US100": 0.305, "XAUUSD": 0.633}, "yedek": "VXN/GVZ yoksa v2.aralik_modeli_v2_HAR, o da yoksa aralik_modeli"},
+ "gun_tipi": {"US100": "yalnız taban oran (trend %21, denge %14) + gece aralığı tablosu, etiket bilgi", "XAUUSD": "denge olasılığı model (BSS +0.038), trend/dönüş yalnız taban oran"},
+ "benzer_gunler": {"etiket": "zayıf model (kNN log hata 0.305 vs 0.325)"},
+ "kalan_hareket": {"etiket": "model", "IS_OOS_tutarlilik": {"US100": 0.935, "XAUUSD": 0.982}},
+ "gun_ici_vol_profili": {"etiket": "bilgi"},
+ "vol_rejimi": {"etiket": "bilgi", "not": "yüksek ATR rejiminde RTH aralığı/ATR düşüyor (ortalamaya dönüş)"},
+ "stop_hedef_izgarasi": {"etiket": "bilgi", "not": "isabet ≈ başabaş; yön edge'i yok, mesafe vurulma sıklığı"},
+ "takvim": {"ay_ilk_gunu": "aralık etkisi IS+OOS tutarlı (US100 1.10 vs 0.89 ATR OOS); ISM ile çakışıyor olabilir", "digerleri": "tutarlı etki yok"},
+ "seviye_gap_acilis_araligi_seans": {"etiket": "bilgi"},
+ "seri_yon": {"etiket": "yon_bilgisi_yok"},
+ "korelasyon_US100_XAU": {"etiket": "risk", "not": "OOS RTH korelasyonu 0.23; birleşik std oranı 0.74 → iki işlem ≈ 1.5 işlem riski"},
+ "cross_asset": {"etiket": "bilgi", "not": "XAU–DXY −0.43, XAU–10Y −0.30, US100–VIX −0.71 (günlük, tüm dönem); 60 günlük değer raporda güncellenir"},
+ "olaylar": {"etiket": "yalnız takvim + beklenti/önceki + başlıklar; Ege veri günlerinde işlem yapmıyor"}
+}

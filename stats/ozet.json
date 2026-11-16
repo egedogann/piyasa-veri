@@ -490,5 +490,316 @@
  "lot_formulu": {
   "US100": "lot = risk$ / (stop_puan × 20); 0.01 lot = 0.20$/puan; aşağı yuvarla, min 0.01",
   "XAUUSD": "lot = risk$ / (stop$ × 100 + 7$ komisyon/lot); 0.01 lot = 1$ / 1$ hareket"
- }
+ },
+ "v2": {
+  "US100": {
+   "kalan_hareket_IS_OOS_medyan_korelasyonu": 0.935,
+   "aralik_modeli_v2_HAR": {
+    "ozellikler": [
+     "sabit",
+     "l_atr",
+     "l_prev",
+     "l_on",
+     "l_gap",
+     "prev_cl_loc",
+     "ev_major",
+     "ev_fomc",
+     "ev_cpi",
+     "ev_nfp",
+     "dow_0",
+     "dow_4",
+     "har_1",
+     "har_5",
+     "har_22"
+    ],
+    "katsayilar": {
+     "sabit": 0.24855,
+     "l_atr": 0.96282,
+     "l_prev": 0.07663,
+     "l_on": 0.20548,
+     "l_gap": 0.19397,
+     "prev_cl_loc": -0.14124,
+     "ev_major": -0.01127,
+     "ev_fomc": 0.2735,
+     "ev_cpi": -0.03454,
+     "ev_nfp": -0.01842,
+     "dow_0": -0.03089,
+     "dow_4": -0.00888,
+     "har_1": 0.07663,
+     "har_5": 0.31883,
+     "har_22": 0.26134
+    },
+    "artik_kantiller_IS": {
+     "q10": -0.4832,
+     "q25": -0.276,
+     "q50": -0.0168,
+     "q75": 0.2596,
+     "q90": 0.5188
+    },
+    "R2_OOS": 0.432,
+    "R2_OOS_v1_ayni_ornek": 0.41,
+    "band80_OOS_kapsama": 0.824,
+    "n_OOS": 952,
+    "baslangic": "2017-05-25"
+   },
+   "rejim_tanimi": "ATR14'ün son 2 yıldaki persentili: <25 düşük, 25–75 normal, 75–90 yüksek, >90 aşırı",
+   "stop_hedef_not": "Rastgele yönlü giriş; yön bilgisi yok. 'hedef_once' − 'basabas_isabet' farkı ≈ 0 ise o ızgara noktasında edge yok, tablo yalnız stop/hedef mesafesinin vurulma sıklığını gösterir.",
+   "takvim_aralik_etkisi_IS_ve_OOS_tutarli": [
+    "ay_ilk_gunu"
+   ],
+   "ima_edilen_vol_modeli": {
+    "ozellikler": [
+     "sabit",
+     "l_atr",
+     "l_prev",
+     "l_on",
+     "l_gap",
+     "prev_cl_loc",
+     "ev_major",
+     "ev_fomc",
+     "ev_cpi",
+     "ev_nfp",
+     "dow_0",
+     "dow_4",
+     "har_1",
+     "har_5",
+     "har_22",
+     "l_imp"
+    ],
+    "katsayilar": {
+     "sabit": -0.10097,
+     "l_atr": 1.02737,
+     "l_prev": 0.06639,
+     "l_on": 0.15957,
+     "l_gap": 0.21007,
+     "prev_cl_loc": -0.13981,
+     "ev_major": -0.00851,
+     "ev_fomc": 0.24895,
+     "ev_cpi": -0.0282,
+     "ev_nfp": -0.00919,
+     "dow_0": -0.02507,
+     "dow_4": -0.00932,
+     "har_1": 0.06639,
+     "har_5": 0.25787,
+     "har_22": 0.06912,
+     "l_imp": 0.36507
+    },
+    "artik_kantiller_IS": {
+     "q10": -0.4805,
+     "q25": -0.266,
+     "q50": -0.0171,
+     "q75": 0.2496,
+     "q90": 0.5077
+    },
+    "R2_OOS": 0.437,
+    "R2_OOS_v1_ayni_ornek": 0.41,
+    "band80_OOS_kapsama": 0.814,
+    "n_OOS": 952,
+    "baslangic": "2017-05-25",
+    "kaynak": "^VXN",
+    "kullanim": "l_imp = log((önceki kapanış endeks/100/√252 × fiyat) / ATR14)",
+    "ilk_tarih": "2001-01-23"
+   }
+  },
+  "XAUUSD": {
+   "kalan_hareket_IS_OOS_medyan_korelasyonu": 0.982,
+   "aralik_modeli_v2_HAR": {
+    "ozellikler": [
+     "sabit",
+     "l_atr",
+     "l_prev",
+     "l_on",
+     "l_gap",
+     "prev_cl_loc",
+     "ev_major",
+     "ev_fomc",
+     "ev_cpi",
+     "ev_nfp",
+     "dow_0",
+     "dow_4",
+     "har_1",
+     "har_5",
+     "har_22"
+    ],
+    "katsayilar": {
+     "sabit": -0.03018,
+     "l_atr": 0.953,
+     "l_prev": 0.16281,
+     "l_on": 0.30552,
+     "l_gap": 0.01836,
+     "prev_cl_loc": 0.02552,
+     "ev_major": 0.04701,
+     "ev_fomc": 0.6176,
+     "ev_cpi": 0.07892,
+     "ev_nfp": -0.03984,
+     "dow_0": -0.12483,
+     "dow_4": -0.02112,
+     "har_1": -0.11155,
+     "har_5": 0.15876,
+     "har_22": 0.12618
+    },
+    "artik_kantiller_IS": {
+     "q10": -0.487,
+     "q25": -0.2802,
+     "q50": -0.0263,
+     "q75": 0.2513,
+     "q90": 0.5285
+    },
+    "R2_OOS": 0.691,
+    "R2_OOS_v1_ayni_ornek": 0.689,
+    "band80_OOS_kapsama": 0.802,
+    "n_OOS": 956,
+    "baslangic": "2016-02-25"
+   },
+   "rejim_tanimi": "ATR14'ün son 2 yıldaki persentili: <25 düşük, 25–75 normal, 75–90 yüksek, >90 aşırı",
+   "stop_hedef_not": "Rastgele yönlü giriş; yön bilgisi yok. 'hedef_once' − 'basabas_isabet' farkı ≈ 0 ise o ızgara noktasında edge yok, tablo yalnız stop/hedef mesafesinin vurulma sıklığını gösterir.",
+   "takvim_aralik_etkisi_IS_ve_OOS_tutarli": [
+    "ay_ilk_gunu"
+   ],
+   "ima_edilen_vol_modeli": {
+    "ozellikler": [
+     "sabit",
+     "l_atr",
+     "l_prev",
+     "l_on",
+     "l_gap",
+     "prev_cl_loc",
+     "ev_major",
+     "ev_fomc",
+     "ev_cpi",
+     "ev_nfp",
+     "dow_0",
+     "dow_4",
+     "har_1",
+     "har_5",
+     "har_22",
+     "l_imp"
+    ],
+    "katsayilar": {
+     "sabit": -0.25828,
+     "l_atr": 0.99764,
+     "l_prev": 0.39528,
+     "l_on": 0.22751,
+     "l_gap": 0.05332,
+     "prev_cl_loc": -0.00053,
+     "ev_major": 0.05506,
+     "ev_fomc": 0.57512,
+     "ev_cpi": 0.08692,
+     "ev_nfp": -0.03129,
+     "dow_0": -0.11647,
+     "dow_4": -0.01857,
+     "har_1": -0.36461,
+     "har_5": 0.08849,
+     "har_22": -0.2091,
+     "l_imp": 0.54609
+    },
+    "artik_kantiller_IS": {
+     "q10": -0.4919,
+     "q25": -0.277,
+     "q50": -0.0301,
+     "q75": 0.2487,
+     "q90": 0.5207
+    },
+    "R2_OOS": 0.709,
+    "R2_OOS_v1_ayni_ornek": 0.689,
+    "band80_OOS_kapsama": 0.816,
+    "n_OOS": 956,
+    "baslangic": "2016-02-25",
+    "kaynak": "^GVZ",
+    "kullanim": "l_imp = log((önceki kapanış endeks/100/√252 × fiyat) / ATR14)",
+    "ilk_tarih": "2008-06-03"
+   }
+  },
+  "korelasyon_US100_XAU": {
+   "RTH_getiri_korelasyonu_tumu": 0.101,
+   "IS": 0.018,
+   "OOS": 0.226,
+   "rolling60_p10_p50_p90": [
+    -0.207,
+    0.123,
+    0.476
+   ],
+   "rolling60_son": 0.165,
+   "vol_rejimine_gore": {
+    "asiri": -0.025,
+    "dusuk": 0.126,
+    "normal": 0.163,
+    "yuksek": 0.148
+   },
+   "M5_RTH_korelasyon": 0.138,
+   "birlesik_std_orani": 0.742,
+   "ikisi_birden_-0.5ATR_gunu": 0.0554,
+   "yorum": "birlesik_std_orani ≈ 0.71 → bağımsız; 1.0 → tam korelasyon. Aynı gün iki enstrümanda eşit risk ≈ tek işlemin bu oranla çarpılmış 2 katı risk."
+  },
+  "cross_asset_korelasyon": {
+   "XAU": {
+    "DXY": {
+     "tum": -0.43,
+     "son60": -0.421,
+     "p10_p90_60g": [
+      -0.677,
+      -0.215
+     ],
+     "n": 2646
+    },
+    "ABD10Y": {
+     "tum": -0.303,
+     "son60": -0.104,
+     "p10_p90_60g": [
+      -0.638,
+      -0.081
+     ],
+     "n": 2646
+    },
+    "TIPS_ETF": {
+     "tum": 0.325,
+     "son60": 0.15,
+     "p10_p90_60g": [
+      0.149,
+      0.603
+     ],
+     "n": 2647
+    },
+    "SPX": {
+     "tum": 0.08,
+     "son60": 0.565,
+     "p10_p90_60g": [
+      -0.387,
+      0.416
+     ],
+     "n": 2647
+    }
+   },
+   "US100": {
+    "ABD10Y": {
+     "tum": 0.046,
+     "son60": 0.16,
+     "p10_p90_60g": [
+      -0.345,
+      0.395
+     ],
+     "n": 2367
+    },
+    "DXY": {
+     "tum": -0.148,
+     "son60": -0.064,
+     "p10_p90_60g": [
+      -0.433,
+      0.195
+     ],
+     "n": 2367
+    },
+    "VIX": {
+     "tum": -0.709,
+     "son60": -0.763,
+     "p10_p90_60g": [
+      -0.844,
+      -0.59
+     ],
+     "n": 2367
+    }
+   }
+  }
+ },
+ "v2_olusturma": "2026-11-16T00:24:58+00:00"
 }
