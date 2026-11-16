@@ -1,0 +1,210 @@
+{
+ "baski": "Hafta başı baskısı (Asya açılışı)",
+ "derleme_notu": "Haber ve takvim web taramasından derlendi (16 Kas 2026, ~03:45 TR). Her satırın kaynağı yanında. Saatler ET → TR (+8 saat, ABD kış saati).",
+ "bugun_bayraklar": {
+  "ev_major": 0,
+  "ev_fomc": 0,
+  "ev_cpi": 0,
+  "ev_nfp": 0
+ },
+ "ozet": [
+  "Bugün büyük ABD verisi yok. Tek planlı risk: Fed Başkanı Warsh'ın açılış konuşması, 20:00 TR.",
+  "Yarın veri günü: perakende satışlar 16:30 TR, kapanıştan sonra Nvidia bilançosu (Huang'sız ilk bilanço). Çarşamba açılışı gap riski taşır.",
+  "Faiz baskısı sürüyor: 10 yıllık %5.15, Aralık'ta faiz artışı tam fiyatlı. Altın geçen hafta %4.5 düştü.",
+  "Perşembe iki olay üst üste: Trump–Xi(–Putin) görüşmesi ve Anthropic halka arzı. Cuma aylık opsiyon vadesi."
+ ],
+ "takvim_bugun": [
+  {
+   "tr": "02:50",
+   "et": "Paz 18:50",
+   "olay": "Japonya 3Ç GSYH (öncü)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "açıklandı; değer taranmadı",
+   "kaynak": "Bloomingbit",
+   "url": "https://en.bloomingbit.io/feed/news/124482"
+  },
+  {
+   "tr": "Asya seansı",
+   "et": "—",
+   "olay": "Çin Ekim sanayi üretimi ve perakende satışlar",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "saat kaynakta yok",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"
+  },
+  {
+   "tr": "16:30*",
+   "et": "08:30*",
+   "olay": "NY Fed Empire State imalat (Kasım) · Kanada TÜFE (Ekim)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "* standart yayın saati, kaynakta teyit yok",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"
+  },
+  {
+   "tr": "20:00",
+   "et": "12:00",
+   "olay": "Fed Başkanı Warsh, açılış konuşması (San Francisco Fed konferansı)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "yüksek",
+   "not": "Çarşamba tutanakları öncesi ton kontrolü",
+   "kaynak": "Admiral Markets",
+   "url": "https://admiralmarkets.com/education/articles/fundamental-analysys/warsh-speech-preview-november-16-2026"
+  },
+  {
+   "tr": "23:30",
+   "et": "15:30",
+   "olay": "CFTC COT raporu (10 Kas pozisyonları; Gaziler Günü nedeniyle Cuma'dan ertelendi)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "",
+   "kaynak": "cot-reports.com",
+   "url": "https://cot-reports.com/"
+  }
+ ],
+ "takvim_hafta": [
+  {
+   "gun": "Pzt 16",
+   "etiket": "Normal",
+   "olaylar": "Warsh 20:00 · COT 23:30 · Bilanço: Tyson, Baidu, XPeng (açılış öncesi), Aecom (kapanış sonrası)"
+  },
+  {
+   "gun": "Sal 17",
+   "etiket": "Veri günü",
+   "olaylar": "Perakende satışlar 16:30 (beklenti +%0.2, önceki +%0.8; kontrol grubu +%0.4, önceki +%0.1) · Sanayi üretimi 17:15 · Home Depot, Disney (açılış öncesi) · Nvidia (kapanış sonrası, ~00:20 Çar)"
+  },
+  {
+   "gun": "Çar 18",
+   "etiket": "Olay riski",
+   "olaylar": "Nvidia sonrası açılış · Konut başlangıçları · FOMC tutanakları 22:00 (27–28 Ekim toplantısı; sıcak TÜFE'den önce) · APEC liderler zirvesi başlıyor"
+  },
+  {
+   "gun": "Per 19",
+   "etiket": "Olay riski",
+   "olaylar": "İşsizlik başvuruları, Philly Fed · Trump–Xi görüşmesi ve Putin'li üçlü görüşme (saat açıklanmadı) · Anthropic halka arzı · Walmart (açılış öncesi)"
+  },
+  {
+   "gun": "Cum 20",
+   "etiket": "OPEX",
+   "olaylar": "Aylık opsiyon vadesi · Michigan tüketici güveni (nihai) · Çin LPR"
+  }
+ ],
+ "takvim_notu": "Perakende satış beklentisi kaynaklar arasında farklı: Newsquawk +%0.2, başka derlemelerde %0.0 ve +%0.5. Önceki değer +%0.8.",
+ "basliklar": [
+  {
+   "baslik": "Vadeliler haftaya yukarıda başladı",
+   "ozet": "Pazar gecesi Nasdaq 100 vadelileri yaklaşık %0.4–0.6, S&P 500 vadelileri %0.1–0.3 yukarıda. Geçen hafta üç ana endeks %2'den fazla yükseldi, Ağustos'tan beri en iyi hafta; Cuma günü Nasdaq %0.9 geriledi.",
+   "etki": "US100",
+   "kaynak": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+  },
+  {
+   "baslik": "Nvidia: Huang sonrası ilk bilanço Salı gecesi",
+   "ozet": "Jensen Huang'ın CEO'luktan ayrılmasının ardından hisse geçen hafta yaklaşık %13 düştü; geçici CEO, CFO Colette Kress. Bilanço Salı kapanıştan sonra. Analist beklentisi kâr ve gelirde yıllık %100'e yakın büyüme; odak yönetimin mesajında.",
+   "etki": "US100",
+   "kaynak": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
+  },
+  {
+   "baslik": "Fed: Schmid'den hafta sonu şahin mesaj",
+   "ozet": "Kansas City Fed Başkanı Schmid enflasyonun hedefin rahatsız edici ölçüde üstünde ve yanlış yönde olduğunu söyledi; açıkça artış çağrısı yapmadı. Piyasa 9 Aralık'ta 25 bp artışı tam fiyatlıyor (CME FedWatch, Cuma: 25 bp ~%87, 50 bp ~%13). Politika faizi %3.75–4.00.",
+   "etki": "İkisi",
+   "kaynak": "InvestingLive",
+   "url": "https://investinglive.com/central-banks/sunday-fed-talk-schmid-says-inflation-would-still-be-near-3-without-energy-fed-has-work-to-do/"
+  },
+  {
+   "baslik": "Tahvil: Nisan 2025'ten beri en sert haftalık faiz artışı",
+   "ozet": "10 yıllık Hazine faizi Cuma %5.14–5.15, 30 yıllık %5.48. Ekim TÜFE çekirdeği beklentinin üstünde (+%0.3), ÜFE aylık +%0.3 ile beklentinin altında ama yıllık %6.5. Dolar endeksi Nisan 2025'ten beri en yüksekte.",
+   "etki": "İkisi",
+   "kaynak": "CNBC · Newsquawk",
+   "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+  },
+  {
+   "baslik": "Altın: Mart'tan beri en büyük haftalık düşüş",
+   "ozet": "Spot altın geçen hafta yaklaşık %4.5 geriledi; Cuma sınırlı toparlandı, Pazartesi Asya'da 3,880 $ civarı. Sürücü: faiz artışı beklentisi ve güçlü dolar.",
+   "etki": "XAU",
+   "kaynak": "ABC News (Avustralya)",
+   "url": "https://www.abc.net.au/news/2026-11-16/asx-markets-business-live-news-nov-16/107388134"
+  },
+  {
+   "baslik": "Trump Asya turunda: Manila, ardından Shenzhen",
+   "ozet": "Trump ASEAN zirvesi için Manila'ya, ardından 18–19 Kasım APEC zirvesi için Shenzhen'e gidiyor. Beyaz Saray Xi ile görüşmeyi Perşembe 19 Kasım olarak teyit etti; aynı gün Putin'in de katılacağı üçlü görüşme planlanıyor. Trump Çarşamba'dan beri kamuya açık görünmedi; resmi programı normal. InvestingLive'a göre seyahatte açıklanmayan bir erteleme piyasa faktörü olur.",
+   "etki": "İkisi",
+   "kaynak": "Admiral Markets (AP aktarımı) · InvestingLive",
+   "url": "https://admiralmarkets.com/education/articles/fundamental-analysys/us-china-trade-talks-trump-xi-shenzhen"
+  },
+  {
+   "baslik": "Anthropic halka arzı Perşembe",
+   "ozet": "Piyasa yorumları Perşembe günkü arzı Nvidia bilançosuyla birlikte haftanın iki yapay zekâ olayı olarak görüyor. NDX zirvesinin yaklaşık %9 altında ve 200 günlük ortalamasını geri almaya çalışıyor.",
+   "etki": "US100",
+   "kaynak": "RiskReversal",
+   "url": "https://riskreversal.substack.com/p/the-week-ahead-a-huge-week-for-ai"
+  },
+  {
+   "baslik": "Petrol ve kripto",
+   "ozet": "WTI 88–89 $, Brent ~96 $; İran savaşı görüşmeleri ve nakliye muafiyetinin 90 gün uzatılması gündemde. Bitcoin hafta sonu 65–67 bin $ bandına indi, Ağustos'tan beri en düşük.",
+   "etki": "Bağlam",
+   "kaynak": "Newsquawk · CryptoTicker",
+   "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"
+  }
+ ],
+ "pozisyon": [
+  {
+   "ad": "COT · Nasdaq 100 vadeli, spekülatif net",
+   "deger": "+45,216 kontrat",
+   "degisim": "haftalık −1,336",
+   "tarih": "3 Kas",
+   "kaynak": "TitanFX (CFTC)",
+   "url": "https://research.titanfx.com/cftc/cot-nasdaq"
+  },
+  {
+   "ad": "COT · Altın, spekülatif net",
+   "deger": "+179,548 kontrat",
+   "degisim": "haftalık −6,903; Eylül başında 243 bin",
+   "tarih": "3 Kas",
+   "kaynak": "Finzdata (CFTC)",
+   "url": "https://data.finzdata.com/cot/088691-gold-commodity-exchange-inc"
+  },
+  {
+   "ad": "CNN Fear & Greed",
+   "deger": "39 (Korku)",
+   "degisim": "bir hafta önce 24 (Aşırı korku)",
+   "tarih": "13 Kas",
+   "kaynak": "Finhacker",
+   "url": "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
+  },
+  {
+   "ad": "AAII anketi",
+   "deger": "%31 boğa / %51 ayı",
+   "degisim": "—",
+   "tarih": "13 Kas itibarıyla",
+   "kaynak": "World Monitor",
+   "url": "https://www.worldmonitor.app/tools/fear-and-greed-index/"
+  },
+  {
+   "ad": "Opsiyonların ima ettiği haftalık hareket",
+   "deger": "NDX ±%3.2 · SPX ±%2.0",
+   "degisim": "geçen hafta %3.5 / %2.5",
+   "tarih": "15 Kas",
+   "kaynak": "RiskReversal",
+   "url": "https://riskreversal.substack.com/p/the-week-ahead-a-huge-week-for-ai"
+  },
+  {
+   "ad": "Fed fiyatlaması (9 Aralık)",
+   "deger": "25 bp artış ~%87 · 50 bp ~%13",
+   "degisim": "—",
+   "tarih": "13 Kas",
+   "kaynak": "CNBC (CME FedWatch)",
+   "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
+  }
+ ],
+ "pozisyon_notu": "Gerçek zamanlı opsiyon akışı ve dealer gamma verisi ücretli kaynaklarda; bu baskıda yok. COT'un yeni haftası bugün 23:30 TR'de."
+}
