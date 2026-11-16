@@ -1,6 +1,6 @@
 {
- "baski": "Hafta başı baskısı (Asya açılışı)",
- "derleme_notu": "Haber ve takvim web taramasından derlendi (16 Kas 2026, ~03:45 TR). Her satırın kaynağı yanında. Saatler ET → TR (+8 saat, ABD kış saati).",
+ "baski": "Londra öncesi baskı",
+ "derleme_notu": "Haber ve takvim web taramasından derlendi (16 Kas 2026, ~10:50 TR). Her satırın kaynağı yanında. Saatler ET → TR (+8 saat, ABD kış saati).",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,33 +8,34 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Bugün büyük ABD verisi yok. Tek planlı risk: Fed Başkanı Warsh'ın açılış konuşması, 20:00 TR.",
-  "Yarın veri günü: perakende satışlar 16:30 TR, kapanıştan sonra Nvidia bilançosu (Huang'sız ilk bilanço). Çarşamba açılışı gap riski taşır.",
-  "Faiz baskısı sürüyor: 10 yıllık %5.15, Aralık'ta faiz artışı tam fiyatlı. Altın geçen hafta %4.5 düştü.",
-  "Perşembe iki olay üst üste: Trump–Xi(–Putin) görüşmesi ve Anthropic halka arzı. Cuma aylık opsiyon vadesi."
+  "Gece tablo döndü: Pazar akşamı +%0.5 olan NQ vadelisi Asya'da çip satışıyla 09:15 TR itibarıyla −%1.3, ES −%0.6 (Newsquawk). Nikkei −%2.3, Şanghay −%1.1.",
+  "Altın 3,900 $ altında takıldı (spot −%0.8, Newsquawk). Dolar endeksi yatay, 10 yıllık %5.14; USD/JPY 160 denemesinden 159.4'e geriledi.",
+  "Nvidia: FT'ye göre Jensen Huang CEO'luğa dönmeyi düşünüyor; Bessent dışarıdan CEO ve ihracat-kontrol incelemesi istedi. Bilanço yarın kapanıştan sonra; başlık riski bugün de açık.",
+  "Bugün büyük ABD verisi yok: Empire State ve Kanada TÜFE 16:30 TR (saat teyitsiz), Warsh 20:00 TR, COT 23:30 TR. Williams da konuşacak (saat bulunamadı).",
+  "Asya verisi zayıf: Çin Ekim sanayi üretimi %4.8 (bekl. %5.3), perakende %0.4 (bekl. %0.8); Japonya 3Ç GSYH yıllıklandırılmış −%0.1 (bekl. +%0.3). Londra açılışı 11:00 TR."
  ],
  "takvim_bugun": [
   {
    "tr": "02:50",
    "et": "Paz 18:50",
    "olay": "Japonya 3Ç GSYH (öncü)",
-   "beklenti": "—",
-   "onceki": "—",
+   "beklenti": "+%0.3 (yıllık.)",
+   "onceki": "+%1.4",
    "onem": "düşük",
-   "not": "açıklandı; değer taranmadı",
-   "kaynak": "Bloomingbit",
-   "url": "https://en.bloomingbit.io/feed/news/124482"
+   "not": "gerçekleşen −%0.1 yıllık., %0.0 ç/ç (bekl. %0.1); Saxo beklentiyi +%0.1 veriyor",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
   },
   {
-   "tr": "Asya seansı",
-   "et": "—",
+   "tr": "05:00*",
+   "et": "Paz 21:00*",
    "olay": "Çin Ekim sanayi üretimi ve perakende satışlar",
-   "beklenti": "—",
-   "onceki": "—",
+   "beklenti": "SÜ %5.3 · PS %0.8",
+   "onceki": "SÜ %5.5 · PS %1.1",
    "onem": "orta",
-   "not": "saat kaynakta yok",
+   "not": "gerçekleşen SÜ %4.8, PS %0.4, sabit yatırım (YBB) −%8.1 (bekl. −%7); * saat standart yayın saati",
    "kaynak": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
   },
   {
    "tr": "16:30*",
@@ -54,9 +55,20 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "yüksek",
-   "not": "Çarşamba tutanakları öncesi ton kontrolü",
+   "not": "Çarşamba tutanakları öncesi ton kontrolü; hafta sonu Jefferson, Collins, Schmid şahin konuştu",
    "kaynak": "Admiral Markets",
    "url": "https://admiralmarkets.com/education/articles/fundamental-analysys/warsh-speech-preview-november-16-2026"
+  },
+  {
+   "tr": "—",
+   "et": "—",
+   "olay": "NY Fed Başkanı Williams konuşması",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "saat kaynakta yok",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
   },
   {
    "tr": "23:30",
@@ -79,7 +91,7 @@
   {
    "gun": "Sal 17",
    "etiket": "Veri günü",
-   "olaylar": "Perakende satışlar 16:30 (beklenti +%0.2, önceki +%0.8; kontrol grubu +%0.4, önceki +%0.1) · Sanayi üretimi 17:15 · Home Depot, Disney (açılış öncesi) · Nvidia (kapanış sonrası, ~00:20 Çar)"
+   "olaylar": "Perakende satışlar 16:30 (beklenti +%0.2, önceki +%0.8; kontrol grubu +%0.4, önceki +%0.1) · Sanayi üretimi 17:15 · Home Depot, Disney (açılış öncesi) · Nvidia (kapanış sonrası, ~00:20 Çar) · Trump Manila'da Quad toplantısı"
   },
   {
    "gun": "Çar 18",
@@ -89,7 +101,7 @@
   {
    "gun": "Per 19",
    "etiket": "Olay riski",
-   "olaylar": "İşsizlik başvuruları, Philly Fed · Trump–Xi görüşmesi ve Putin'li üçlü görüşme (saat açıklanmadı) · Anthropic halka arzı · Walmart (açılış öncesi)"
+   "olaylar": "İşsizlik başvuruları, Philly Fed · APEC Shenzhen: Trump–Xi görüşmesi ve Putin'li üçlü görüşme (saat açıklanmadı) · Anthropic halka arzı · Walmart (açılış öncesi)"
   },
   {
    "gun": "Cum 20",
@@ -97,42 +109,49 @@
    "olaylar": "Aylık opsiyon vadesi · Michigan tüketici güveni (nihai) · Çin LPR"
   }
  ],
- "takvim_notu": "Perakende satış beklentisi kaynaklar arasında farklı: Newsquawk +%0.2, başka derlemelerde %0.0 ve +%0.5. Önceki değer +%0.8.",
+ "takvim_notu": "Perakende satış (Sal) beklentisi kaynaklar arasında farklı: Newsquawk +%0.2, başka derlemelerde %0.0 ve +%0.5. Japonya GSYH beklentisi Newsquawk'ta +%0.3, Saxo'da +%0.1. Empire State beklentisi bulunamadı.",
  "basliklar": [
   {
-   "baslik": "Vadeliler haftaya yukarıda başladı",
-   "ozet": "Pazar gecesi Nasdaq 100 vadelileri yaklaşık %0.4–0.6, S&P 500 vadelileri %0.1–0.3 yukarıda. Geçen hafta üç ana endeks %2'den fazla yükseldi, Ağustos'tan beri en iyi hafta; Cuma günü Nasdaq %0.9 geriledi.",
+   "baslik": "NQ vadelisi Asya'da −%1.3: çip satışı derinleşti",
+   "ozet": "Pazar akşamı yükselişle açılan vadeliler Asya seansında tersine döndü; teknoloji ağırlıklı Nikkei %2.3 düşerek 60 binin altına indi. Cuma NDX %1.22 düşüşle 27,944'te kapanmıştı.",
    "etki": "US100",
-   "kaynak": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html"
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
   },
   {
-   "baslik": "Nvidia: Huang sonrası ilk bilanço Salı gecesi",
-   "ozet": "Jensen Huang'ın CEO'luktan ayrılmasının ardından hisse geçen hafta yaklaşık %13 düştü; geçici CEO, CFO Colette Kress. Bilanço Salı kapanıştan sonra. Analist beklentisi kâr ve gelirde yıllık %100'e yakın büyüme; odak yönetimin mesajında.",
+   "baslik": "Nvidia: Huang'ın dönüşü masada, Bessent 'yeniden yapılanma' istiyor",
+   "ozet": "FT, Huang'ın müttefiklerinin yönetim kuruluna baskı yaptığını ve Huang'ın CEO'luğa dönmeyi düşündüğünü yazdı; Cuma gece seansında haberle hisse ~%4.5 yukarı işaret etmişti. Hazine Bakanı Bessent ise dışarıdan bir CEO ve ihracat-kontrol uyum incelemesi çağrısı yaptı.",
    "etki": "US100",
-   "kaynak": "CNBC",
-   "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
+   "kaynak": "Newsquawk · Saxo",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
   },
   {
-   "baslik": "Fed: Schmid'den hafta sonu şahin mesaj",
-   "ozet": "Kansas City Fed Başkanı Schmid enflasyonun hedefin rahatsız edici ölçüde üstünde ve yanlış yönde olduğunu söyledi; açıkça artış çağrısı yapmadı. Piyasa 9 Aralık'ta 25 bp artışı tam fiyatlıyor (CME FedWatch, Cuma: 25 bp ~%87, 50 bp ~%13). Politika faizi %3.75–4.00.",
-   "etki": "İkisi",
-   "kaynak": "InvestingLive",
-   "url": "https://investinglive.com/central-banks/sunday-fed-talk-schmid-says-inflation-would-still-be-near-3-without-energy-fed-has-work-to-do/"
-  },
-  {
-   "baslik": "Tahvil: Nisan 2025'ten beri en sert haftalık faiz artışı",
-   "ozet": "10 yıllık Hazine faizi Cuma %5.14–5.15, 30 yıllık %5.48. Ekim TÜFE çekirdeği beklentinin üstünde (+%0.3), ÜFE aylık +%0.3 ile beklentinin altında ama yıllık %6.5. Dolar endeksi Nisan 2025'ten beri en yüksekte.",
-   "etki": "İkisi",
-   "kaynak": "CNBC · Newsquawk",
-   "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html"
-  },
-  {
-   "baslik": "Altın: Mart'tan beri en büyük haftalık düşüş",
-   "ozet": "Spot altın geçen hafta yaklaşık %4.5 geriledi; Cuma sınırlı toparlandı, Pazartesi Asya'da 3,880 $ civarı. Sürücü: faiz artışı beklentisi ve güçlü dolar.",
+   "baslik": "Altın 3,900 $ altında, dolar zirveye yakın",
+   "ozet": "Spot altın Asya'da 3,890 $ civarından %0.8 kadar geriledi; geçen hafta 13 ayın dibini görmüştü. Dolar endeksi Mayıs 2025'ten beri en güçlü seviyeye yakın, gümüş 50 $ altında.",
    "etki": "XAU",
-   "kaynak": "ABC News (Avustralya)",
-   "url": "https://www.abc.net.au/news/2026-11-16/asx-markets-business-live-news-nov-16/107388134"
+   "kaynak": "Newsquawk · Swissinfo (Bloomberg)",
+   "url": "https://swissinfo.ch/eng/us-futures-rebound-after-two-day-loss,-oil-slips:-markets-wrap/92385916"
+  },
+  {
+   "baslik": "Fed konuşmacıları şahin; Aralık artışı tam fiyatlı",
+   "ozet": "Jefferson enflasyonun artık en önemli ölçü olduğunu, Collins kademeli artışların uygun olabileceğini söyledi. Piyasa Aralık toplantısı için ~30 bp fiyatlıyor; Ekim toplantısında iki üye artış yönünde karşı oy kullanmıştı.",
+   "etki": "İkisi",
+   "kaynak": "Newsquawk · Saxo",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
+  },
+  {
+   "baslik": "Körfez gerginliği: Bahreyn'e İran saldırısı, Hürmüz'de mayınlı tankerler",
+   "ozet": "İran haftalar sonra ilk kez Bahreyn'deki bir hava üssünü hedef aldı; Hürmüz yakınında birkaç tankerin mayına çarptığı bildirildi. ABD kaynakları İran'a saldırının yakın olmadığını söylüyor; Brent ~95–96 $.",
+   "etki": "Bağlam",
+   "kaynak": "Newsquawk · Swissinfo (Bloomberg)",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
+  },
+  {
+   "baslik": "Çin ve Japonya verisi beklentinin altında",
+   "ozet": "Çin'de sanayi üretimi, perakende ve yatırım tahminlerin altında kaldı; PBoC yuan fixingini beklentiden zayıf (6.7141) belirledi. Japonya ekonomisi bir yıl sonra ilk kez daraldı.",
+   "etki": "Bağlam",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---16th-november-2026"
   },
   {
    "baslik": "Trump Asya turunda: Manila, ardından Shenzhen",
@@ -147,13 +166,6 @@
    "etki": "US100",
    "kaynak": "RiskReversal",
    "url": "https://riskreversal.substack.com/p/the-week-ahead-a-huge-week-for-ai"
-  },
-  {
-   "baslik": "Petrol ve kripto",
-   "ozet": "WTI 88–89 $, Brent ~96 $; İran savaşı görüşmeleri ve nakliye muafiyetinin 90 gün uzatılması gündemde. Bitcoin hafta sonu 65–67 bin $ bandına indi, Ağustos'tan beri en düşük.",
-   "etki": "Bağlam",
-   "kaynak": "Newsquawk · CryptoTicker",
-   "url": "https://www.newsquawk.com/headlines/week-in-focus--16-20th-november-2026-highlights-include-us-retail-sales-fomc-minutes-chinese-activity-data-pboc-lpr-rba-minutes-uk-inflation-and-uk-jobs"
   }
  ],
  "pozisyon": [
