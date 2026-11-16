@@ -289,7 +289,7 @@ def main():
  <div class="two lead">
   <div><h3 class="sub">Özet</h3><ol class="sum">{oz}{auto}</ol>
    <p class="rule-note">Kural: bu not yön önermez. Seviyeler FTM tahminidir; emir öncesi MT5'te canlı fiyat teyit edilir.</p></div>
-  <div><h3 class="sub">Bugünün takvimi</h3>{cal}</div>
+  <div><h3 class="sub">{"Yarının takvimi" if N["baski"].startswith("Gün sonu") else "Bugünün takvimi"}</h3>{cal}</div>
  </div>
  <h3 class="sub">Hafta</h3>{wk}
  <h3 class="sub">Başlıklar</h3><div class="hls">{hl}</div><p class="note">{e(N["derleme_notu"])}</p>
