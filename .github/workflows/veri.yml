@@ -1,0 +1,45 @@
+name: piyasa-verisi
+# Cron UTC'dir. Yaz/kış saati için her pencere iki UTC saatine konur; script yanlış olanı atlar (ny_pencere)
+# ya da tam veri çeker (ucuz). GitHub zamanlaması 5-20 dk gecikebilir; başlangıçlar buna göre erken.
+on:
+  schedule:
+    - cron: "15 6 * * 1-5"    # Londra öncesi  (kış 09:15 TR)
+    - cron: "15 5 * * 1-5"    # Londra öncesi  (yaz)
+    - cron: "40 7 * * 1-5"    # Londra +       (kış 10:40 TR)
+    - cron: "40 6 * * 1-5"    # Londra +       (yaz)
+    - cron: "10 12 * * 1-5"   # NY öncesi ana rapor (kış 15:10 TR)
+    - cron: "10 11 * * 1-5"   # NY öncesi ana rapor (yaz)
+    - cron: "45 13 * * 1-5"   # NY açılış penceresi, kış (08:45 ET başlar, 09:45'e kadar bekler)
+    - cron: "45 12 * * 1-5"   # NY açılış penceresi, yaz
+    - cron: "20 21 * * 1-5"   # NY kapanış sonrası (kış 16:20 ET)
+    - cron: "20 20 * * 1-5"   # NY kapanış sonrası (yaz)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: veri
+  cancel-in-progress: false
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas requests
+      - run: |
+          git config user.name "veri-bot"
+          git config user.email "veri-bot@users.noreply.github.com"
+      - name: Çek
+        run: |
+          case "${{ github.event.schedule }}" in
+            "45 13 * * 1-5"|"45 12 * * 1-5") python scripts/veri_cek.py ny_pencere ;;
+            *) python scripts/veri_cek.py ;;
+          esac
+      - name: Kaydet
+        run: |
+          git add data
+          git diff --cached --quiet || git commit -m "veri $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull -q --rebase && git push
