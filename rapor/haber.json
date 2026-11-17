@@ -1,24 +1,35 @@
 {
- "baski": "Gün sonu baskısı",
- "derleme_notu": "Gün sonu taraması 17 Kas 2026 ~00:50 TR (16 Kas 16:50 ET). Takvim tablosu YARININ (Sal 17 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "Londra öncesi baskı",
+ "derleme_notu": "Londra öncesi tarama 17 Kas 2026 ~10:50 TR (02:50 ET). Takvim tablosu BUGÜNÜN (Sal 17 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
  "bugun_bayraklar": {
-  "ev_major": 0,
+  "ev_major": 1,
   "ev_fomc": 0,
   "ev_cpi": 0,
   "ev_nfp": 0
  },
  "ozet": [
-  "Karne US100: gerçekleşen RTH aralığı 481.5 puan (0.82 ATR). NY baskısındaki ana bant: %50 [455–762] İÇİNDE, %80 [367–986] İÇİNDE. NY özetinde öne çıkarılan 'geniş gece' bandı ve gece tamamlanınca oluşan kesin bant (%50 [496–831]) için %50'nin ALTINDA, %80 [401–1076] İÇİNDE. Önceki gün low (27,595) ve gece low (27,471) kırıldı, RTH low 27,151; önceki gün high ve gece high (28,196) kırılmadı. RTH kapanış 27,208, önceki RTH kapanışına göre −%2.61.",
-  "Karne XAUUSD: gerçekleşen RTH aralığı 48.9 $ (1.05 ATR). NY ana bandı %50 [28.9–48.9] tam üst sınırda (0.02 $ üstü), %80 [23.3–64.2] İÇİNDE; geniş gece ve kesin bantta %50 ve %80 İÇİNDE. Önceki gün low (3,867) kırıldı, RTH low 3,840; önceki gün high (3,923), gece high (3,901) ve gece low (3,832) kırılmadı. RTH kapanış 3,851 (−%0.68).",
-  "Gün: Nasdaq 100 −%2.7, S&P 500 −%1.9, çip endeksi −%5.3 (Bloomberg). Empire State 7.8 geldi, beklenti ~16.7 (kaynakta; sabah sayfasında 19 yazıyordu). Warsh konuşmasında yapay zekâ ve verimliliği anlattı, faiz ve enflasyona değinmedi (AP). 10 yıllık ~%5.15.",
-  "Yarın (Sal 17) VERİ GÜNÜ: perakende satışlar ve ithalat fiyatları 16:30 TR (beklenti +%0.2, önceki +%0.8), Waller 17:10, sanayi üretimi 17:15, NAHB 18:00, Williams 22:25 TR. Nvidia bilançosu kapanıştan sonra ~00:20 TR (Çar), çağrı 01:00 TR. Açılış öncesi Home Depot ve Disney.",
-  "Not: US100 ofseti bugünkü RTH ile yenilendi (−83.3 → −89.0); karnedeki seviyeler yeni ofsetle hesaplandı, sabah sayfasındaki seviyelerden ~6 puan farklı olabilir."
+  "BUGÜN VERİ GÜNÜ: perakende satışlar (Ekim) ve ithalat fiyatları 16:30 TR (manşet beklenti +%0.2, önceki +%0.8; otomobil hariç +%0.4), Waller 17:10, sanayi üretimi 17:15, NAHB 18:00, Williams 22:25 TR. Nvidia bilançosu kapanıştan sonra ~00:20 TR (Çar).",
+  "Altın: spot 06:34 GMT'de +%0.5 ile 3,874 $ (Reuters); Pazartesi Ekim 2025'ten beri en düşük kapanışı görmüştü. Dolar 19 ayın zirvesinde; CME FedWatch Aralık'ta 25 bp artışa %95.4, 50 bp'ye %4.6 veriyor. Gümüş +%1.1 ile 47.5 $.",
+  "Asya: Kospi −%2.6 (altı ayın dibi), Nikkei −%1.3, ASX −%1.8, Hang Seng −%0.9, Şanghay −%0.6 (AP). ABD vadelileri hafif ekside/yatay; 10 yıllık ~%5.12, USDJPY ~159.2–159.5.",
+  "Gece: ABD Ticaret Bakanlığı'nın Çinli şirketlerin yurt dışından ileri yapay zekâ çiplerine uzaktan erişimine getirdiği kısıt çip tarafında gündemde; Hammack küçük ve istikrarlı artışlardan yana. Anthropic halka arzında talep arzın ~7 katı; fiyatlama Çarşamba, işlem Perşembe (Bloomberg).",
+  "Londra açılışı 11:00 TR (08:00 Londra). Brent ~92 $, WTI ~85 $; Pazartesi Brent −%3.6."
  ],
  "takvim_bugun": [
   {
+   "tr": "11:00",
+   "et": "03:00",
+   "olay": "Londra açılışı (08:00 Londra)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "",
+   "kaynak": "—",
+   "url": "—"
+  },
+  {
    "tr": "16:15",
    "et": "08:15",
-   "olay": "Sal 17 · ADP haftalık istihdam",
+   "olay": "ADP haftalık istihdam",
    "beklenti": "—",
    "onceki": "19.8K",
    "onem": "düşük",
@@ -29,18 +40,18 @@
   {
    "tr": "16:30",
    "et": "08:30",
-   "olay": "Sal 17 · Perakende satışlar (Ekim, a/a)",
+   "olay": "Perakende satışlar (Ekim, a/a)",
    "beklenti": "+%0.2",
    "onceki": "+%0.8",
    "onem": "yüksek",
-   "not": "çekirdek: bekl. +%0.4, önceki +%0.9; sabah baskısında başka derlemelerde %0.0 ve +%0.5 de vardı",
-   "kaynak": "Finwire · FXEmpire",
-   "url": "https://finwire.io/news/stock-markets-news/fed-minutes-fedspeak-and-key-data-to-watch-this-week"
+   "not": "otomobil hariç bekl. +%0.4 (önceki +%0.9, Finwire); bazı derlemelerde %0.0 ve +%0.5 de var",
+   "kaynak": "TradingKey · Finwire",
+   "url": "https://www.tradingkey.com/analysis/economic/indicators/262308131-us-october-retail-sales-preview-consumption-cool-fed-december-rate-hike-test-tradingkey"
   },
   {
    "tr": "16:30",
    "et": "08:30",
-   "olay": "Sal 17 · İthalat fiyatları (a/a)",
+   "olay": "İthalat fiyatları (a/a)",
    "beklenti": "+%0.7",
    "onceki": "+%1.1",
    "onem": "orta",
@@ -51,18 +62,18 @@
   {
    "tr": "17:10",
    "et": "09:10",
-   "olay": "Sal 17 · Fed Guvernörü Waller konuşması",
+   "olay": "Fed Guvernörü Waller konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "RTH açılışından 20 dk önce",
+   "not": "RTH açılışından 20 dk önce; Waller daha önce enflasyon kötüleşirse 50 bp ihtimalini dile getirmişti",
    "kaynak": "Finwire",
    "url": "https://finwire.io/news/stock-markets-news/fed-minutes-fedspeak-and-key-data-to-watch-this-week"
   },
   {
    "tr": "17:15",
    "et": "09:15",
-   "olay": "Sal 17 · Sanayi üretimi / kapasite kullanımı",
+   "olay": "Sanayi üretimi / kapasite kullanımı",
    "beklenti": "+%0.1 · %76.8",
    "onceki": "+%0.7 · %76.9",
    "onem": "orta",
@@ -73,7 +84,7 @@
   {
    "tr": "18:00",
    "et": "10:00",
-   "olay": "Sal 17 · NAHB konut endeksi · işletme stokları",
+   "olay": "NAHB konut endeksi · işletme stokları",
    "beklenti": "29 · +%0.5",
    "onceki": "29 · +%0.4",
    "onem": "düşük",
@@ -84,7 +95,7 @@
   {
    "tr": "22:25",
    "et": "14:25",
-   "olay": "Sal 17 · NY Fed Başkanı Williams konuşması",
+   "olay": "NY Fed Başkanı Williams konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
@@ -95,18 +106,29 @@
   {
    "tr": "—",
    "et": "—",
-   "olay": "Sal 17 · Musalem ve Hammack konuşmaları",
+   "olay": "Musalem ve Hammack konuşmaları",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "saat kaynakta yok",
+   "not": "saat bulunamadı",
    "kaynak": "Newsquawk",
    "url": "https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---17th-november-2026"
   },
   {
+   "tr": "—",
+   "et": "açılış öncesi",
+   "olay": "Home Depot, Disney bilançoları",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "",
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--17-november-2026-17112026"
+  },
+  {
    "tr": "00:20 (Çar)",
    "et": "16:20",
-   "olay": "Sal 17 · Nvidia 3. çeyrek bilançosu (kapanış sonrası); çağrı 01:00 TR",
+   "olay": "Nvidia 3. çeyrek bilançosu (kapanış sonrası); çağrı 01:00 TR",
    "beklenti": "HBS 2.47 $ · gelir 108.8 mlr $",
    "onceki": "—",
    "onem": "yüksek",
@@ -137,56 +159,63 @@
    "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan tüketici güveni ve enflasyon beklentisi (nihai) 18:00 · Cook 20:15"
   }
  ],
- "takvim_notu": "Empire State (bugün) beklentisi kaynaklar arasında farklı: Yahoo 19, StockTitan ~16.7. Michigan beklentisi Finwire 51.0, FXEmpire 52.1. Musalem ve Hammack'ın Salı saatleri bulunamadı. Takvim tablosu yarına aittir.",
+ "takvim_notu": "Perakende satış beklentisi derlemeler arasında farklı (+%0.2 çoğunlukta; %0.0 ve +%0.5 de görüldü). Musalem ve Hammack'ın bugünkü saatleri bulunamadı.",
  "basliklar": [
   {
-   "baslik": "Nasdaq 100 %2.7 düştü, çip endeksi %5.3 geriledi",
-   "ozet": "Nvidia bilançosu ve Anthropic halka arzı öncesi teknoloji satışı derinleşti; S&P 500 üç seanstır Haziran'dan beri en sert düşüşünü yaşadı.",
-   "etki": "US100",
-   "kaynak": "FinancialJuice (Bloomberg)",
-   "url": "https://features.financialjuice.com/2026/11/16/tech-selloff-deepens-ahead-of-nvidia-earnings-anthropic-debut-us-market-wrap/"
-  },
-  {
-   "baslik": "Yurt dışından çip kiralamaya yeni ABD kısıtı",
-   "ozet": "Ticaret Bakanlığı, Çinli şirketlerin yurt dışındaki veri merkezleri üzerinden gelişmiş yapay zekâ çiplerine uzaktan erişimini kapatmayı hedefleyen bir kural çıkardı. Micron ve Intel gün içinde %6 civarı düştü.",
-   "etki": "US100",
-   "kaynak": "StockTitan",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
-  },
-  {
-   "baslik": "Nvidia yarın kapanıştan sonra; Trump Huang'ın dönüşüne destek verdi",
-   "ozet": "Beklenti hisse başı 2.47 $ ve 108.8 milyar $ gelir; Huang'ın ayrılmasından sonraki ilk rapor. Bloomberg'e göre Trump, Huang'ın geri dönmesi çağrılarını destekledi.",
-   "etki": "US100",
-   "kaynak": "FXEmpire · FinancialJuice",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
-  },
-  {
-   "baslik": "Warsh faiz sinyali vermedi",
-   "ozet": "Fed Başkanı, San Francisco'daki konferansta yapay zekânın büyümeyi hızlandırabileceğini, ancak iş kaybı ve yatırımlar karşılık vermezse borsa düşüşü riskleri olduğunu söyledi. Enflasyon ve faize değinmedi.",
-   "etki": "İkisi",
-   "kaynak": "WSB-TV (AP)",
-   "url": "https://www.wsbtv.com/news/business/warsh-grapples-with/6ILLBESOWI76PH3WXILUAK5AS4/"
-  },
-  {
-   "baslik": "Empire State beklentinin altında: 7.8",
-   "ozet": "NY Fed imalat endeksi Kasım'da 18 puan düşerek 7.8'e geriledi; beklenti ~16.7 idi, endeks hâlâ büyüme bölgesinde.",
-   "etki": "Bağlam",
-   "kaynak": "StockTitan",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026"
-  },
-  {
-   "baslik": "Altın 3,860 $ civarında, 10 yıllık %5.15",
-   "ozet": "Altın gün ortasında %0.6 düşüşle 3,862 $'daydı; 10 yıllık getiri %5.15'e çıktı. Para piyasaları Aralık'ta 25 bp artışı tam fiyatlıyor.",
+   "baslik": "Altın bir yılı aşkın dipte yatay-hafif artıda",
+   "ozet": "Spot altın Asya'da %0.5 toparlanarak 3,874 $'a çıktı; doların 19 ayın zirvesinde olması ve Aralık artış beklentisi baskı unsuru olarak sürüyor.",
    "etki": "XAU",
-   "kaynak": "Motley Fool · Swissinfo (Bloomberg)",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-midday-nov-16-stocks-slide-as-tech-selling-intensifies-across-the-market/"
+   "kaynak": "MarketScreener (Reuters)",
+   "url": "https://www.marketscreener.com/news/gold-lingers-near-more-than-one-year-low-on-fed-hike-bets-ce785edfde8ffe21"
   },
   {
-   "baslik": "Anthropic Perşembe işlem görmeye başlıyor",
-   "ozet": "Halka arzda hedef değerleme 1.4 trilyon $, daha önce konuşulan 2 trilyonun altında. BofA, büyük arzın küçük ihraçları 2027'ye ittiğini söyledi.",
+   "baslik": "Asya borsaları Wall Street'teki teknoloji satışını izledi",
+   "ozet": "Kospi %2.6 düşüşle altı ayın en düşüğüne indi, Nikkei ve ASX de geriledi. ABD vadelileri sınırlı ekside.",
+   "etki": "US100",
+   "kaynak": "AP (Click2Houston)",
+   "url": "https://www.click2houston.com/business/2026/11/17/asian-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+  },
+  {
+   "baslik": "Nvidia bugün kapanıştan sonra; Huang tartışması sürüyor",
+   "ozet": "Trump Huang'ın geri dönmesi çağrılarını destekledi, Bessent büyük bir yönetim değişikliği istedi; CNBC'ye göre yönetim kurulu Huang'ın dönüşünü değerlendirmiyor.",
    "etki": "US100",
    "kaynak": "Swissinfo (Bloomberg)",
-   "url": "https://www.swissinfo.ch/eng/stocks-fall-before-nvidia-earnings,-anthropic-ipo:-markets-wrap/92385916"
+   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739"
+  },
+  {
+   "baslik": "Çip erişim kısıtı Asya veri merkezlerini etkiliyor",
+   "ozet": "Ticaret Bakanlığı'nın kuralı Singapur, Malezya, Tayland, Endonezya ve Brezilya'daki veri merkezlerini kapsıyor. Müttefiklerle yapay zekâ tedarik zincirini koruma anlaşması da haberlerde.",
+   "etki": "US100",
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--17-november-2026-17112026"
+  },
+  {
+   "baslik": "Fed: Hammack küçük adımlı artışlardan yana",
+   "ozet": "Hammack istikrarlı küçük artışları tercih ettiğini, enflasyon kötüleşirse daha büyük adımlar olabileceğini söyledi. Piyasalar 2027 ortasına kadar ~88 bp ek sıkılaştırma fiyatlıyor.",
+   "etki": "İkisi",
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--17-november-2026-17112026"
+  },
+  {
+   "baslik": "Perakende satışlar bugün: beklenti yavaşlama",
+   "ozet": "Ekim manşet beklentisi +%0.2 (önceki +%0.8); veri Aralık artış beklentisinin bir sonraki sınavı olarak görülüyor.",
+   "etki": "İkisi",
+   "kaynak": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/economic/indicators/262308131-us-october-retail-sales-preview-consumption-cool-fed-december-rate-hike-test-tradingkey"
+  },
+  {
+   "baslik": "Anthropic halka arzına yoğun talep",
+   "ozet": "Talep arzın yaklaşık yedi katı; fiyatlama Çarşamba, işlem Perşembe bekleniyor. Değerleme hedefi 1.3–1.4 trilyon $ civarı.",
+   "etki": "US100",
+   "kaynak": "Swissinfo (Bloomberg)",
+   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739"
+  },
+  {
+   "baslik": "Petrol geriledi, Trump İran'da tırmanmaya isteksiz görünüyor",
+   "ozet": "Brent Pazartesi %3.6 düştü ve Asya'da 92 $ civarında; haberde Trump'ın İran'a saldırıları artırmaya isteksiz göründüğü belirtiliyor.",
+   "etki": "Bağlam",
+   "kaynak": "Swissinfo (Bloomberg)",
+   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739"
   }
  ],
  "pozisyon": [
@@ -232,11 +261,11 @@
   },
   {
    "ad": "Fed fiyatlaması (9 Aralık)",
-   "deger": "25 bp artış ~%90 · 50 bp ~%10",
-   "degisim": "16 Kas Bloomberg: 25 bp artış tam fiyatlı",
-   "tarih": "16 Kas",
+   "deger": "25 bp artış %95.4 · 50 bp %4.6",
+   "degisim": "16 Kas: 25 bp ~%90",
+   "tarih": "17 Kas",
    "kaynak": "MarketScreener (Reuters, CME FedWatch)",
-   "url": "https://www.marketscreener.com/news/gold-dips-on-firmer-dollar-ahead-of-warsh-comments-ce785edede8af721"
+   "url": "https://www.marketscreener.com/news/gold-lingers-near-more-than-one-year-low-on-fed-hike-bets-ce785edfde8ffe21"
   }
  ],
  "pozisyon_notu": "Altın COT 10 Kas raporuyla güncellendi; Nasdaq 100 COT'un 10 Kas değeri bulunamadı, 3 Kas değeri duruyor. Fear & Greed ve AAII 13 Kas değerleri. Dealer gamma ücretli kaynaklarda; yok."
