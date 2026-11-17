@@ -1,6 +1,6 @@
 {
- "baski": "NY öncesi baskı",
- "derleme_notu": "NY öncesi tarama 17 Kas 2026 ~15:50 TR (07:50 ET). Takvim tablosu BUGÜNÜN (Sal 17 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "Gün sonu baskısı",
+ "derleme_notu": "Gün sonu taraması 18 Kas 2026 ~00:45 TR (17 Kas 16:45 ET). Takvim tablosu YARININ (Çar 18 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Karne seviyeleri bugünkü ofsetle (US100 −85.3) hesaplandı.",
  "bugun_bayraklar": {
   "ev_major": 1,
   "ev_fomc": 0,
@@ -8,72 +8,39 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "BUGÜN VERİ GÜNÜ: perakende satışlar (Ekim) ve ithalat fiyatları 16:30 TR (manşet beklenti +%0.2, önceki +%0.8), Waller 17:10, sanayi üretimi 17:15, RTH açılışı 17:30, NAHB 18:00, Williams 22:25 TR. Nvidia bilançosu kapanıştan sonra ~00:20 TR (Çar).",
-  "Vadeliler 05:23 ET itibarıyla ekside: Nasdaq 100 E-mini −94 puan (−%0.34), S&P −%0.34, Dow −%0.45. Pazartesi Nasdaq −%2.49 ile üçüncü düşüş seansı. Nvidia açılış öncesi −%0.4; Intel −%3.3 (Nvidia hissesini %25 azalttı).",
-  "Altın: Reuters 00:28 GMT 3,856.5 $; gün içi dip 3,832 $ civarı (Mitrade/FXEmpire). Dolar Nisan 2025'ten beri zirvede; CME FedWatch Aralık'ta 25 bp artışa %96.6–97.4 veriyor. Brent ~92.3 $, 10 yıllık ~%5.12.",
-  "Avrupa: Deutsche Bank FT haberi sonrası açılışta ~%5 düştü. Asya teknoloji ağırlıklı ekside kapandı (çip erişim kısıtı).",
-  "Beklenen RTH aralığı (%80, ön tahmin — gece seansı 09:30 ET'de bitiyor, model bu saatte 'kesin' moda geçmiyor): US100 349–937 puan (medyan 555; ATR14 596, vol rejimi 2 yılın %95 persentili). Gece aralığı şimdiden 0.69 ATR, varsayılan medyan 0.64 ATR'nin üstünde → bandın 'geniş gece' senaryosu (383–1030) daha yakın olabilir. XAU 28–78 $ (medyan 45; ATR14 46.9). 0.25 ATR stop: US100 149 puan = 0.01 lotta 29.8 $ → 25 $ riske SIĞMAZ; XAU 11.7 $ → 25 $ riske 0.02 lotla sığar (gerçek 23.6 $)."
+  "Karne US100: gerçekleşen RTH aralığı 692.5 puan (1.16 ATR). NY bandı (ön tahmin) %50 [432–724] İÇİNDE (üst yarıda), %80 [349–937] İÇİNDE; geniş gece senaryosu (%50 [475–796], %80 [384–1030]) ve gece tamamlanınca oluşan kesin bant (%50 [430–721], %80 [347–933]) için de İÇİNDE. Önceki gün low (27,151) ve gece low (26,999) kırıldı, RTH low 26,572; önceki gün high (28,196), önceki RTH high (27,633) ve gece high (27,412) kırılmadı. RTH kapanış 27,000, önceki RTH kapanışına göre −%0.77 (NDX nakit −%0.72).",
+  "Karne XAUUSD: gerçekleşen RTH aralığı 50.2 $ (1.07 ATR). NY bandı %50 [35.3–59.6] ve %80 [28.4–78.3] İÇİNDE; geniş gece ve kesin bantta da İÇİNDE. Gece high (3,886) ve önceki RTH high (3,889) kırıldı, RTH high 3,890.5; önceki gün high (3,901), önceki gün low (3,832) ve gece low (3,836) kırılmadı. RTH kapanış 3,847 (−%0.11). Not: XAU ofseti 1 günlük, seviyeler yaklaşık.",
+  "Gün: Dow −%1.85 (−955 puan), S&P 500 −%1.05, Nasdaq Bileşik −%0.91 (24/7 Wall St.). Perakende satışlar +%0.2 (beklentiyle aynı), kontrol grubu +%0.6 beklentinin üstünde; ithalat fiyatları +%1.1, beklenti +%0.7 (SJV Sun). Williams bir artış daha muhtemel ama 'sert adım' zamanı değil dedi; Waller'ın sözleri kaynaklarda bulunamadı.",
+  "Nvidia (16:20 ET): gelir 115.8 mlr $ (beklenti ~108.8), düzeltilmiş HBS 2.68 $ (beklenti 2.47), 4. çeyrek rehberi 130 mlr $ ±%3 (şirket açıklaması). Kapanış sonrası US100 (NQ+ofset) 16:15'teki 26,960 dibinden 16:35 ET'de 27,196'ya çıktı; NVDA hissesinin kapanış sonrası yüzdesi bulunamadı.",
+  "Yarın (Çar 18) OLAY RİSKİ, veri ağırlığı orta: konut başlangıçları/izinler 16:30 TR (başlangıç beklenti 1.23 mn, önceki 1.221 mn), bekleyen konut satışları 18:00, 20 yıllık tahvil ihalesi 21:00, Barr 21:35, FOMC tutanakları 22:00, Williams 22:30, Kashkari 00:15 (Per) TR. Nvidia sonrası ilk RTH; açılış öncesi Lowe's, Target, TJX; kapanış sonrası Palo Alto."
  ],
  "takvim_bugun": [
   {
-   "tr": "16:15",
-   "et": "08:15",
-   "olay": "ADP haftalık istihdam",
-   "beklenti": "—",
-   "onceki": "19.8K",
-   "onem": "düşük",
-   "not": "",
-   "kaynak": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
-  },
-  {
-   "tr": "16:30",
-   "et": "08:30",
-   "olay": "Perakende satışlar (Ekim, a/a)",
-   "beklenti": "+%0.2",
-   "onceki": "+%0.8",
-   "onem": "yüksek",
-   "not": "otomobil hariç bekl. +%0.4 (önceki +%0.9, Finwire); bazı derlemelerde %0.0 ve +%0.5 de var",
-   "kaynak": "TradingKey · Finwire",
-   "url": "https://www.tradingkey.com/analysis/economic/indicators/262308131-us-october-retail-sales-preview-consumption-cool-fed-december-rate-hike-test-tradingkey"
-  },
-  {
-   "tr": "16:30",
-   "et": "08:30",
-   "olay": "İthalat fiyatları (a/a)",
-   "beklenti": "+%0.7",
-   "onceki": "+%1.1",
-   "onem": "orta",
-   "not": "perakende ile aynı anda",
-   "kaynak": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
-  },
-  {
-   "tr": "17:10",
-   "et": "09:10",
-   "olay": "Fed Guvernörü Waller konuşması",
+   "tr": "—",
+   "et": "—",
+   "olay": "Çar 18 · İngiltere TÜFE (Ekim)",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "RTH açılışından 20 dk önce; Waller daha önce enflasyon kötüleşirse 50 bp ihtimalini dile getirmişti",
-   "kaynak": "Finwire",
-   "url": "https://finwire.io/news/stock-markets-news/fed-minutes-fedspeak-and-key-data-to-watch-this-week"
+   "not": "saat ve beklenti kaynakta yok",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
   },
   {
-   "tr": "17:15",
-   "et": "09:15",
-   "olay": "Sanayi üretimi / kapasite kullanımı",
-   "beklenti": "+%0.1 · %76.8",
-   "onceki": "+%0.7 · %76.9",
+   "tr": "16:30",
+   "et": "08:30",
+   "olay": "Çar 18 · Konut başlangıçları / inşaat izinleri (Ekim)",
+   "beklenti": "1.23 mn (başlangıç)",
+   "onceki": "1.221 mn",
    "onem": "orta",
-   "not": "RTH açılışından 15 dk önce",
-   "kaynak": "Finwire · FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
+   "not": "izin beklentisi bulunamadı; saat NY baskısı derlemesinden",
+   "kaynak": "Global Macro Week Ahead · FXEmpire",
+   "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-1620"
   },
   {
    "tr": "17:30",
    "et": "09:30",
-   "olay": "NY RTH açılışı",
+   "olay": "Çar 18 · NY RTH açılışı (Nvidia sonrası ilk seans)",
    "beklenti": "—",
    "onceki": "—",
    "onem": "düşük",
@@ -84,65 +51,82 @@
   {
    "tr": "18:00",
    "et": "10:00",
-   "olay": "NAHB konut endeksi · işletme stokları",
-   "beklenti": "29 · +%0.5",
-   "onceki": "29 · +%0.4",
+   "olay": "Çar 18 · Bekleyen konut satışları",
+   "beklenti": "—",
+   "onceki": "—",
    "onem": "düşük",
    "not": "",
    "kaynak": "FXEmpire",
    "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
   },
   {
-   "tr": "22:25",
-   "et": "14:25",
-   "olay": "NY Fed Başkanı Williams konuşması",
+   "tr": "21:00",
+   "et": "13:00",
+   "olay": "Çar 18 · 20 yıllık tahvil ihalesi",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "RTH son 1.5 saati",
-   "kaynak": "Finwire",
-   "url": "https://finwire.io/news/stock-markets-news/fed-minutes-fedspeak-and-key-data-to-watch-this-week"
-  },
-  {
-   "tr": "00:20 (Çar)",
-   "et": "16:20",
-   "olay": "Nvidia 3. çeyrek bilançosu (kapanış sonrası); çağrı 01:00 TR",
-   "beklenti": "HBS 2.47 $ · gelir 108.8 mlr $",
-   "onceki": "—",
-   "onem": "yüksek",
-   "not": "Huang'ın ayrılmasından sonraki ilk rapor; saat Newsquawk",
-   "kaynak": "FXEmpire · Newsquawk",
+   "not": "10 yıllık %5'in üstünde",
+   "kaynak": "FXEmpire",
    "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
   },
   {
-   "tr": "—",
-   "et": "—",
-   "olay": "Musalem ve Hammack konuşmaları",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "orta",
-   "not": "saat bulunamadı",
-   "kaynak": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-economic-releases---17th-november-2026"
-  },
-  {
-   "tr": "—",
-   "et": "açılış öncesi",
-   "olay": "Home Depot, Disney bilançoları",
+   "tr": "21:35",
+   "et": "13:35",
+   "olay": "Çar 18 · Fed Guvernörü Barr konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
    "not": "",
-   "kaynak": "Saxo",
-   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--17-november-2026-17112026"
+   "kaynak": "FXEmpire",
+   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
+  },
+  {
+   "tr": "22:00",
+   "et": "14:00",
+   "olay": "Çar 18 · FOMC tutanakları (27–28 Eki toplantısı)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "yüksek",
+   "not": "Ekim'de faiz 10–2 oyla sabit; Cook ve Hammack artış istemişti",
+   "kaynak": "Admirals · Global Macro Week Ahead",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-november-2026"
+  },
+  {
+   "tr": "22:30",
+   "et": "14:30",
+   "olay": "Çar 18 · NY Fed Başkanı Williams konuşması",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "bugün de konuştu",
+   "kaynak": "Newsquawk · FXEmpire",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
+  },
+  {
+   "tr": "00:15 (Per)",
+   "et": "16:15",
+   "olay": "Çar 18 · Minneapolis Fed Başkanı Kashkari",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "RTH sonrası",
+   "kaynak": "FXEmpire",
+   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
+  },
+  {
+   "tr": "—",
+   "et": "açılış öncesi / kapanış sonrası",
+   "olay": "Çar 18 · Lowe's, Target, TJX (öncesi); Palo Alto (sonrası)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
   }
  ],
  "takvim_hafta": [
-  {
-   "gun": "Sal 17",
-   "etiket": "Veri günü",
-   "olaylar": "Perakende satışlar + ithalat fiyatları 16:30 · Waller 17:10 · Sanayi üretimi 17:15 · NAHB 18:00 · Williams 22:25 · Musalem, Hammack (saat —) · Home Depot, Disney (açılış öncesi) · Nvidia ~00:20 Çar"
-  },
   {
    "gun": "Çar 18",
    "etiket": "Olay riski",
@@ -159,56 +143,56 @@
    "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan tüketici güveni ve enflasyon beklentisi (nihai) 18:00 · Cook 20:15"
   }
  ],
- "takvim_notu": "Perakende satış beklentisi derlemeler arasında farklı (+%0.2 çoğunlukta; %0.0 ve +%0.5 de görüldü). Musalem ve Hammack'ın bugünkü saatleri bulunamadı.",
+ "takvim_notu": "Konut başlangıcı beklentisi tek kaynaktan; inşaat izni ve bekleyen konut satışı beklentileri bulunamadı. İngiltere TÜFE saati kaynakta yok. Yarının saatleri NY baskısı derlemesi ve Newsquawk haftalık listesiyle karşılaştırıldı.",
  "basliklar": [
   {
-   "baslik": "ABD vadelileri Nvidia öncesi ekside",
-   "ozet": "Üç büyük endeksin vadelileri sabah saatlerinde %0.3–0.5 ekside. Pazartesi Nasdaq'ın düşüşü 5 Kasım'dan beri en büyük günlük kayıptı.",
+   "baslik": "Nvidia beklentileri aştı, rehberi yükseltti",
+   "ozet": "Üçüncü çeyrek geliri yıllık %103 artışla 115.8 mlr $; dördüncü çeyrek için 130 mlr $ rehber verildi, Çin veri merkezi geliri varsayılmadı.",
    "etki": "US100",
-   "kaynak": "Trading & Investment News",
-   "url": "https://www.tradingandinvestmentnews.co.uk/stock-futures-fall-nvidia-earnings/"
+   "kaynak": "NVIDIA (GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html"
   },
   {
-   "baslik": "Nvidia bilançosu: Huang'sız ilk rapor",
-   "ozet": "Ağustos rehberi 108 mlr $ gelir ve %74 brüt marjdı; Kress geçici CEO. Hisse son bir ayda yaklaşık %28 geriledi.",
+   "baslik": "Wall Street dipte kapandı, Dow 955 puan düştü",
+   "ozet": "Satış öğlen derinleşti ve endeksler gün diplerine yakın kapandı; yazılım hisseleri (Salesforce, Intuit, ServiceNow) en çok kaybedenlerdi.",
    "etki": "US100",
-   "kaynak": "Trading & Investment News",
-   "url": "https://www.tradingandinvestmentnews.co.uk/stock-futures-fall-nvidia-earnings/"
+   "kaynak": "24/7 Wall St.",
+   "url": "https://247wallst.com/cards/the-dow-s-955-point-drop-led-the-selling-a-sharper-hit-than-gspc-market-bell-01m7nn5ym7r5nqbd4d83yt9zt1"
   },
   {
-   "baslik": "Altın bir yılı aşkın dipte, Fed artış beklentisi baskı",
-   "ozet": "Spot altın Ekim 2025'ten beri en düşük bölgede; 3,832 $ ilk destek olarak izleniyor. Aralık artış olasılığı %96'nın üzerinde.",
+   "baslik": "Williams: bir artış daha muhtemel, büyük adım yok",
+   "ozet": "Enflasyonun tedarik şoklarının ötesine yayıldığını söyledi, Aralık için 50 bp'yi dışladı. Vadeliler 25 bp artışa ~%96 veriyor.",
+   "etki": "İkisi",
+   "kaynak": "The Private Banker",
+   "url": "https://leprivatebanker.com/2026/11/17/feds-williams-says-another-rate-hike-is-likely-but-rejects-dramatic-action-as-inflation-spreads-beyond-supply-shocks/"
+  },
+  {
+   "baslik": "Perakende satışlar ılımlı, ithalat fiyatları sıcak",
+   "ozet": "Ekim perakende satışları %0.2 arttı, çekirdek kalem %0.6 ile beklentiyi aştı. İthalat fiyatları üst üste ikinci ay yükseldi.",
+   "etki": "İkisi",
+   "kaynak": "SJV Sun",
+   "url": "https://sjvsun.com/u-s/retail-sales-rise-modestly-as-import-prices-outpace-expectations"
+  },
+  {
+   "baslik": "Altın tahvil faizi baskısıyla geriledi",
+   "ozet": "10 yıllık faizin %5'in üzerinde kalması altını aşağı çekti; altın 50 ve 200 günlük ortalamalarının altında.",
    "etki": "XAU",
-   "kaynak": "FXEmpire (Reuters)",
-   "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-hovers-near-one-year-low-on-fed-hike-bets-can-3832-hold-1645052"
+   "kaynak": "GoldStockCanada",
+   "url": "https://goldstockcanada.com/news/post-market-summary-for-precious-metals-november-17-2026-3427"
   },
   {
-   "baslik": "Hürmüz gerginliği çözümsüz",
-   "ozet": "ABD–İran anlaşması yok, İran limanlarına abluka sürüyor; deniz riskine dair haberler altına sınırlı destek veriyor.",
-   "etki": "XAU",
-   "kaynak": "Mitrade",
-   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-pressured-dollar-tech-selloff-hormuz"
-  },
-  {
-   "baslik": "Megaspeed ve çip ihracat kuralları gündemde",
-   "ozet": "Ticaret Bakanlığı ve Adalet Bakanlığı Singapur merkezli müşteri Megaspeed'in Çin'e çip aktarımı şüphesiyle listede olduğunu belirtti; Nvidia için düzenleyici risk öne çıkıyor.",
-   "etki": "US100",
-   "kaynak": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-102414813.html"
-  },
-  {
-   "baslik": "Home Depot ve Disney açılış öncesi",
-   "ozet": "Home Depot yeni CEO olarak Richard McPhail'i açıkladı; Disney açılış öncesi yaklaşık %1.5 ekside.",
+   "baslik": "Petrol yükseldi",
+   "ozet": "Öğlen Brent 93.3 $, WTI 86.5 $ civarındaydı (yaklaşık +%1).",
    "etki": "Bağlam",
-   "kaynak": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-102414813.html"
+   "kaynak": "Eurasia Business News",
+   "url": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-november-17-2026-nvidia-earnings-loom-as-wall-street-awaits-first-report-without-jensen-huan-dow-and-nasdaq-slide/"
   },
   {
-   "baslik": "Anthropic halka arzına yoğun talep",
-   "ozet": "Talep arzın yaklaşık yedi katı; fiyatlama Çarşamba, işlem Perşembe bekleniyor.",
-   "etki": "US100",
-   "kaynak": "Swissinfo (Bloomberg)",
-   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739"
+   "baslik": "Yarın FOMC tutanakları ve APEC zirvesi",
+   "ozet": "Ekim toplantısının tutanakları 14:00 ET'de; APEC liderler zirvesi 18–19 Kasım'da, Trump–Xi görüşmesi Perşembe bekleniyor.",
+   "etki": "İkisi",
+   "kaynak": "Newsquawk · Admirals",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
   }
  ],
  "pozisyon": [
