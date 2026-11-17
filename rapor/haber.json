@@ -1,6 +1,6 @@
 {
- "baski": "Londra öncesi baskı",
- "derleme_notu": "Londra öncesi tarama 17 Kas 2026 ~10:50 TR (02:50 ET). Takvim tablosu BUGÜNÜN (Sal 17 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "NY öncesi baskı",
+ "derleme_notu": "NY öncesi tarama 17 Kas 2026 ~15:50 TR (07:50 ET). Takvim tablosu BUGÜNÜN (Sal 17 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
  "bugun_bayraklar": {
   "ev_major": 1,
   "ev_fomc": 0,
@@ -8,24 +8,13 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "BUGÜN VERİ GÜNÜ: perakende satışlar (Ekim) ve ithalat fiyatları 16:30 TR (manşet beklenti +%0.2, önceki +%0.8; otomobil hariç +%0.4), Waller 17:10, sanayi üretimi 17:15, NAHB 18:00, Williams 22:25 TR. Nvidia bilançosu kapanıştan sonra ~00:20 TR (Çar).",
-  "Altın: spot 06:34 GMT'de +%0.5 ile 3,874 $ (Reuters); Pazartesi Ekim 2025'ten beri en düşük kapanışı görmüştü. Dolar 19 ayın zirvesinde; CME FedWatch Aralık'ta 25 bp artışa %95.4, 50 bp'ye %4.6 veriyor. Gümüş +%1.1 ile 47.5 $.",
-  "Asya: Kospi −%2.6 (altı ayın dibi), Nikkei −%1.3, ASX −%1.8, Hang Seng −%0.9, Şanghay −%0.6 (AP). ABD vadelileri hafif ekside/yatay; 10 yıllık ~%5.12, USDJPY ~159.2–159.5.",
-  "Gece: ABD Ticaret Bakanlığı'nın Çinli şirketlerin yurt dışından ileri yapay zekâ çiplerine uzaktan erişimine getirdiği kısıt çip tarafında gündemde; Hammack küçük ve istikrarlı artışlardan yana. Anthropic halka arzında talep arzın ~7 katı; fiyatlama Çarşamba, işlem Perşembe (Bloomberg).",
-  "Londra açılışı 11:00 TR (08:00 Londra). Brent ~92 $, WTI ~85 $; Pazartesi Brent −%3.6."
+  "BUGÜN VERİ GÜNÜ: perakende satışlar (Ekim) ve ithalat fiyatları 16:30 TR (manşet beklenti +%0.2, önceki +%0.8), Waller 17:10, sanayi üretimi 17:15, RTH açılışı 17:30, NAHB 18:00, Williams 22:25 TR. Nvidia bilançosu kapanıştan sonra ~00:20 TR (Çar).",
+  "Vadeliler 05:23 ET itibarıyla ekside: Nasdaq 100 E-mini −94 puan (−%0.34), S&P −%0.34, Dow −%0.45. Pazartesi Nasdaq −%2.49 ile üçüncü düşüş seansı. Nvidia açılış öncesi −%0.4; Intel −%3.3 (Nvidia hissesini %25 azalttı).",
+  "Altın: Reuters 00:28 GMT 3,856.5 $; gün içi dip 3,832 $ civarı (Mitrade/FXEmpire). Dolar Nisan 2025'ten beri zirvede; CME FedWatch Aralık'ta 25 bp artışa %96.6–97.4 veriyor. Brent ~92.3 $, 10 yıllık ~%5.12.",
+  "Avrupa: Deutsche Bank FT haberi sonrası açılışta ~%5 düştü. Asya teknoloji ağırlıklı ekside kapandı (çip erişim kısıtı).",
+  "Beklenen RTH aralığı (%80, ön tahmin — gece seansı 09:30 ET'de bitiyor, model bu saatte 'kesin' moda geçmiyor): US100 349–937 puan (medyan 555; ATR14 596, vol rejimi 2 yılın %95 persentili). Gece aralığı şimdiden 0.69 ATR, varsayılan medyan 0.64 ATR'nin üstünde → bandın 'geniş gece' senaryosu (383–1030) daha yakın olabilir. XAU 28–78 $ (medyan 45; ATR14 46.9). 0.25 ATR stop: US100 149 puan = 0.01 lotta 29.8 $ → 25 $ riske SIĞMAZ; XAU 11.7 $ → 25 $ riske 0.02 lotla sığar (gerçek 23.6 $)."
  ],
  "takvim_bugun": [
-  {
-   "tr": "11:00",
-   "et": "03:00",
-   "olay": "Londra açılışı (08:00 Londra)",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "düşük",
-   "not": "",
-   "kaynak": "—",
-   "url": "—"
-  },
   {
    "tr": "16:15",
    "et": "08:15",
@@ -82,6 +71,17 @@
    "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
   },
   {
+   "tr": "17:30",
+   "et": "09:30",
+   "olay": "NY RTH açılışı",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "",
+   "kaynak": "—",
+   "url": "—"
+  },
+  {
    "tr": "18:00",
    "et": "10:00",
    "olay": "NAHB konut endeksi · işletme stokları",
@@ -104,6 +104,17 @@
    "url": "https://finwire.io/news/stock-markets-news/fed-minutes-fedspeak-and-key-data-to-watch-this-week"
   },
   {
+   "tr": "00:20 (Çar)",
+   "et": "16:20",
+   "olay": "Nvidia 3. çeyrek bilançosu (kapanış sonrası); çağrı 01:00 TR",
+   "beklenti": "HBS 2.47 $ · gelir 108.8 mlr $",
+   "onceki": "—",
+   "onem": "yüksek",
+   "not": "Huang'ın ayrılmasından sonraki ilk rapor; saat Newsquawk",
+   "kaynak": "FXEmpire · Newsquawk",
+   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
+  },
+  {
    "tr": "—",
    "et": "—",
    "olay": "Musalem ve Hammack konuşmaları",
@@ -124,17 +135,6 @@
    "not": "",
    "kaynak": "Saxo",
    "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--17-november-2026-17112026"
-  },
-  {
-   "tr": "00:20 (Çar)",
-   "et": "16:20",
-   "olay": "Nvidia 3. çeyrek bilançosu (kapanış sonrası); çağrı 01:00 TR",
-   "beklenti": "HBS 2.47 $ · gelir 108.8 mlr $",
-   "onceki": "—",
-   "onem": "yüksek",
-   "not": "Huang'ın ayrılmasından sonraki ilk rapor; saat Newsquawk",
-   "kaynak": "FXEmpire · Newsquawk",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
   }
  ],
  "takvim_hafta": [
@@ -162,58 +162,51 @@
  "takvim_notu": "Perakende satış beklentisi derlemeler arasında farklı (+%0.2 çoğunlukta; %0.0 ve +%0.5 de görüldü). Musalem ve Hammack'ın bugünkü saatleri bulunamadı.",
  "basliklar": [
   {
-   "baslik": "Altın bir yılı aşkın dipte yatay-hafif artıda",
-   "ozet": "Spot altın Asya'da %0.5 toparlanarak 3,874 $'a çıktı; doların 19 ayın zirvesinde olması ve Aralık artış beklentisi baskı unsuru olarak sürüyor.",
+   "baslik": "ABD vadelileri Nvidia öncesi ekside",
+   "ozet": "Üç büyük endeksin vadelileri sabah saatlerinde %0.3–0.5 ekside. Pazartesi Nasdaq'ın düşüşü 5 Kasım'dan beri en büyük günlük kayıptı.",
+   "etki": "US100",
+   "kaynak": "Trading & Investment News",
+   "url": "https://www.tradingandinvestmentnews.co.uk/stock-futures-fall-nvidia-earnings/"
+  },
+  {
+   "baslik": "Nvidia bilançosu: Huang'sız ilk rapor",
+   "ozet": "Ağustos rehberi 108 mlr $ gelir ve %74 brüt marjdı; Kress geçici CEO. Hisse son bir ayda yaklaşık %28 geriledi.",
+   "etki": "US100",
+   "kaynak": "Trading & Investment News",
+   "url": "https://www.tradingandinvestmentnews.co.uk/stock-futures-fall-nvidia-earnings/"
+  },
+  {
+   "baslik": "Altın bir yılı aşkın dipte, Fed artış beklentisi baskı",
+   "ozet": "Spot altın Ekim 2025'ten beri en düşük bölgede; 3,832 $ ilk destek olarak izleniyor. Aralık artış olasılığı %96'nın üzerinde.",
    "etki": "XAU",
-   "kaynak": "MarketScreener (Reuters)",
-   "url": "https://www.marketscreener.com/news/gold-lingers-near-more-than-one-year-low-on-fed-hike-bets-ce785edfde8ffe21"
+   "kaynak": "FXEmpire (Reuters)",
+   "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-hovers-near-one-year-low-on-fed-hike-bets-can-3832-hold-1645052"
   },
   {
-   "baslik": "Asya borsaları Wall Street'teki teknoloji satışını izledi",
-   "ozet": "Kospi %2.6 düşüşle altı ayın en düşüğüne indi, Nikkei ve ASX de geriledi. ABD vadelileri sınırlı ekside.",
+   "baslik": "Hürmüz gerginliği çözümsüz",
+   "ozet": "ABD–İran anlaşması yok, İran limanlarına abluka sürüyor; deniz riskine dair haberler altına sınırlı destek veriyor.",
+   "etki": "XAU",
+   "kaynak": "Mitrade",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-pressured-dollar-tech-selloff-hormuz"
+  },
+  {
+   "baslik": "Megaspeed ve çip ihracat kuralları gündemde",
+   "ozet": "Ticaret Bakanlığı ve Adalet Bakanlığı Singapur merkezli müşteri Megaspeed'in Çin'e çip aktarımı şüphesiyle listede olduğunu belirtti; Nvidia için düzenleyici risk öne çıkıyor.",
    "etki": "US100",
-   "kaynak": "AP (Click2Houston)",
-   "url": "https://www.click2houston.com/business/2026/11/17/asian-markets-mostly-drop-as-ai-stocks-remain-under-pressure/"
+   "kaynak": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-102414813.html"
   },
   {
-   "baslik": "Nvidia bugün kapanıştan sonra; Huang tartışması sürüyor",
-   "ozet": "Trump Huang'ın geri dönmesi çağrılarını destekledi, Bessent büyük bir yönetim değişikliği istedi; CNBC'ye göre yönetim kurulu Huang'ın dönüşünü değerlendirmiyor.",
-   "etki": "US100",
-   "kaynak": "Swissinfo (Bloomberg)",
-   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739"
-  },
-  {
-   "baslik": "Çip erişim kısıtı Asya veri merkezlerini etkiliyor",
-   "ozet": "Ticaret Bakanlığı'nın kuralı Singapur, Malezya, Tayland, Endonezya ve Brezilya'daki veri merkezlerini kapsıyor. Müttefiklerle yapay zekâ tedarik zincirini koruma anlaşması da haberlerde.",
-   "etki": "US100",
-   "kaynak": "Saxo",
-   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--17-november-2026-17112026"
-  },
-  {
-   "baslik": "Fed: Hammack küçük adımlı artışlardan yana",
-   "ozet": "Hammack istikrarlı küçük artışları tercih ettiğini, enflasyon kötüleşirse daha büyük adımlar olabileceğini söyledi. Piyasalar 2027 ortasına kadar ~88 bp ek sıkılaştırma fiyatlıyor.",
-   "etki": "İkisi",
-   "kaynak": "Saxo",
-   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--17-november-2026-17112026"
-  },
-  {
-   "baslik": "Perakende satışlar bugün: beklenti yavaşlama",
-   "ozet": "Ekim manşet beklentisi +%0.2 (önceki +%0.8); veri Aralık artış beklentisinin bir sonraki sınavı olarak görülüyor.",
-   "etki": "İkisi",
-   "kaynak": "TradingKey",
-   "url": "https://www.tradingkey.com/analysis/economic/indicators/262308131-us-october-retail-sales-preview-consumption-cool-fed-december-rate-hike-test-tradingkey"
+   "baslik": "Home Depot ve Disney açılış öncesi",
+   "ozet": "Home Depot yeni CEO olarak Richard McPhail'i açıkladı; Disney açılış öncesi yaklaşık %1.5 ekside.",
+   "etki": "Bağlam",
+   "kaynak": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-lower-102414813.html"
   },
   {
    "baslik": "Anthropic halka arzına yoğun talep",
-   "ozet": "Talep arzın yaklaşık yedi katı; fiyatlama Çarşamba, işlem Perşembe bekleniyor. Değerleme hedefi 1.3–1.4 trilyon $ civarı.",
+   "ozet": "Talep arzın yaklaşık yedi katı; fiyatlama Çarşamba, işlem Perşembe bekleniyor.",
    "etki": "US100",
-   "kaynak": "Swissinfo (Bloomberg)",
-   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739"
-  },
-  {
-   "baslik": "Petrol geriledi, Trump İran'da tırmanmaya isteksiz görünüyor",
-   "ozet": "Brent Pazartesi %3.6 düştü ve Asya'da 92 $ civarında; haberde Trump'ın İran'a saldırıları artırmaya isteksiz göründüğü belirtiliyor.",
-   "etki": "Bağlam",
    "kaynak": "Swissinfo (Bloomberg)",
    "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739"
   }
@@ -261,11 +254,11 @@
   },
   {
    "ad": "Fed fiyatlaması (9 Aralık)",
-   "deger": "25 bp artış %95.4 · 50 bp %4.6",
-   "degisim": "16 Kas: 25 bp ~%90",
+   "deger": "25 bp artış %96.6 · 50 bp %3.4",
+   "degisim": "Reuters/TipRanks %97.4 (25 bp)",
    "tarih": "17 Kas",
-   "kaynak": "MarketScreener (Reuters, CME FedWatch)",
-   "url": "https://www.marketscreener.com/news/gold-lingers-near-more-than-one-year-low-on-fed-hike-bets-ce785edfde8ffe21"
+   "kaynak": "FXEmpire (CME FedWatch)",
+   "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-hovers-near-one-year-low-on-fed-hike-bets-can-3832-hold-1645052"
   }
  ],
  "pozisyon_notu": "Altın COT 10 Kas raporuyla güncellendi; Nasdaq 100 COT'un 10 Kas değeri bulunamadı, 3 Kas değeri duruyor. Fear & Greed ve AAII 13 Kas değerleri. Dealer gamma ücretli kaynaklarda; yok."
