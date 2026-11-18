@@ -1,6 +1,6 @@
 {
- "baski": "Londra öncesi baskı",
- "derleme_notu": "Londra öncesi tarama 18 Kas 2026 ~10:50 TR (02:50 ET). Takvim tablosu BUGÜNÜN (Çar 18 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Londra açılışı 08:00 Londra = 11:00 TR.",
+ "baski": "NY öncesi baskı",
+ "derleme_notu": "NY öncesi tarama 18 Kas 2026 ~15:50 TR (07:50 ET); fiyatlar veri dosyasından (12:35 UTC barı). Takvim BUGÜNÜN (Çar 18 Kas) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Konut başlangıçları (16:30 TR) bu taramada henüz açıklanmamıştı.",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,11 +8,11 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Altın gece sert düştü: XAUUSD ~3,766 (önceki RTH kapanışına göre −81 $, −%2.1); gece aralığı 91 $ (1.94 RTH ATR) ve gece low 3,765 şu an fiyatın hemen altında. Spot 02:42 GMT'de 3,796'ya, ardından 3,786'ya indi — Eylül 2025'ten beri en düşük (Streamline Feed). Gerekçe olarak Aralık Fed artışı fiyatlaması (~%94–96) ve dolar gösteriliyor; DXY 103.73 (dünkü kapanış 103.49).",
-  "US100 gece Nvidia ile toparlandı: ~27,148 (önceki RTH kapanışına göre +148, +%0.55); gece high 27,523, low 27,010. Nvidia kapanış sonrası +%3.3–3.7 (ABC, Saxo); yönetim kurulu eski CEO Huang'ı geri getirmeyeceğini söyledi, WSJ SEC soruşturması haberi verdi (ABC).",
-  "Gece verisi: İngiltere TÜFE Ekim %3.6 (beklenti %3.6, önceki %3.5), çekirdek %2.8 (beklentiyle aynı), hizmet %3.7 (beklenti %3.8); sterlin hafif düştü (Reuters/933 The Drive). Petrol geriledi: WTI ~84.0, Brent ~91.8 (veri dosyası); Hormuz'da gerilim sürüyor (Mitrade).",
-  "Bugün veri ağırlığı orta, olay riski akşamda: Euro Bölgesi nihai TÜFE 13:00, konut başlangıçları/izinler 16:30, Lagarde 17:25, RTH 17:30, bekleyen konut satışları 18:00, EIA ham petrol 18:30, Daly 20:15, 20 yıllık ihale 21:00, Barr 21:35, FOMC tutanakları 22:00, Williams 22:30, Kashkari 00:15 (Per) TR.",
-  "Not: Bugün ana veri listesinde (CPI/NFP/FOMC kararı/PCE/PPI/perakende/GDP) olay yok, bayraklar 0; ancak FOMC tutanakları ve dört Fed konuşması NY öğleden sonrasına denk geliyor."
+  "Bugün ana veri günü DEĞİL (CPI/NFP/FOMC kararı/PCE/PPI/perakende/GDP yok, bayraklar 0); olay riski öğleden sonra yoğun: FOMC tutanakları 22:00 TR ve Daly 20:15, Barr 21:35, Williams 22:30, Kashkari 00:15 (Per) TR. 20 yıllık ihale 21:00 TR.",
+  "Altın satışı Londra'da derinleşti: XAUUSD ~3,759 (önceki RTH kapanışına göre −88 $, −%2.3); gece aralığı şimdiden ~100 $ (2.14 RTH ATR) ve fiyat gece low'u 3,756'nın hemen üstünde. Spot bir yılın en düşüğünde; gerekçe Aralık Fed artışı fiyatlaması (~%94–96) ve dolar (DXY 103.82, +%0.3). Gümüş −%3.9.",
+  "US100 Nvidia sonrası artıda ama gece zirvesinden geri çekildi: ~27,162 (önceki RTH kapanışına göre +162, +%0.6); gece high 27,523, low 27,010. Nvidia açılış öncesi +%3.1–3.7; 4. çeyrek gelir rehberi 130 mlr $ (beklenti ~125 mlr $). Target açılış öncesi bilanço; hisse ön piyasada −%1 (Reuters/Yahoo). Anthropic halka arzı bugün kapanış sonrası fiyatlanıyor.",
+  "Gece öteki notlar: WTI ~84.2 (−%2.2), Brent ~90.2 (−%3.2); ABD 10Y ~%5.10; VIX 24.3. Trump–Xi görüşmesi bu gece 23:45 ET = 07:45 (Per) TR (Newsquawk).",
+  "Beklenen RTH aralığı (model, %80 bant — gece seansı 09:30 ET'de bittiği için durum 'ön tahmin'): US100 ana 363–976 puan (medyan 578); gece şu ana kadar 0.82 ATR olduğundan gerçek gece aralığıyla bant ~377–1,014 (medyan ~600). XAU ana 28–77 $ (medyan 44); gece aralığı 'geniş' senaryoyu (1.97 ATR) aştığı için geniş senaryo daha uygun: 32–88 $ (medyan ~51). 0.25 ATR stop: US100 157 puan → 0.01 lotta 31.4 $, 25 $ riske SIĞMIYOR; XAU 11.7 $ → 0.02 lot 23.5 $, sığıyor."
  ],
  "takvim_bugun": [
   {
@@ -66,9 +66,9 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "düşük",
-   "not": "Açılış öncesi Target, Lowe's, TJX",
-   "kaynak": "—",
-   "url": "—"
+   "not": "Açılış öncesi Target (ön piyasada −%1), Lowe's, TJX",
+   "kaynak": "Yahoo Finance (Reuters)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-nvidia-forecast-103531610.html"
   },
   {
    "tr": "18:00",
@@ -157,18 +157,29 @@
    "not": "Kapanış sonrası Palo Alto bilançosu; Anthropic halka arz fiyatlaması bugün",
    "kaynak": "Investing.com · Saxo",
    "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+  },
+  {
+   "tr": "07:45 (Per)",
+   "et": "23:45",
+   "olay": "Trump–Xi ikili görüşmesi (APEC); ardından 01:30 ET Trump–Xi–Putin",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "Saatler Pekin 12:45 / 14:30 olarak verilmiş",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/calendar-update-us-president-trump-will-meet-with-chinese-president-xi-on-thursday-at-1245-cst-0445-gmt2345-est-and-will-meet-with-chinese-president-xi-and-russian-president-putin-at-1430-cst-0630-gmt0130-est"
   }
  ],
  "takvim_hafta": [
   {
    "gun": "Çar 18",
    "etiket": "Olay riski",
-   "olaylar": "Konut başlangıçları/izinler 16:30 · Lagarde 17:25 · Bekleyen konut satışları 18:00 · EIA 18:30 · Daly 20:15 · 20 yıllık ihale 21:00 · Barr 21:35 · FOMC tutanakları 22:00 · Williams 22:30 · Kashkari 00:15 (Per) · Target, Lowe's, TJX; kapanış sonrası Palo Alto"
+   "olaylar": "Konut başlangıçları/izinler 16:30 · Lagarde 17:25 · Bekleyen konut satışları 18:00 · EIA 18:30 · Daly 20:15 · 20 yıllık ihale 21:00 · Barr 21:35 · FOMC tutanakları 22:00 · Williams 22:30 · Kashkari 00:15 (Per) · Target, Lowe's, TJX; kapanış sonrası Palo Alto · Trump–Xi 07:45 (Per) TR"
   },
   {
    "gun": "Per 19",
    "etiket": "Olay riski",
-   "olaylar": "İşsizlik başvuruları + Philly Fed 16:30 · Anthropic halka arzı (işlem başlangıcı) · Trump–Xi görüşmesi (APEC, saat —) · Jefferson, Goolsbee, Barkin, Barr (saat —) · Walmart (açılış öncesi), Intuit (kapanış sonrası)"
+   "olaylar": "İşsizlik başvuruları + Philly Fed 16:30 · Anthropic halka arzı (işlem başlangıcı) · Trump–Xi–Putin görüşmesi 09:30 TR · Jefferson, Goolsbee, Barkin, Barr (saat —) · Walmart (açılış öncesi), Intuit (kapanış sonrası)"
   },
   {
    "gun": "Cum 20",
@@ -176,56 +187,56 @@
    "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan tüketici güveni ve enflasyon beklentisi (nihai) 18:00 · Cook 20:15"
   }
  ],
- "takvim_notu": "Konut başlangıcı beklentisi kaynaklar arasında farklı (1.250 mn Investing.com, 1.23 mn önceki derleme). Daly 20:15 konuşması yeni eklendi (Investing.com). Bir kaynak İngiltere TÜFE tarihini 17 Kas yazıyor; ONS takvimi ve diğer kaynaklar 18 Kas 07:00 GMT.",
+ "takvim_notu": "Konut başlangıcı beklentisi kaynaklar arasında farklı (1.250 mn Investing.com, 1.23 mn önceki derleme). Trump–Xi görüşmesi Pekin saatiyle Perşembe 12:45 = Çarşamba 23:45 ET.",
  "basliklar": [
   {
-   "baslik": "Altın Eylül 2025'ten beri en düşük seviyede",
-   "ozet": "Spot altın Asya'da 3,800'ün altına inip 3,786'ya kadar geriledi. Aralık Fed artışı beklentisi ve güçlü dolar baskı unsuru olarak gösteriliyor.",
+   "baslik": "Altın bir yılın en düşüğünde, tutanaklar öncesi satış derinleşti",
+   "ozet": "Altın 3,800'ün altına inerek bir yılın dibini gördü; piyasalar Fed tutanaklarını bekliyor. Faiz artışı beklentisi ve 19 ayın zirvesine yakın dolar baskı unsuru.",
    "etki": "XAU",
-   "kaynak": "Streamline Feed",
-   "url": "https://streamlinefeed.co.ke/news/gold-drops-below-3800-as-fed-hike-bets-lift-dollar"
+   "kaynak": "FXEmpire · 5paisa",
+   "url": "https://www.fxempire.com/forecasts/article/gold-and-silver-price-forecast-selloff-deepens-before-fed-minutes-1645327"
   },
   {
-   "baslik": "Nvidia sonrası Nasdaq vadelileri yükseldi",
-   "ozet": "Nasdaq 100 vadelileri Asya'nın başında yaklaşık %1.4 yukarıdaydı; Nvidia kapanış sonrası ~%3.7 arttı.",
+   "baslik": "Nvidia rehberi Nasdaq vadelilerini yukarı taşıdı",
+   "ozet": "Nvidia 4. çeyrek için ~130 mlr $ gelir öngördü (analist ortalaması ~125 mlr $); hisse ön piyasada ~%3.7 arttı, AMD, Broadcom, Micron ve Marvell de yükseldi.",
    "etki": "US100",
-   "kaynak": "Saxo",
-   "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+   "kaynak": "Yahoo Finance (Reuters)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-nvidia-forecast-103531610.html"
   },
   {
    "baslik": "Nvidia: Huang geri dönmeyecek, SEC soruşturması haberi",
-   "ozet": "Yönetim kurulu başkanı eski CEO'nun geri getirilmeyeceğini söyledi; geçici CEO Colette Kress. WSJ, SEC'in açıklama kurallarını inceleme başlattığını yazdı.",
+   "ozet": "Yönetim kurulu eski CEO'nun geri getirilmeyeceğini söyledi; WSJ, SEC'in açıklama kurallarıyla ilgili inceleme başlattığını yazdı.",
    "etki": "US100",
-   "kaynak": "ABC News",
-   "url": "https://abc.net.au/news/2026-11-18/asx-markets-business-live-news-nvidia/107396692"
-  },
-  {
-   "baslik": "İngiltere enflasyonu bir yılın zirvesinde",
-   "ozet": "Ekim TÜFE %3.6 ile beklentiye denk geldi, hizmet enflasyonu beklentinin altında kaldı. Piyasa BoE için Aralık'ta ~%90 artış olasılığı fiyatlıyor.",
-   "etki": "Bağlam",
-   "kaynak": "Reuters / 933 The Drive",
-   "url": "https://www.933thedrive.com/2026/11/18/uk-inflation-rises-to-one-year-high-of-3-6/"
-  },
-  {
-   "baslik": "Musalem: bahardan önce 'birkaç' artış gerekebilir",
-   "ozet": "St. Louis Fed Başkanı 2027 baharına kadar birden çok faiz artışını muhtemel gördü. Akşam FOMC tutanakları ve dört Fed konuşmacısı var.",
-   "etki": "İkisi",
-   "kaynak": "Saxo",
-   "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
-  },
-  {
-   "baslik": "Hormuz gerilimi ve petrol",
-   "ozet": "ABD–İran arasında yeniden saldırılar bildirildi, boğazdan ticari geçiş hafta sonu durma noktasına geldi. Petrol Kasım'da yine de düşüşte.",
-   "etki": "İkisi",
-   "kaynak": "Mitrade",
-   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
+   "kaynak": "Benzinga · ABC News",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63378751/no-jensen-no-problem-nvidia-delivers-strong-outlook-rules-out-huangs-return"
   },
   {
    "baslik": "Anthropic halka arzı bugün fiyatlanıyor",
-   "ozet": "Arzın 7 kattan fazla talep gördüğü ve 70–78 $ aralığının üstünde fiyatlanabileceği bildiriliyor; işlem Perşembe başlıyor.",
+   "ozet": "Fiyatlamanın bugün, işlemin yarın başlaması bekleniyor; açıklanan aralık hisse başına 70–78 $. Yapay zekâ işlemine yatırımcı güveninin testi olarak görülüyor.",
    "etki": "US100",
-   "kaynak": "Saxo · Stocktwits",
-   "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+   "kaynak": "Yahoo Finance (Reuters) · FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-anthropics-ipo-day-by-day-pricing-18-nov-trading-19-nov/"
+  },
+  {
+   "baslik": "Dolar endeksi 19 ayın zirvesinde",
+   "ozet": "DXY tutanaklar öncesi 19 ayın en yükseğine çıktı; 104 seviyesi takipte. Aralık'ta 25 bp artış neredeyse tamamen fiyatlı.",
+   "etki": "İkisi",
+   "kaynak": "InvestingCube",
+   "url": "https://www.investingcube.com/forex/dollar-index-hits-19-month-high-can-fed-minutes-push-dxy-above-104/"
+  },
+  {
+   "baslik": "Trump–Xi görüşmesi bu gece",
+   "ozet": "Trump ile Xi'nin Pekin saatiyle Perşembe öğlen, ardından Putin'le üçlü görüşme yapması planlanıyor; ticaret ateşkesi gündemde.",
+   "etki": "İkisi",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/calendar-update-us-president-trump-will-meet-with-chinese-president-xi-on-thursday-at-1245-cst-0445-gmt2345-est-and-will-meet-with-chinese-president-xi-and-russian-president-putin-at-1430-cst-0630-gmt0130-est"
+  },
+  {
+   "baslik": "Hormuz gerilimi sürüyor, petrol yine de geriliyor",
+   "ozet": "ABD–İran arasında saldırılar bildiriliyor; buna karşın Brent ve WTI bugün de düşüşte.",
+   "etki": "Bağlam",
+   "kaynak": "Mitrade",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
   }
  ],
  "pozisyon": [
