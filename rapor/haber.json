@@ -1,6 +1,6 @@
 {
- "baski": "NY öncesi baskı",
- "derleme_notu": "NY öncesi tarama 18 Kas 2026 ~15:50 TR (07:50 ET); fiyatlar veri dosyasından (12:35 UTC barı). Takvim BUGÜNÜN (Çar 18 Kas) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Konut başlangıçları (16:30 TR) bu taramada henüz açıklanmamıştı.",
+ "baski": "Gün sonu baskısı",
+ "derleme_notu": "Gün sonu taraması 19 Kas 2026 ~00:45 TR (18 Kas 16:45 ET); fiyatlar veri dosyasından (21:30 UTC barı, RTH tamam). Takvim YARININ (Per 19 Kas) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,235 +8,197 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Bugün ana veri günü DEĞİL (CPI/NFP/FOMC kararı/PCE/PPI/perakende/GDP yok, bayraklar 0); olay riski öğleden sonra yoğun: FOMC tutanakları 22:00 TR ve Daly 20:15, Barr 21:35, Williams 22:30, Kashkari 00:15 (Per) TR. 20 yıllık ihale 21:00 TR.",
-  "Altın satışı Londra'da derinleşti: XAUUSD ~3,759 (önceki RTH kapanışına göre −88 $, −%2.3); gece aralığı şimdiden ~100 $ (2.14 RTH ATR) ve fiyat gece low'u 3,756'nın hemen üstünde. Spot bir yılın en düşüğünde; gerekçe Aralık Fed artışı fiyatlaması (~%94–96) ve dolar (DXY 103.82, +%0.3). Gümüş −%3.9.",
-  "US100 Nvidia sonrası artıda ama gece zirvesinden geri çekildi: ~27,162 (önceki RTH kapanışına göre +162, +%0.6); gece high 27,523, low 27,010. Nvidia açılış öncesi +%3.1–3.7; 4. çeyrek gelir rehberi 130 mlr $ (beklenti ~125 mlr $). Target açılış öncesi bilanço; hisse ön piyasada −%1 (Reuters/Yahoo). Anthropic halka arzı bugün kapanış sonrası fiyatlanıyor.",
-  "Gece öteki notlar: WTI ~84.2 (−%2.2), Brent ~90.2 (−%3.2); ABD 10Y ~%5.10; VIX 24.3. Trump–Xi görüşmesi bu gece 23:45 ET = 07:45 (Per) TR (Newsquawk).",
-  "Beklenen RTH aralığı (model, %80 bant — gece seansı 09:30 ET'de bittiği için durum 'ön tahmin'): US100 ana 363–976 puan (medyan 578); gece şu ana kadar 0.82 ATR olduğundan gerçek gece aralığıyla bant ~377–1,014 (medyan ~600). XAU ana 28–77 $ (medyan 44); gece aralığı 'geniş' senaryoyu (1.97 ATR) aştığı için geniş senaryo daha uygun: 32–88 $ (medyan ~51). 0.25 ATR stop: US100 157 puan → 0.01 lotta 31.4 $, 25 $ riske SIĞMIYOR; XAU 11.7 $ → 0.02 lot 23.5 $, sığıyor."
+  "Karne — US100: gerçekleşen RTH aralığı 404 puan (0.64 ATR). NY baskısının %80 bandı 363–976 → İÇİNDE; %50 bandı 450–754 → DIŞINDA (altında, sakin gün). Gece aralığı tamamlanınca güncellenen 'kesin' %80 bant 378–1,016 → içinde. RTH ne önceki FTM günü high'ını ne low'unu kırdı (önceki high'ı gece kırmıştı); gece high'ı kırılmadı, gece low'u RTH'de kırıldı (~170 puan altına).",
+  "Karne — XAUUSD: gerçekleşen RTH aralığı 60.1 $ (1.29 ATR). NY baskısının ana %80 bandı 28–77 $ → İÇİNDE; ana %50 bandı 35–59 $ → DIŞINDA (üstünde); NY baskısında önerilen 'geniş gece' senaryosunun %50 bandı 39–67 $ → içinde. Önceki gün low'u (gece) ve gece low'u (RTH'de, ~23 $ altına) kırıldı; önceki gün high'ı ve gece high'ı kırılmadı. RTH kapanışı önceki RTH kapanışına göre −122 $ (−%3.2).",
+  "Gün: Dow −%1.11 (50,198), S&P 500 −%0.23 (7,324, 5. düşüş günü), Nasdaq Bileşik +%0.42 (24,430); VIX 24.55, ABD 10Y ~%5.07. Nvidia normal seansı −%2.9 kapattı (açılış öncesi kazancı sildi). FOMC tutanakları: neredeyse tüm üyeler daha fazla artışı uygun görüyor; birkaçı veriler kötü gelirse Aralık'ta 25 bp'den büyük artışın düşünülebileceğini söyledi. Konut başlangıçları 1.309 mn (bekl. 1.25 mn), izinler 1.295 mn (bekl. 1.38 mn).",
+  "Gece: Trump–Xi görüşmesi 07:45 TR, ardından Trump–Xi–Putin 09:30 TR (Newsquawk). Anthropic halka arzı 83 $'dan fiyatlandı (Bloomberg aktarımıyla Yahoo; aralık 70–78 $ idi), yarın Nasdaq'ta 'ANT' koduyla işleme başlıyor. Palo Alto kapanış sonrası +%6.5.",
+  "Yarın (Per 19) ana veri günü DEĞİL (bayraklar 0): 16:30 TR işsizlik başvuruları (bekl. 196 bin, önceki 200 bin) + Philly Fed (bekl. 20.6, önceki 20.9); 16:50 Hammack; 18:00 öncü göstergeler; 20:30 Goolsbee; 21:00 10Y TIPS ihalesi; 22:15 Barr; 00:00 (Cum) Barkin. Cuma OPEX."
  ],
  "takvim_bugun": [
   {
-   "tr": "10:00",
-   "et": "02:00",
-   "olay": "İngiltere TÜFE (Ekim) — açıklandı",
-   "beklenti": "%3.6 y/y (çekirdek %2.8)",
-   "onceki": "%3.5 (çekirdek %2.8)",
-   "onem": "orta",
-   "not": "Gerçekleşen %3.6, çekirdek %2.8, hizmet %3.7 (beklenti %3.8)",
-   "kaynak": "Reuters / 933 The Drive",
-   "url": "https://www.933thedrive.com/2026/11/18/uk-inflation-rises-to-one-year-high-of-3-6/"
-  },
-  {
-   "tr": "13:00",
-   "et": "05:00",
-   "olay": "Euro Bölgesi TÜFE (Ekim, nihai)",
+   "tr": "07:45",
+   "et": "23:45 (Çar)",
+   "olay": "Trump–Xi görüşmesi (Pekin)",
    "beklenti": "—",
    "onceki": "—",
-   "onem": "düşük",
-   "not": "değerler kaynakta yok",
-   "kaynak": "ATFX",
-   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261118-daily-market-highlight"
+   "onem": "yüksek",
+   "not": "Ticaret ateşkesi gündemde",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/calendar-update-us-president-trump-will-meet-with-chinese-president-xi-on-thursday-at-1245-cst-0445-gmt2345-est-and-will-meet-with-chinese-president-xi-and-russian-president-putin-at-1430-cst-0630-gmt0130-est"
+  },
+  {
+   "tr": "09:30",
+   "et": "01:30",
+   "olay": "Trump–Xi–Putin üçlü görüşmesi",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/calendar-update-us-president-trump-will-meet-with-chinese-president-xi-on-thursday-at-1245-cst-0445-gmt2345-est-and-will-meet-with-chinese-president-xi-and-russian-president-putin-at-1430-cst-0630-gmt0130-est"
   },
   {
    "tr": "16:30",
    "et": "08:30",
-   "olay": "Konut başlangıçları / inşaat izinleri (Ekim)",
-   "beklenti": "1.250 mn / 1.380 mn",
-   "onceki": "1.221 mn / 1.398 mn",
+   "olay": "İlk işsizlik başvuruları (14 Kas haftası)",
+   "beklenti": "196 bin",
+   "onceki": "200 bin",
    "onem": "orta",
-   "not": "Başlangıç beklentisi başka kaynakta 1.23 mn",
-   "kaynak": "Investing.com",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+   "not": "Admirals ön tahmini 200 bin; devam eden başvurular önceki 1.697 mn",
+   "kaynak": "Finviz · Admirals",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
   {
-   "tr": "17:25",
-   "et": "09:25",
-   "olay": "ECB Başkanı Lagarde konuşması",
+   "tr": "16:30",
+   "et": "08:30",
+   "olay": "Philadelphia Fed imalat endeksi (Kasım)",
+   "beklenti": "20.6",
+   "onceki": "20.9",
+   "onem": "orta",
+   "not": "Ödenen fiyatlar önceki 43.2",
+   "kaynak": "Finviz",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
+  },
+  {
+   "tr": "16:50",
+   "et": "08:50",
+   "olay": "Cleveland Fed Başkanı Hammack konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "",
-   "kaynak": "ATFX",
-   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261118-daily-market-highlight"
+   "not": "Ekim'de artış yönünde tercih bildirmişti (tutanaklar)",
+   "kaynak": "Finviz",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
   {
    "tr": "17:30",
    "et": "09:30",
-   "olay": "NY RTH açılışı (Nvidia sonrası ilk seans)",
+   "olay": "NY RTH açılışı · Anthropic (ANT) ilk işlem günü",
    "beklenti": "—",
    "onceki": "—",
-   "onem": "düşük",
-   "not": "Açılış öncesi Target (ön piyasada −%1), Lowe's, TJX",
-   "kaynak": "Yahoo Finance (Reuters)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-nvidia-forecast-103531610.html"
+   "onem": "orta",
+   "not": "IPO fiyatı 83 $; ilk işlem saati açıklanmadı. Walmart açılış öncesi bilanço (önceki derleme)",
+   "kaynak": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
   },
   {
    "tr": "18:00",
    "et": "10:00",
-   "olay": "Bekleyen konut satışları (Ekim, a/a)",
-   "beklenti": "−%2.1",
-   "onceki": "−%7.3",
+   "olay": "Conference Board öncü göstergeler (a/a)",
+   "beklenti": "%0.1",
+   "onceki": "%0",
    "onem": "düşük",
    "not": "",
-   "kaynak": "Investing.com",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+   "kaynak": "Finviz",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
   {
-   "tr": "18:30",
-   "et": "10:30",
-   "olay": "EIA ham petrol stokları",
-   "beklenti": "—",
-   "onceki": "4.657 mn",
-   "onem": "düşük",
-   "not": "API +5.3 mn varil artış gösterdi",
-   "kaynak": "Investing.com · ATFX",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
-  },
-  {
-   "tr": "20:15",
-   "et": "12:15",
-   "olay": "SF Fed Başkanı Daly konuşması",
+   "tr": "20:30",
+   "et": "12:30",
+   "olay": "Chicago Fed Başkanı Goolsbee konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
    "not": "",
-   "kaynak": "Investing.com",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+   "kaynak": "Finviz",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
   {
    "tr": "21:00",
    "et": "13:00",
-   "olay": "20 yıllık tahvil ihalesi",
+   "olay": "10 yıllık TIPS ihalesi",
    "beklenti": "—",
-   "onceki": "—",
-   "onem": "orta",
-   "not": "10 yıllık ~%5.10",
-   "kaynak": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
+   "onceki": "%2.653",
+   "onem": "düşük",
+   "not": "",
+   "kaynak": "Finviz",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
   {
-   "tr": "21:35",
-   "et": "13:35",
+   "tr": "22:15",
+   "et": "14:15",
    "olay": "Fed Guvernörü Barr konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
    "not": "",
-   "kaynak": "Investing.com",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+   "kaynak": "Finviz",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
   {
-   "tr": "22:00",
-   "et": "14:00",
-   "olay": "FOMC tutanakları (27–28 Eki toplantısı)",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "yüksek",
-   "not": "Ekim'de faiz sabit, iki üye artış istemişti",
-   "kaynak": "Investing.com · Admirals",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
-  },
-  {
-   "tr": "22:30",
-   "et": "14:30",
-   "olay": "NY Fed Başkanı Williams konuşması",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "orta",
-   "not": "",
-   "kaynak": "Investing.com",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
-  },
-  {
-   "tr": "00:15 (Per)",
-   "et": "16:15",
-   "olay": "Minneapolis Fed Başkanı Kashkari konuşması",
+   "tr": "00:00 (Cum)",
+   "et": "16:00",
+   "olay": "Richmond Fed Başkanı Barkin konuşması · Intuit kapanış sonrası bilanço",
    "beklenti": "—",
    "onceki": "—",
    "onem": "düşük",
-   "not": "Kapanış sonrası Palo Alto bilançosu; Anthropic halka arz fiyatlaması bugün",
-   "kaynak": "Investing.com · Saxo",
-   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
-  },
-  {
-   "tr": "07:45 (Per)",
-   "et": "23:45",
-   "olay": "Trump–Xi ikili görüşmesi (APEC); ardından 01:30 ET Trump–Xi–Putin",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "orta",
-   "not": "Saatler Pekin 12:45 / 14:30 olarak verilmiş",
-   "kaynak": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/calendar-update-us-president-trump-will-meet-with-chinese-president-xi-on-thursday-at-1245-cst-0445-gmt2345-est-and-will-meet-with-chinese-president-xi-and-russian-president-putin-at-1430-cst-0630-gmt0130-est"
+   "not": "Intuit önceki derlemeden",
+   "kaynak": "Finviz",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   }
  ],
  "takvim_hafta": [
   {
-   "gun": "Çar 18",
-   "etiket": "Olay riski",
-   "olaylar": "Konut başlangıçları/izinler 16:30 · Lagarde 17:25 · Bekleyen konut satışları 18:00 · EIA 18:30 · Daly 20:15 · 20 yıllık ihale 21:00 · Barr 21:35 · FOMC tutanakları 22:00 · Williams 22:30 · Kashkari 00:15 (Per) · Target, Lowe's, TJX; kapanış sonrası Palo Alto · Trump–Xi 07:45 (Per) TR"
-  },
-  {
    "gun": "Per 19",
    "etiket": "Olay riski",
-   "olaylar": "İşsizlik başvuruları + Philly Fed 16:30 · Anthropic halka arzı (işlem başlangıcı) · Trump–Xi–Putin görüşmesi 09:30 TR · Jefferson, Goolsbee, Barkin, Barr (saat —) · Walmart (açılış öncesi), Intuit (kapanış sonrası)"
+   "olaylar": "Trump–Xi 07:45 · Trump–Xi–Putin 09:30 · İşsizlik başvuruları + Philly Fed 16:30 · Hammack 16:50 · Anthropic (ANT) ilk işlem · Öncü göstergeler 18:00 · Goolsbee 20:30 · TIPS ihalesi 21:00 · Barr 22:15 · Barkin 00:00 (Cum) · Walmart (açılış öncesi), Intuit (kapanış sonrası)"
   },
   {
    "gun": "Cum 20",
    "etiket": "OPEX",
-   "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan tüketici güveni ve enflasyon beklentisi (nihai) 18:00 · Cook 20:15"
+   "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan tüketici güveni (bekl. 52, önceki 48.0) ve 1 yıllık enflasyon beklentisi (bekl. %4.3, önceki %4.7) nihai 18:00 · Cook 20:15"
   }
  ],
- "takvim_notu": "Konut başlangıcı beklentisi kaynaklar arasında farklı (1.250 mn Investing.com, 1.23 mn önceki derleme). Trump–Xi görüşmesi Pekin saatiyle Perşembe 12:45 = Çarşamba 23:45 ET.",
+ "takvim_notu": "Önceki derlemede Perşembe için listelenen Jefferson konuşması Finviz takviminde yok; Finviz'de Hammack (08:50 ET) ve Paulson (18:30 ET = 02:30 Cum TR) var. İşsizlik başvurusu beklentisi Finviz 196 bin, Admirals ön tahmini 200 bin.",
  "basliklar": [
   {
-   "baslik": "Altın bir yılın en düşüğünde, tutanaklar öncesi satış derinleşti",
-   "ozet": "Altın 3,800'ün altına inerek bir yılın dibini gördü; piyasalar Fed tutanaklarını bekliyor. Faiz artışı beklentisi ve 19 ayın zirvesine yakın dolar baskı unsuru.",
-   "etki": "XAU",
-   "kaynak": "FXEmpire · 5paisa",
-   "url": "https://www.fxempire.com/forecasts/article/gold-and-silver-price-forecast-selloff-deepens-before-fed-minutes-1645327"
-  },
-  {
-   "baslik": "Nvidia rehberi Nasdaq vadelilerini yukarı taşıdı",
-   "ozet": "Nvidia 4. çeyrek için ~130 mlr $ gelir öngördü (analist ortalaması ~125 mlr $); hisse ön piyasada ~%3.7 arttı, AMD, Broadcom, Micron ve Marvell de yükseldi.",
-   "etki": "US100",
-   "kaynak": "Yahoo Finance (Reuters)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-nvidia-forecast-103531610.html"
-  },
-  {
-   "baslik": "Nvidia: Huang geri dönmeyecek, SEC soruşturması haberi",
-   "ozet": "Yönetim kurulu eski CEO'nun geri getirilmeyeceğini söyledi; WSJ, SEC'in açıklama kurallarıyla ilgili inceleme başlattığını yazdı.",
-   "etki": "US100",
-   "kaynak": "Benzinga · ABC News",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63378751/no-jensen-no-problem-nvidia-delivers-strong-outlook-rules-out-huangs-return"
-  },
-  {
-   "baslik": "Anthropic halka arzı bugün fiyatlanıyor",
-   "ozet": "Fiyatlamanın bugün, işlemin yarın başlaması bekleniyor; açıklanan aralık hisse başına 70–78 $. Yapay zekâ işlemine yatırımcı güveninin testi olarak görülüyor.",
-   "etki": "US100",
-   "kaynak": "Yahoo Finance (Reuters) · FourWeekMBA",
-   "url": "https://fourweekmba.com/ai-anthropics-ipo-day-by-day-pricing-18-nov-trading-19-nov/"
-  },
-  {
-   "baslik": "Dolar endeksi 19 ayın zirvesinde",
-   "ozet": "DXY tutanaklar öncesi 19 ayın en yükseğine çıktı; 104 seviyesi takipte. Aralık'ta 25 bp artış neredeyse tamamen fiyatlı.",
+   "baslik": "Fed tutanakları: üyelerin neredeyse tamamı ek artıştan yana",
+   "ozet": "Ekim tutanaklarına göre neredeyse tüm üyeler daha fazla faiz artışını muhtemelen uygun görüyor; birkaç üye kötü veri halinde Aralık'ta çeyrek puandan büyük adımın tartışılabileceğini belirtti. Üyeler yapay zekâ yatırım getirilerinin hayal kırıklığı yaratma riskini de konuştu.",
    "etki": "İkisi",
-   "kaynak": "InvestingCube",
-   "url": "https://www.investingcube.com/forex/dollar-index-hits-19-month-high-can-fed-minutes-push-dxy-above-104/"
+   "kaynak": "StockTitan (CNBC aktarımı)",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+  },
+  {
+   "baslik": "Altın bir yılı aşkın dibinde, RTH'de 3,722'ye kadar indi",
+   "ozet": "Altın gün içinde %2'yi aşan düşüşle bir yılı aşkın sürenin en düşüğünü gördü; Aralık artışı beklentisi ve güçlü dolar baskı unsuru.",
+   "etki": "XAU",
+   "kaynak": "Eurasia Business News · Khaleej Times",
+   "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/"
+  },
+  {
+   "baslik": "Nvidia güçlü rehbere rağmen ekside kapattı",
+   "ozet": "Açılış öncesi %3'ün üzerinde artıda olan Nvidia normal seansı yaklaşık %2.9 düşüşle bitirdi; Nasdaq yine de hafif artıda kapattı.",
+   "etki": "US100",
+   "kaynak": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+  },
+  {
+   "baslik": "Anthropic halka arzı 83 $'dan fiyatlandı",
+   "ozet": "Bloomberg'e göre fiyat önceki 70–78 $ aralığının üstünde belirlendi; talebin arzın yaklaşık yedi katı olduğu bildirildi. İşlem Perşembe Nasdaq'ta başlıyor.",
+   "etki": "US100",
+   "kaynak": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html"
+  },
+  {
+   "baslik": "Dow 561 puan düştü, sağlık hisseleri sert satıldı",
+   "ozet": "UnitedHealth ve Humana'daki çift haneli düşüşler Dow'u aşağı çekti; S&P 500 beşinci gün üst üste geriledi.",
+   "etki": "Bağlam",
+   "kaynak": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
   },
   {
    "baslik": "Trump–Xi görüşmesi bu gece",
-   "ozet": "Trump ile Xi'nin Pekin saatiyle Perşembe öğlen, ardından Putin'le üçlü görüşme yapması planlanıyor; ticaret ateşkesi gündemde.",
+   "ozet": "Görüşme TR saatiyle 07:45'te, Putin'in katılacağı üçlü görüşme 09:30'da planlanıyor; ticaret ateşkesi gündemde.",
    "etki": "İkisi",
    "kaynak": "Newsquawk",
    "url": "https://www.newsquawk.com/headlines/calendar-update-us-president-trump-will-meet-with-chinese-president-xi-on-thursday-at-1245-cst-0445-gmt2345-est-and-will-meet-with-chinese-president-xi-and-russian-president-putin-at-1430-cst-0630-gmt0130-est"
   },
   {
-   "baslik": "Hormuz gerilimi sürüyor, petrol yine de geriliyor",
-   "ozet": "ABD–İran arasında saldırılar bildiriliyor; buna karşın Brent ve WTI bugün de düşüşte.",
+   "baslik": "Petrol stok artışıyla geriledi",
+   "ozet": "EIA ham petrol stokları 3.38 mn varil arttı (beklenti düşüş); WTI gün içinde %4'ün üzerinde düşerek 82 $ civarına indi.",
    "etki": "Bağlam",
-   "kaynak": "Mitrade",
-   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
+   "kaynak": "Finviz · StockTitan",
+   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   }
  ],
  "pozisyon": [
@@ -289,5 +251,5 @@
    "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
   }
  ],
- "pozisyon_notu": "COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskıdan; yeni değer yayımlanmadı/bulunamadı. Fed fiyatlaması kaynaklar arasında %94–96. Dealer gamma ücretli kaynaklarda; yok."
+ "pozisyon_notu": "COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskıdan; gün içinde yeni değer yayımlanmadı/bulunamadı. Fed fiyatlaması tutanaklar öncesi değer (18 Kas); tutanaklar sonrası güncel oran bulunamadı. Dealer gamma ücretli kaynaklarda; yok."
 }
