@@ -1,136 +1,169 @@
 {
- "baski": "Gün sonu baskısı",
- "derleme_notu": "Gün sonu taraması 18 Kas 2026 ~00:45 TR (17 Kas 16:45 ET). Takvim tablosu YARININ (Çar 18 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Karne seviyeleri bugünkü ofsetle (US100 −85.3) hesaplandı.",
+ "baski": "Londra öncesi baskı",
+ "derleme_notu": "Londra öncesi tarama 18 Kas 2026 ~10:50 TR (02:50 ET). Takvim tablosu BUGÜNÜN (Çar 18 Kas) olaylarıdır. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Londra açılışı 08:00 Londra = 11:00 TR.",
  "bugun_bayraklar": {
-  "ev_major": 1,
+  "ev_major": 0,
   "ev_fomc": 0,
   "ev_cpi": 0,
   "ev_nfp": 0
  },
  "ozet": [
-  "Karne US100: gerçekleşen RTH aralığı 692.5 puan (1.16 ATR). NY bandı (ön tahmin) %50 [432–724] İÇİNDE (üst yarıda), %80 [349–937] İÇİNDE; geniş gece senaryosu (%50 [475–796], %80 [384–1030]) ve gece tamamlanınca oluşan kesin bant (%50 [430–721], %80 [347–933]) için de İÇİNDE. Önceki gün low (27,151) ve gece low (26,999) kırıldı, RTH low 26,572; önceki gün high (28,196), önceki RTH high (27,633) ve gece high (27,412) kırılmadı. RTH kapanış 27,000, önceki RTH kapanışına göre −%0.77 (NDX nakit −%0.72).",
-  "Karne XAUUSD: gerçekleşen RTH aralığı 50.2 $ (1.07 ATR). NY bandı %50 [35.3–59.6] ve %80 [28.4–78.3] İÇİNDE; geniş gece ve kesin bantta da İÇİNDE. Gece high (3,886) ve önceki RTH high (3,889) kırıldı, RTH high 3,890.5; önceki gün high (3,901), önceki gün low (3,832) ve gece low (3,836) kırılmadı. RTH kapanış 3,847 (−%0.11). Not: XAU ofseti 1 günlük, seviyeler yaklaşık.",
-  "Gün: Dow −%1.85 (−955 puan), S&P 500 −%1.05, Nasdaq Bileşik −%0.91 (24/7 Wall St.). Perakende satışlar +%0.2 (beklentiyle aynı), kontrol grubu +%0.6 beklentinin üstünde; ithalat fiyatları +%1.1, beklenti +%0.7 (SJV Sun). Williams bir artış daha muhtemel ama 'sert adım' zamanı değil dedi; Waller'ın sözleri kaynaklarda bulunamadı.",
-  "Nvidia (16:20 ET): gelir 115.8 mlr $ (beklenti ~108.8), düzeltilmiş HBS 2.68 $ (beklenti 2.47), 4. çeyrek rehberi 130 mlr $ ±%3 (şirket açıklaması). Kapanış sonrası US100 (NQ+ofset) 16:15'teki 26,960 dibinden 16:35 ET'de 27,196'ya çıktı; NVDA hissesinin kapanış sonrası yüzdesi bulunamadı.",
-  "Yarın (Çar 18) OLAY RİSKİ, veri ağırlığı orta: konut başlangıçları/izinler 16:30 TR (başlangıç beklenti 1.23 mn, önceki 1.221 mn), bekleyen konut satışları 18:00, 20 yıllık tahvil ihalesi 21:00, Barr 21:35, FOMC tutanakları 22:00, Williams 22:30, Kashkari 00:15 (Per) TR. Nvidia sonrası ilk RTH; açılış öncesi Lowe's, Target, TJX; kapanış sonrası Palo Alto."
+  "Altın gece sert düştü: XAUUSD ~3,766 (önceki RTH kapanışına göre −81 $, −%2.1); gece aralığı 91 $ (1.94 RTH ATR) ve gece low 3,765 şu an fiyatın hemen altında. Spot 02:42 GMT'de 3,796'ya, ardından 3,786'ya indi — Eylül 2025'ten beri en düşük (Streamline Feed). Gerekçe olarak Aralık Fed artışı fiyatlaması (~%94–96) ve dolar gösteriliyor; DXY 103.73 (dünkü kapanış 103.49).",
+  "US100 gece Nvidia ile toparlandı: ~27,148 (önceki RTH kapanışına göre +148, +%0.55); gece high 27,523, low 27,010. Nvidia kapanış sonrası +%3.3–3.7 (ABC, Saxo); yönetim kurulu eski CEO Huang'ı geri getirmeyeceğini söyledi, WSJ SEC soruşturması haberi verdi (ABC).",
+  "Gece verisi: İngiltere TÜFE Ekim %3.6 (beklenti %3.6, önceki %3.5), çekirdek %2.8 (beklentiyle aynı), hizmet %3.7 (beklenti %3.8); sterlin hafif düştü (Reuters/933 The Drive). Petrol geriledi: WTI ~84.0, Brent ~91.8 (veri dosyası); Hormuz'da gerilim sürüyor (Mitrade).",
+  "Bugün veri ağırlığı orta, olay riski akşamda: Euro Bölgesi nihai TÜFE 13:00, konut başlangıçları/izinler 16:30, Lagarde 17:25, RTH 17:30, bekleyen konut satışları 18:00, EIA ham petrol 18:30, Daly 20:15, 20 yıllık ihale 21:00, Barr 21:35, FOMC tutanakları 22:00, Williams 22:30, Kashkari 00:15 (Per) TR.",
+  "Not: Bugün ana veri listesinde (CPI/NFP/FOMC kararı/PCE/PPI/perakende/GDP) olay yok, bayraklar 0; ancak FOMC tutanakları ve dört Fed konuşması NY öğleden sonrasına denk geliyor."
  ],
  "takvim_bugun": [
   {
-   "tr": "—",
-   "et": "—",
-   "olay": "Çar 18 · İngiltere TÜFE (Ekim)",
+   "tr": "10:00",
+   "et": "02:00",
+   "olay": "İngiltere TÜFE (Ekim) — açıklandı",
+   "beklenti": "%3.6 y/y (çekirdek %2.8)",
+   "onceki": "%3.5 (çekirdek %2.8)",
+   "onem": "orta",
+   "not": "Gerçekleşen %3.6, çekirdek %2.8, hizmet %3.7 (beklenti %3.8)",
+   "kaynak": "Reuters / 933 The Drive",
+   "url": "https://www.933thedrive.com/2026/11/18/uk-inflation-rises-to-one-year-high-of-3-6/"
+  },
+  {
+   "tr": "13:00",
+   "et": "05:00",
+   "olay": "Euro Bölgesi TÜFE (Ekim, nihai)",
    "beklenti": "—",
    "onceki": "—",
-   "onem": "orta",
-   "not": "saat ve beklenti kaynakta yok",
-   "kaynak": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
+   "onem": "düşük",
+   "not": "değerler kaynakta yok",
+   "kaynak": "ATFX",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261118-daily-market-highlight"
   },
   {
    "tr": "16:30",
    "et": "08:30",
-   "olay": "Çar 18 · Konut başlangıçları / inşaat izinleri (Ekim)",
-   "beklenti": "1.23 mn (başlangıç)",
-   "onceki": "1.221 mn",
+   "olay": "Konut başlangıçları / inşaat izinleri (Ekim)",
+   "beklenti": "1.250 mn / 1.380 mn",
+   "onceki": "1.221 mn / 1.398 mn",
    "onem": "orta",
-   "not": "izin beklentisi bulunamadı; saat NY baskısı derlemesinden",
-   "kaynak": "Global Macro Week Ahead · FXEmpire",
-   "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-1620"
+   "not": "Başlangıç beklentisi başka kaynakta 1.23 mn",
+   "kaynak": "Investing.com",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+  },
+  {
+   "tr": "17:25",
+   "et": "09:25",
+   "olay": "ECB Başkanı Lagarde konuşması",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "",
+   "kaynak": "ATFX",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261118-daily-market-highlight"
   },
   {
    "tr": "17:30",
    "et": "09:30",
-   "olay": "Çar 18 · NY RTH açılışı (Nvidia sonrası ilk seans)",
+   "olay": "NY RTH açılışı (Nvidia sonrası ilk seans)",
    "beklenti": "—",
    "onceki": "—",
    "onem": "düşük",
-   "not": "",
+   "not": "Açılış öncesi Target, Lowe's, TJX",
    "kaynak": "—",
    "url": "—"
   },
   {
    "tr": "18:00",
    "et": "10:00",
-   "olay": "Çar 18 · Bekleyen konut satışları",
-   "beklenti": "—",
-   "onceki": "—",
+   "olay": "Bekleyen konut satışları (Ekim, a/a)",
+   "beklenti": "−%2.1",
+   "onceki": "−%7.3",
    "onem": "düşük",
    "not": "",
-   "kaynak": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
+   "kaynak": "Investing.com",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+  },
+  {
+   "tr": "18:30",
+   "et": "10:30",
+   "olay": "EIA ham petrol stokları",
+   "beklenti": "—",
+   "onceki": "4.657 mn",
+   "onem": "düşük",
+   "not": "API +5.3 mn varil artış gösterdi",
+   "kaynak": "Investing.com · ATFX",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+  },
+  {
+   "tr": "20:15",
+   "et": "12:15",
+   "olay": "SF Fed Başkanı Daly konuşması",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "not": "",
+   "kaynak": "Investing.com",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
   },
   {
    "tr": "21:00",
    "et": "13:00",
-   "olay": "Çar 18 · 20 yıllık tahvil ihalesi",
+   "olay": "20 yıllık tahvil ihalesi",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "10 yıllık %5'in üstünde",
+   "not": "10 yıllık ~%5.10",
    "kaynak": "FXEmpire",
    "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
   },
   {
    "tr": "21:35",
    "et": "13:35",
-   "olay": "Çar 18 · Fed Guvernörü Barr konuşması",
+   "olay": "Fed Guvernörü Barr konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
    "not": "",
-   "kaynak": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
+   "kaynak": "Investing.com",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
   },
   {
    "tr": "22:00",
    "et": "14:00",
-   "olay": "Çar 18 · FOMC tutanakları (27–28 Eki toplantısı)",
+   "olay": "FOMC tutanakları (27–28 Eki toplantısı)",
    "beklenti": "—",
    "onceki": "—",
    "onem": "yüksek",
-   "not": "Ekim'de faiz 10–2 oyla sabit; Cook ve Hammack artış istemişti",
-   "kaynak": "Admirals · Global Macro Week Ahead",
-   "url": "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-november-2026"
+   "not": "Ekim'de faiz sabit, iki üye artış istemişti",
+   "kaynak": "Investing.com · Admirals",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
   },
   {
    "tr": "22:30",
    "et": "14:30",
-   "olay": "Çar 18 · NY Fed Başkanı Williams konuşması",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "orta",
-   "not": "bugün de konuştu",
-   "kaynak": "Newsquawk · FXEmpire",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
-  },
-  {
-   "tr": "00:15 (Per)",
-   "et": "16:15",
-   "olay": "Çar 18 · Minneapolis Fed Başkanı Kashkari",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "düşük",
-   "not": "RTH sonrası",
-   "kaynak": "FXEmpire",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719"
-  },
-  {
-   "tr": "—",
-   "et": "açılış öncesi / kapanış sonrası",
-   "olay": "Çar 18 · Lowe's, Target, TJX (öncesi); Palo Alto (sonrası)",
+   "olay": "NY Fed Başkanı Williams konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
    "not": "",
-   "kaynak": "Newsquawk",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
+   "kaynak": "Investing.com",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
+  },
+  {
+   "tr": "00:15 (Per)",
+   "et": "16:15",
+   "olay": "Minneapolis Fed Başkanı Kashkari konuşması",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "Kapanış sonrası Palo Alto bilançosu; Anthropic halka arz fiyatlaması bugün",
+   "kaynak": "Investing.com · Saxo",
+   "url": "https://au.investing.com/news/stock-market-news/fomc-minutes-building-permits-and-pending-home-sales-due-wednesday-93CH-4777871"
   }
  ],
  "takvim_hafta": [
   {
    "gun": "Çar 18",
    "etiket": "Olay riski",
-   "olaylar": "Nvidia sonrası ilk seans · Konut başlangıçları/izinler 16:30 · Bekleyen konut satışları 18:00 · 20 yıllık tahvil ihalesi 21:00 · Barr 21:35 · FOMC tutanakları 22:00 · Williams 22:30 · Kashkari 00:15 (Per) · Lowe's, Target, TJX; kapanış sonrası Palo Alto"
+   "olaylar": "Konut başlangıçları/izinler 16:30 · Lagarde 17:25 · Bekleyen konut satışları 18:00 · EIA 18:30 · Daly 20:15 · 20 yıllık ihale 21:00 · Barr 21:35 · FOMC tutanakları 22:00 · Williams 22:30 · Kashkari 00:15 (Per) · Target, Lowe's, TJX; kapanış sonrası Palo Alto"
   },
   {
    "gun": "Per 19",
@@ -143,56 +176,56 @@
    "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan tüketici güveni ve enflasyon beklentisi (nihai) 18:00 · Cook 20:15"
   }
  ],
- "takvim_notu": "Konut başlangıcı beklentisi tek kaynaktan; inşaat izni ve bekleyen konut satışı beklentileri bulunamadı. İngiltere TÜFE saati kaynakta yok. Yarının saatleri NY baskısı derlemesi ve Newsquawk haftalık listesiyle karşılaştırıldı.",
+ "takvim_notu": "Konut başlangıcı beklentisi kaynaklar arasında farklı (1.250 mn Investing.com, 1.23 mn önceki derleme). Daly 20:15 konuşması yeni eklendi (Investing.com). Bir kaynak İngiltere TÜFE tarihini 17 Kas yazıyor; ONS takvimi ve diğer kaynaklar 18 Kas 07:00 GMT.",
  "basliklar": [
   {
-   "baslik": "Nvidia beklentileri aştı, rehberi yükseltti",
-   "ozet": "Üçüncü çeyrek geliri yıllık %103 artışla 115.8 mlr $; dördüncü çeyrek için 130 mlr $ rehber verildi, Çin veri merkezi geliri varsayılmadı.",
-   "etki": "US100",
-   "kaynak": "NVIDIA (GlobeNewswire)",
-   "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html"
-  },
-  {
-   "baslik": "Wall Street dipte kapandı, Dow 955 puan düştü",
-   "ozet": "Satış öğlen derinleşti ve endeksler gün diplerine yakın kapandı; yazılım hisseleri (Salesforce, Intuit, ServiceNow) en çok kaybedenlerdi.",
-   "etki": "US100",
-   "kaynak": "24/7 Wall St.",
-   "url": "https://247wallst.com/cards/the-dow-s-955-point-drop-led-the-selling-a-sharper-hit-than-gspc-market-bell-01m7nn5ym7r5nqbd4d83yt9zt1"
-  },
-  {
-   "baslik": "Williams: bir artış daha muhtemel, büyük adım yok",
-   "ozet": "Enflasyonun tedarik şoklarının ötesine yayıldığını söyledi, Aralık için 50 bp'yi dışladı. Vadeliler 25 bp artışa ~%96 veriyor.",
-   "etki": "İkisi",
-   "kaynak": "The Private Banker",
-   "url": "https://leprivatebanker.com/2026/11/17/feds-williams-says-another-rate-hike-is-likely-but-rejects-dramatic-action-as-inflation-spreads-beyond-supply-shocks/"
-  },
-  {
-   "baslik": "Perakende satışlar ılımlı, ithalat fiyatları sıcak",
-   "ozet": "Ekim perakende satışları %0.2 arttı, çekirdek kalem %0.6 ile beklentiyi aştı. İthalat fiyatları üst üste ikinci ay yükseldi.",
-   "etki": "İkisi",
-   "kaynak": "SJV Sun",
-   "url": "https://sjvsun.com/u-s/retail-sales-rise-modestly-as-import-prices-outpace-expectations"
-  },
-  {
-   "baslik": "Altın tahvil faizi baskısıyla geriledi",
-   "ozet": "10 yıllık faizin %5'in üzerinde kalması altını aşağı çekti; altın 50 ve 200 günlük ortalamalarının altında.",
+   "baslik": "Altın Eylül 2025'ten beri en düşük seviyede",
+   "ozet": "Spot altın Asya'da 3,800'ün altına inip 3,786'ya kadar geriledi. Aralık Fed artışı beklentisi ve güçlü dolar baskı unsuru olarak gösteriliyor.",
    "etki": "XAU",
-   "kaynak": "GoldStockCanada",
-   "url": "https://goldstockcanada.com/news/post-market-summary-for-precious-metals-november-17-2026-3427"
+   "kaynak": "Streamline Feed",
+   "url": "https://streamlinefeed.co.ke/news/gold-drops-below-3800-as-fed-hike-bets-lift-dollar"
   },
   {
-   "baslik": "Petrol yükseldi",
-   "ozet": "Öğlen Brent 93.3 $, WTI 86.5 $ civarındaydı (yaklaşık +%1).",
+   "baslik": "Nvidia sonrası Nasdaq vadelileri yükseldi",
+   "ozet": "Nasdaq 100 vadelileri Asya'nın başında yaklaşık %1.4 yukarıdaydı; Nvidia kapanış sonrası ~%3.7 arttı.",
+   "etki": "US100",
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+  },
+  {
+   "baslik": "Nvidia: Huang geri dönmeyecek, SEC soruşturması haberi",
+   "ozet": "Yönetim kurulu başkanı eski CEO'nun geri getirilmeyeceğini söyledi; geçici CEO Colette Kress. WSJ, SEC'in açıklama kurallarını inceleme başlattığını yazdı.",
+   "etki": "US100",
+   "kaynak": "ABC News",
+   "url": "https://abc.net.au/news/2026-11-18/asx-markets-business-live-news-nvidia/107396692"
+  },
+  {
+   "baslik": "İngiltere enflasyonu bir yılın zirvesinde",
+   "ozet": "Ekim TÜFE %3.6 ile beklentiye denk geldi, hizmet enflasyonu beklentinin altında kaldı. Piyasa BoE için Aralık'ta ~%90 artış olasılığı fiyatlıyor.",
    "etki": "Bağlam",
-   "kaynak": "Eurasia Business News",
-   "url": "https://eurasiabusinessnews.com/2026/11/17/stock-market-today-november-17-2026-nvidia-earnings-loom-as-wall-street-awaits-first-report-without-jensen-huan-dow-and-nasdaq-slide/"
+   "kaynak": "Reuters / 933 The Drive",
+   "url": "https://www.933thedrive.com/2026/11/18/uk-inflation-rises-to-one-year-high-of-3-6/"
   },
   {
-   "baslik": "Yarın FOMC tutanakları ve APEC zirvesi",
-   "ozet": "Ekim toplantısının tutanakları 14:00 ET'de; APEC liderler zirvesi 18–19 Kasım'da, Trump–Xi görüşmesi Perşembe bekleniyor.",
+   "baslik": "Musalem: bahardan önce 'birkaç' artış gerekebilir",
+   "ozet": "St. Louis Fed Başkanı 2027 baharına kadar birden çok faiz artışını muhtemel gördü. Akşam FOMC tutanakları ve dört Fed konuşmacısı var.",
    "etki": "İkisi",
-   "kaynak": "Newsquawk · Admirals",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
+  },
+  {
+   "baslik": "Hormuz gerilimi ve petrol",
+   "ozet": "ABD–İran arasında yeniden saldırılar bildirildi, boğazdan ticari geçiş hafta sonu durma noktasına geldi. Petrol Kasım'da yine de düşüşte.",
+   "etki": "İkisi",
+   "kaynak": "Mitrade",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
+  },
+  {
+   "baslik": "Anthropic halka arzı bugün fiyatlanıyor",
+   "ozet": "Arzın 7 kattan fazla talep gördüğü ve 70–78 $ aralığının üstünde fiyatlanabileceği bildiriliyor; işlem Perşembe başlıyor.",
+   "etki": "US100",
+   "kaynak": "Saxo · Stocktwits",
+   "url": "https://www.home.saxo/en-gb/content/articles/macro/asia-market-quick-take--18-november-2026-18112026"
   }
  ],
  "pozisyon": [
@@ -238,12 +271,12 @@
   },
   {
    "ad": "Fed fiyatlaması (9 Aralık)",
-   "deger": "25 bp artış %96.6 · 50 bp %3.4",
-   "degisim": "Reuters/TipRanks %97.4 (25 bp)",
-   "tarih": "17 Kas",
-   "kaynak": "FXEmpire (CME FedWatch)",
-   "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-hovers-near-one-year-low-on-fed-hike-bets-can-3832-hold-1645052"
+   "deger": "25 bp artış ~%94–96 · 50 bp ~%6",
+   "degisim": "dün %96.6 (FXEmpire)",
+   "tarih": "18 Kas",
+   "kaynak": "Mitrade · ATFX",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
   }
  ],
- "pozisyon_notu": "Altın COT 10 Kas raporuyla güncellendi; Nasdaq 100 COT'un 10 Kas değeri bulunamadı, 3 Kas değeri duruyor. Fear & Greed ve AAII 13 Kas değerleri. Dealer gamma ücretli kaynaklarda; yok."
+ "pozisyon_notu": "COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskıdan; yeni değer yayımlanmadı/bulunamadı. Fed fiyatlaması kaynaklar arasında %94–96. Dealer gamma ücretli kaynaklarda; yok."
 }
