@@ -1,6 +1,6 @@
 {
- "baski": "Londra öncesi baskı",
- "derleme_notu": "Londra öncesi tarama 19 Kas 2026 ~10:50 TR (02:50 ET); fiyatlar veri dosyasından (07:35 UTC barı). Takvim bugünün (Per 19 Kas) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "NY öncesi baskı",
+ "derleme_notu": "NY öncesi tarama 19 Kas 2026 ~15:50 TR (07:50 ET); fiyatlar veri dosyasından (12:35 UTC barı). Takvim BUGÜNÜN (Per 19 Kas) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). İşsizlik başvuruları ve Philly Fed (16:30 TR) bu taramada henüz açıklanmamıştı.",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,24 +8,13 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Altın: spot dün >%3 düşüşle 3,725 $'a indi (Ekim 2025'ten beri en düşük; Saxo); Asya'da seans dibi 3,693 $ (Eylül 2025'ten beri en düşük), 07:52 TR'de ~3,723 $ ile yatay (Business Recorder/Reuters). Dolar 8 günün 7'sinde yükselişe gidiyor, EUR/USD 1.096 (19 ayın dibi), ABD 10Y %5.07 sabit (Bloomberg/Swissinfo). CME FedWatch: Aralık'ta 25 bp artış ~%90, 50 bp ~%10.",
-  "US100: Nasdaq 100 vadelisi Asya'da Anthropic halka arzı öncesi +%2'ye kadar çıktı, 09:55 TR'de +%1.7 (S&P vadelisi +%0.9). Anthropic (ANT) 83 $'dan fiyatlandı, 107.3 mlr $ toplandı (kayıtlardaki en büyük); gri piyasa açılışı %20–26 yukarıda gösteriyor; bugün Nasdaq'ta işleme başlıyor, ilk işlem saati açıklanmadı (Bloomberg/Swissinfo).",
-  "Asya karışık/negatif: Tayvan −%3 ile −%4.4 arası, Hang Seng −%2, Kospi −%0.7, Nikkei +%0.1. MSCI AC Dünya altı günlük düşüş serisinde. Bakır dün ~%6 düştü (Nisan 2025'ten beri en sert) (AP · Bloomberg).",
-  "Trump–Xi görüşmesi Shenzhen'de başladı: Trump, Mayıs'ta kurulan 'Board of Trade'in ilişkiye denge getirdiğini ve tarifelerin 'adil şekilde bölünüp düşürüldüğünü' söyledi; somut oran/karar açıklanmadı. Trump–Xi–Putin üçlü görüşmesinin (gündem: İran, Ukrayna, nükleer, ticaret, YZ) sonucu tarama saatinde bulunamadı (Al-Monitor · Al Jazeera).",
-  "Bugün veri günü DEĞİL (bayraklar 0): 16:30 TR işsizlik başvuruları (bekl. 196 bin) + Philly Fed (bekl. 20.6); 16:50 Hammack; 17:30 RTH açılışı + ANT ilk işlem; 18:00 öncü göstergeler; 20:30 Goolsbee; 21:00 10Y TIPS; 22:15 Barr; 00:00 (Cum) Barkin. Walmart açılış öncesi, Alibaba ve Intuit kapanış sonrası. Londra açılışı 11:00 TR."
+  "Bugün veri günü DEĞİL (bayraklar 0), ama olay yoğun: 16:30 TR işsizlik başvuruları (bekl. 196–197 bin, önceki 200 bin) + Philly Fed (bekl. Finviz 20.6 / Yahoo 23.2, önceki 20.9); 16:50 Hammack; 17:30 RTH açılışı — Anthropic (ANT) ilk işlemi açılıştan sonra, saati belirsiz; 18:00 öncü göstergeler; 20:30 Goolsbee; 21:00 10Y TIPS; 22:15 Barr; 00:00 (Cum) Barkin + Intuit/Alibaba bilançoları.",
+  "US100: Nasdaq vadelisi Anthropic halka arzı (83 $, 107.3 mlr $) öncesi ~%2 artıda (Yahoo: NQ 27,734, +%2.01; S&P +%1.13). US100 ≈ 27,660, önceki RTH kapanışına göre +%2.0; gece aralığı 27,089–27,750 (662 puan, 1.04 ATR). Vol rejimi 'aşırı' (ATR 2 yıllık %96 persentil), VXN 33.1.",
+  "Altın: XAU ≈ 3,713 $ (−%0.3), gece 3,691–3,756 (65 $, 1.34 ATR); Eylül 2025'ten beri en düşük bölgede. 10Y %5.07 (Yahoo, −4 bp), dolar güçlü seyrini koruyor; Aralık'ta 25 bp artış fiyatlaması ~%90 (CME FedWatch, Reuters üzerinden).",
+  "Gece değişen: Trump–Xi–Putin Shenzhen görüşmesi 'barış deklarasyonu' ve 'istikrarlı enerji akışı' taahhüdüyle bitti (Çin devlet medyası); tarife/oran kararı açıklanmadı, Ukrayna ve İran deklarasyonda anılmadı (Euronews/Al Jazeera). Walmart Q3: gelir 188.8 mlr $ (+%5.2), düzeltilmiş EPS 0.65 $, yıllık beklentiyi yükseltti (Business Wire).",
+  "Beklenen RTH aralığı (model, %80 bant — gece seansı 09:30 ET'de bittiği için durum 'ön tahmin'): US100 ana 360–968 puan (medyan 573); gece şu ana kadar 1.04 ATR olduğundan gerçek gece aralığıyla bant ~389–1,044 (medyan ~618). XAU ana 28–77 $ (medyan 45); gerçek gece aralığıyla ~29–81 $ (medyan ~47). 0.25 ATR stop: US100 159 puan → 0.01 lotta 31.9 $, 25 $ riske SIĞMIYOR; XAU 12.2 $ → 0.02 lot 24.5 $, sığıyor."
  ],
  "takvim_bugun": [
-  {
-   "tr": "11:00",
-   "et": "03:00",
-   "olay": "Londra açılışı (08:00 Londra)",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "düşük",
-   "not": "",
-   "kaynak": "—",
-   "url": ""
-  },
   {
    "tr": "07:45",
    "et": "23:45 (Çar)",
@@ -33,7 +22,7 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "yüksek",
-   "not": "Gerçekleşti/sürüyor: Trump tarifelerin 'adil bölünüp düşürüldüğünü' söyledi; somut karar açıklanmadı",
+   "not": "Gerçekleşti: Trump tarifelerin 'adil bölünüp düşürüldüğünü' söyledi; somut oran/karar açıklanmadı",
    "kaynak": "Al-Monitor",
    "url": "https://www.al-monitor.com/originals/2026/11/trump-says-board-trade-has-brought-greater-balance-us-china-ties"
   },
@@ -44,8 +33,8 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "Sonuç tarama saatinde bulunamadı; gündem İran, Ukrayna, nükleer, ticaret, YZ",
-   "kaynak": "Al Jazeera",
+   "not": "Bitti: 'barış deklarasyonu' ve 'istikrarlı enerji akışı' taahhüdü (Çin devlet medyası); nükleer görüşme detayı ve tarife kararı yok",
+   "kaynak": "Al Jazeera · Euronews",
    "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
   },
   {
@@ -55,7 +44,7 @@
    "beklenti": "196 bin",
    "onceki": "200 bin",
    "onem": "orta",
-   "not": "Admirals ön tahmini 200 bin; devam eden başvurular önceki 1.697 mn",
+   "not": "Yahoo beklentisi 197 bin, Admirals 200 bin; devam eden başvurular önceki 1.697 mn",
    "kaynak": "Finviz · Admirals",
    "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
@@ -66,7 +55,7 @@
    "beklenti": "20.6",
    "onceki": "20.9",
    "onem": "orta",
-   "not": "Ödenen fiyatlar önceki 43.2",
+   "not": "Kaynaklar çelişiyor: Finviz 20.6, Yahoo Finance 23.2. Ödenen fiyatlar önceki 43.2",
    "kaynak": "Finviz",
    "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
   },
@@ -88,7 +77,7 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "IPO fiyatı 83 $, gri piyasa +%20–26; ilk işlem saati açıklanmadı. Walmart açılış öncesi bilanço",
+   "not": "IPO fiyatı 83 $; Yahoo: ilk işlem 09:30 ET'den sonra, tam açılışta olması beklenmiyor. Walmart Q3 açıklandı (gelir +%5.2, beklenti yükseltildi)",
    "kaynak": "Bloomberg (Swissinfo) · Saxo",
    "url": "https://www.swissinfo.ch/eng/nasdaq-futures-rally-on-anthropic,-dollar-rises:-markets-wrap/92404209"
   },
@@ -152,7 +141,7 @@
   {
    "gun": "Per 19",
    "etiket": "Olay riski",
-   "olaylar": "Trump–Xi (sürüyor) · Trump–Xi–Putin · İşsizlik başvuruları + Philly Fed 16:30 · Hammack 16:50 · Anthropic (ANT) ilk işlem · Öncü göstergeler 18:00 · Goolsbee 20:30 · TIPS ihalesi 21:00 · Barr 22:15 · Barkin 00:00 (Cum) · Walmart (açılış öncesi), Intuit ve Alibaba (kapanış sonrası)"
+   "olaylar": "Trump–Xi–Putin bitti (barış deklarasyonu) · İşsizlik başvuruları + Philly Fed 16:30 · Hammack 16:50 · Anthropic (ANT) ilk işlem (açılıştan sonra) · Öncü göstergeler 18:00 · Goolsbee 20:30 · TIPS ihalesi 21:00 · Barr 22:15 · Barkin 00:00 (Cum) · Intuit ve Alibaba (kapanış sonrası)"
   },
   {
    "gun": "Cum 20",
@@ -160,14 +149,35 @@
    "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan tüketici güveni (bekl. 52, önceki 48.0) ve 1 yıllık enflasyon beklentisi (bekl. %4.3, önceki %4.7) nihai 18:00 · Cook 20:15"
   }
  ],
- "takvim_notu": "Önceki derlemede Perşembe için listelenen Jefferson konuşması Finviz takviminde yok; Finviz'de Hammack (08:50 ET) ve Paulson (18:30 ET = 02:30 Cum TR) var. İşsizlik başvurusu beklentisi Finviz 196 bin, Admirals ön tahmini 200 bin.",
+ "takvim_notu": "Philly Fed beklentisi: Finviz 20.6, Yahoo Finance 23.2. İşsizlik başvurusu beklentisi Finviz 196 bin, Yahoo 197 bin, Admirals 200 bin. Paulson (18:30 ET = 02:30 Cum TR) Finviz'de listeli.",
  "basliklar": [
+  {
+   "baslik": "Nasdaq vadelisi Anthropic ilk işlemi öncesi ~%2 artıda",
+   "ozet": "Yahoo verisine göre NQ vadelisi 27,734 ile +%2.01, S&P vadelisi +%1.13. ANT hisseleri RTH açılışından sonra işleme başlayacak; tam saat açıklanmadı.",
+   "etki": "US100",
+   "kaynak": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-090910916.html"
+  },
   {
    "baslik": "Altın 14 ayın dibinde, 3,693 $'ı gördü",
    "ozet": "Spot altın Asya seansında Eylül 2025'ten bu yana en düşük seviyeye indi, ardından 3,720'ler civarında yatay seyretti. Güçlü dolar ve Aralık artışı beklentisi baskı unsuru; OCBC 3,800 altının satıcı eğilimini güçlendirebileceğini belirtiyor.",
    "etki": "XAU",
    "kaynak": "Business Recorder (Reuters)",
    "url": "https://www.brecorder.com/news/40449691/gold-holds-near-14-month-low-as-fed-hike-bets-weigh?v=vRhzVVlM2FlCCHvn1KWZ_gx6"
+  },
+  {
+   "baslik": "Trump–Xi–Putin zirvesi 'barış deklarasyonu' ile bitti",
+   "ozet": "Üç lider istikrarlı enerji akışı ve nükleer görüşmeler konusunda taahhütte bulundu; deklarasyonda Ukrayna ve İran anılmadı, tarife kararı açıklanmadı.",
+   "etki": "İkisi",
+   "kaynak": "Euronews · Al Jazeera",
+   "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia"
+  },
+  {
+   "baslik": "Walmart üçüncü kez yıllık beklentisini yükseltti",
+   "ozet": "Q3 geliri 188.8 mlr $ ile %5.2 arttı, düzeltilmiş EPS 0.65 $; e-ticaret %17, reklam geliri %25 büyüdü.",
+   "etki": "Bağlam",
+   "kaynak": "Business Wire",
+   "url": "https://www.businesswire.com/news/home/20261118447417/en/Walmart-reports-revenue-growth-of-5.2-up-4.5-in-constant-currency-cc"
   },
   {
    "baslik": "Nasdaq vadelisi Anthropic öncesi %1.7 artıda",
@@ -184,13 +194,6 @@
    "url": "https://www.al-monitor.com/originals/2026/11/trump-says-board-trade-has-brought-greater-balance-us-china-ties"
   },
   {
-   "baslik": "Trump–Xi–Putin üçlü zirvesi Shenzhen'de",
-   "ozet": "Gündemde İran savaşı, Ukrayna, nükleer silahlar, ticaret ve yapay zekâ var; tarama saatinde sonuç açıklanmamıştı.",
-   "etki": "İkisi",
-   "kaynak": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
-  },
-  {
    "baslik": "Dolar güçleniyor, euro 19 ayın dibinde",
    "ozet": "Şahin Fed sinyalleriyle dolar geniş çapta değer kazandı; EUR/USD 1.096'ya, yen 159.5'e geriledi. ABD 10 yıllık getirisi %5.07 civarında.",
    "etki": "İkisi",
@@ -202,13 +205,6 @@
    "ozet": "Tayvan borsası yüzde 3–4.4, Hang Seng yaklaşık yüzde 2 geriledi; Nvidia'nın dünkü düşüşü ve bakırdaki çöküş bölgesel risk iştahını zayıflattı.",
    "etki": "Bağlam",
    "kaynak": "AP (WSLS) · Bloomberg",
-   "url": "https://www.wsls.com/business/2026/11/19/asian-stocks-are-mixed-and-us-futures-climb-ahead-of-anthropics-blockbuster-ipo/"
-  },
-  {
-   "baslik": "Petrol yatay: Brent 92 $, WTI 83 $",
-   "ozet": "Dünkü stok kaynaklı düşüşün ardından Asya'da fiyatlar sınırlı hareket etti.",
-   "etki": "Bağlam",
-   "kaynak": "AP (WSLS)",
    "url": "https://www.wsls.com/business/2026/11/19/asian-stocks-are-mixed-and-us-futures-climb-ahead-of-anthropics-blockbuster-ipo/"
   }
  ],
@@ -262,5 +258,5 @@
    "url": "https://www.brecorder.com/news/40449691/gold-holds-near-14-month-low-as-fed-hike-bets-weigh?v=vRhzVVlM2FlCCHvn1KWZ_gx6"
   }
  ],
- "pozisyon_notu": "COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskıdan; gece yeni değer yayımlanmadı/bulunamadı. Fed fiyatlaması tutanaklar sonrası (19 Kas Asya). Dealer gamma ücretli kaynaklarda; yok."
+ "pozisyon_notu": "COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskıdan; NY öncesi yeni değer bulunamadı. Fed fiyatlaması 19 Kas (CME FedWatch, Reuters üzerinden). Dealer gamma ücretli kaynaklarda; yok."
 }
