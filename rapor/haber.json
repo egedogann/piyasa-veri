@@ -1,6 +1,6 @@
 {
- "baski": "Londra öncesi baskı",
- "derleme_notu": "Londra öncesi tarama 20 Kas 2026 ~10:50 TR (02:50 ET); fiyatlar veri dosyasından (07:35 UTC barı). Takvim BUGÜNÜN (Cum 20 Kas, ET) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Londra açılışı 08:00 Londra = 11:00 TR.",
+ "baski": "NY öncesi baskı",
+ "derleme_notu": "NY öncesi tarama 20 Kas 2026 ~15:50 TR (07:50 ET); fiyatlar veri dosyasından. Takvim BUGÜNÜN (Cum 20 Kas, ET) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,24 +8,13 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Gece/Asya — altın sert satışta: spot Asya seansında ~%3.7 düşüşle ~3,531 $'a indi (JournalArta, 04:37 GMT); Ağustos 2025'ten beri en düşük bölge (Asianet/Stocktwits). Gerekçe olarak Fed'in artış söylemi, ~%5.0'in üzerindeki 10Y getiri ve hisse satışına bağlı metal likidasyonu gösteriliyor. Gümüş ~%−7.9.",
-  "US100: Perşembe Nasdaq Bileşik −%2.25 (23,879) kapandı; gece Nasdaq-100 vadelileri ~%−0.6 (21:21 ET itibarıyla, Asianet). Asya açılışta geniş çapta ekside (Nikkei, KOSPI, Şanghay); kesin yüzdeler kaynaklar arasında çelişkili (JournalArta HSI −%1.7, Rio Times −%3.6) — doğrulanamadı.",
-  "Bugün (Cum 20 Kas) veri günü DEĞİL, OPEX: 16:25 TR Waller · 17:30 TR RTH açılışı/aylık opsiyon vadesi · 18:00 TR Michigan nihai (bekl. 51.0, öncü 51.0) ve 1Y enflasyon beklentisi (bekl. %4.3) · 20:15 TR Cook · 21:00 TR Baker Hughes.",
-  "Fed: Aralık (9 Ara) için 25 bp artış fiyatlaması dünkü ~%90 seviyesinde (19 Kas, CME FedWatch üzerinden); bu taramada güncel değer bulunamadı. Cook ve Hammack Ekim'de artış yönünde oy kullanmıştı (Rio Times) — bugünkü Cook konuşması bu açıdan izlenmeli.",
-  "Gelecek hafta (Şükran Günü): Çar 25 Kas 16:30 TR GDP + PCE + başvurular → VERİ GÜNÜ; Per 26 kapalı; Cum 27 erken kapanış."
+  "Bugün (Cum 20 Kas) veri günü DEĞİL, OPEX: 16:25 TR Waller · 17:30 TR RTH açılışı/aylık opsiyon vadesi · 18:00 TR Michigan nihai (bekl. 51.0) ve 1Y enflasyon beklentisi (bekl. %4.3) · 20:15 TR Cook · 21:00 TR Baker Hughes.",
+  "Gece ne değişti — US100: Nasdaq-100 vadelileri 06:47 ET itibarıyla −%1.52 (26,195.5); Londra baskısındaki ~−%0.6'dan kayıp derinleşti. Gerekçe olarak Anthropic halka arzı sonrası AI değerleme kaygısı ve şahin Fed beklentisi gösteriliyor (JournalArta). S&P vadelileri −%0.67, Dow yatay.",
+  "Gece ne değişti — XAU: Asya'daki sert satışın ardından spot ~3,584 $ (−%2.3, 06:47 ET, JournalArta); Aralık vadelisi 07:19 ET'de 3,576 $ (−%3.0, Yahoo). Seviye Eylül 2025'ten beri en düşük bölge; 10Y getiri %5.05, DXY 103.85.",
+  "Fed: Waller (bugün 16:25 TR) Aralık için 50 bp artışı yeniden gündeme getirdi; Aralık'ta 50 bp olasılığı ~%10 olarak aktarılıyor (Seoul Economic Daily, 20 Kas). Cook 20:15 TR'de; Ekim'de artış yönünde oy kullanmıştı.",
+  "Beklenen RTH aralığı (model, %80 bant — gece seansı 09:30 ET'de bittiği için durum 'ön tahmin'): US100 ana 484–1,301 puan (medyan 770, vol rejimi 'aşırı'); gece şu ana kadar 0.74 ATR (504 puan) olduğundan gerçek gece aralığıyla bant ~495–1,329 (medyan ~786). XAU ana 28–77 $ (medyan 45); gece şu ana kadar 2.60 ATR (123 $) — model eğitim aralığının ucunda, gerçek gece aralığıyla bant ~34–94 $ (medyan ~54). 0.25 ATR stop: US100 171 puan → 0.01 lotta 34.2 $, 25 $ riske SIĞMIYOR; XAU 11.8 $ → 0.02 lot ~23.7 $, sığıyor."
  ],
  "takvim_bugun": [
-  {
-   "tr": "11:00",
-   "et": "03:00",
-   "olay": "Londra açılışı (08:00 Londra)",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "düşük",
-   "not": "",
-   "kaynak": "—",
-   "url": ""
-  },
   {
    "tr": "16:25",
    "et": "08:25",
@@ -125,49 +114,49 @@
    "olaylar": "Hisse erken kapanış 21:00 TR, tahvil 22:00 TR (SIFMA önerisi)"
   }
  ],
- "takvim_notu": "Michigan konsensüsü: Investing/Admirals 51.0, Rio Times 51.5. Asya endeks yüzdeleri kaynaklar arasında çelişkili; özetten çıkarıldı. Pzt–Sal satırları tek kaynağa dayanıyor.",
+ "takvim_notu": "Michigan konsensüsü: Investing/Admirals 51.0, Rio Times 51.5. Pzt–Sal satırları tek kaynağa dayanıyor. NQ vadeli yüzdesi 06:47 ET, gecikmeli olabilir.",
  "basliklar": [
   {
-   "baslik": "Altın Asya'da ~%3.7 düştü, 3,531 $ civarında",
-   "ozet": "Spot altın bir gecede 136 $ civarı kaybetti; gümüş ~%8 geriledi. Fed'in sıkılaştırma söylemi, ~%5 seviyesindeki 10Y getiri ve hisse satışının yol açtığı metal likidasyonu gerekçe olarak gösteriliyor.",
-   "etki": "XAU",
+   "baslik": "Nasdaq-100 vadelileri NY öncesi −%1.5",
+   "ozet": "Perşembe'yi %2'nin üzerinde kayıpla kapatan endekslerde satış gece devam etti; teknoloji ağırlıklı Nasdaq-100 vadelileri en sert düşen oldu. Dow vadelileri ise yatay seyrediyor.",
+   "etki": "US100",
    "kaynak": "JournalArta",
-   "url": "https://journalarta.com/en/2026/11/20/gold-price-today-bullion-drops-3-71-to-3530-75-in-broad-metals-and-equity-selloff/"
+   "url": "https://journalarta.com/en/2026/11/20/stock-market-today-nasdaq-sp-500-futures-slide-as-ai-selloff-deepens/"
   },
   {
-   "baslik": "Nasdaq vadelileri gece hafif ekside; ANT gece seansında −%5'in üzerinde",
-   "ozet": "Perşembe'yi %2'nin üzerinde kayıpla kapatan endekslerde vadeli işlemler gece sınırlı düşüş gösterdi. Anthropic ilk gününü 97.17 $'dan kapattıktan sonra gece işlemlerinde geriledi.",
-   "etki": "US100",
-   "kaynak": "Asianet/Stocktwits",
-   "url": "https://newsable.asianetnews.com/markets/nasdaq-dow-s-p-500-futures-slip-as-anthropic-s-record-debut-fails-to-lift-ai-stocks-slv-gld-amd-nvda-in-focus-articleshow-l7i74l0"
+   "baslik": "Altın düşüşü sürüyor; vadeli 3,576 $",
+   "ozet": "Aralık altın vadelisi sabah saatlerinde ~%3 ekside; haftalık kayıp %6'nın üzerinde. Güçlü dolar ve yakın Fed artışı beklentisi gerekçe olarak öne çıkıyor.",
+   "etki": "XAU",
+   "kaynak": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-november-20-2026-gold-prices-continue-to-fall-as-rate-hike-expectations-crystallize-121116915.html"
   },
   {
-   "baslik": "Nvidia altı seanstır düşüyor; Kaliforniya Başsavcılığından celp",
-   "ozet": "NVDA Perşembe %3'ün üzerinde geriledi. Habere göre Kaliforniya başsavcılığı eski CEO Jensen Huang ile ilgili Nvidia'ya celp gönderdi.",
-   "etki": "US100",
-   "kaynak": "Asianet/Stocktwits",
-   "url": "https://newsable.asianetnews.com/markets/nasdaq-dow-s-p-500-futures-slip-as-anthropic-s-record-debut-fails-to-lift-ai-stocks-slv-gld-amd-nvda-in-focus-articleshow-l7i74l0"
-  },
-  {
-   "baslik": "AMD açığa satış raporuyla ~%8 düştü",
-   "ozet": "Hunterbrook'un açığa satış raporu sonrası hisse sert geriledi; şirket iddiaları reddediyor.",
-   "etki": "US100",
-   "kaynak": "Asianet/Stocktwits",
-   "url": "https://newsable.asianetnews.com/markets/nasdaq-dow-s-p-500-futures-slip-as-anthropic-s-record-debut-fails-to-lift-ai-stocks-slv-gld-amd-nvda-in-focus-articleshow-l7i74l0"
-  },
-  {
-   "baslik": "ABD 10Y getiri %5'in üzerinde",
-   "ozet": "10 yıllık getiri ~%5.02–5.05, 30 yıllık ~%5.39 seviyesinde. Piyasalar Aralık'ta Fed artışını bekliyor.",
+   "baslik": "Waller 50 bp artış seçeneğini yeniden masaya koydu",
+   "ozet": "Fed Guvernörü Waller, enflasyon beklentilerini kırmak için daha büyük bir Aralık adımının gerekebileceğini söyledi; piyasada 50 bp olasılığı yükseldi. Bugün 08:25 ET'de yeniden konuşacak.",
    "etki": "İkisi",
-   "kaynak": "Asianet · Rio Times",
-   "url": "https://riotimesonline.com/global-economy-briefing-november-20-2026"
+   "kaynak": "Seoul Economic Daily",
+   "url": "https://en.sedaily.com/economy/2026/11/20/feds-waller-signals-possible-half-point-hike-lifting"
   },
   {
-   "baslik": "Perşembe verileri zayıf: Philly Fed 6.3, LEI −%0.3",
-   "ozet": "İmalat endeksi beklentinin çok altında kaldı; öncü göstergeler ve konut satışları da beklentiden zayıf geldi.",
+   "baslik": "Williams'tan büyük artışa karşı uyarı",
+   "ozet": "NY Fed Başkanı Williams, Aralık'ta jumbo artış tartışmasına temkinli yaklaştı; Fed içinde adım büyüklüğü konusunda ayrışma görünüyor.",
    "etki": "Bağlam",
-   "kaynak": "Rio Times",
-   "url": "https://riotimesonline.com/global-economy-briefing-november-20-2026"
+   "kaynak": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/policy/articles/fed-williams-signals-warning-jumbo-173300088.html"
+  },
+  {
+   "baslik": "Perşembe kapanışı: AMD −%7.7, Dow −1,100 puan",
+   "ozet": "AMD açığa satış raporu sonrası sert düştü; Nasdaq Bileşik −%2.25, S&P 500 −%2.0 kapandı. Palo Alto ve Zscaler ise bilanço sonrası yükseldi.",
+   "etki": "US100",
+   "kaynak": "JournalArta",
+   "url": "https://journalarta.com/en/2026/11/20/stock-market-today-nasdaq-sp-500-futures-slide-as-ai-selloff-deepens/"
+  },
+  {
+   "baslik": "Nvidia altı seanstır düşüyor; Kaliforniya'dan celp",
+   "ozet": "NVDA Perşembe %3'ün üzerinde geriledi; habere göre Kaliforniya başsavcılığı şirkete celp gönderdi.",
+   "etki": "US100",
+   "kaynak": "Asianet/Stocktwits",
+   "url": "https://newsable.asianetnews.com/markets/nasdaq-dow-s-p-500-futures-slip-as-anthropic-s-record-debut-fails-to-lift-ai-stocks-slv-gld-amd-nvda-in-focus-articleshow-l7i74l0"
   },
   {
    "baslik": "Şükran Günü haftası: veri Çarşamba'ya yığıldı",
@@ -221,11 +210,11 @@
   {
    "ad": "Fed fiyatlaması (9 Aralık)",
    "deger": "25 bp artış ~%90 · 50 bp ~%10",
-   "degisim": "dün ~%94–96 / ~%6",
-   "tarih": "19 Kas",
-   "kaynak": "Business Recorder (CME FedWatch)",
-   "url": "https://www.brecorder.com/news/40449691/gold-holds-near-14-month-low-as-fed-hike-bets-weigh?v=vRhzVVlM2FlCCHvn1KWZ_gx6"
+   "degisim": "—",
+   "tarih": "19–20 Kas",
+   "kaynak": "Business Recorder (CME FedWatch) · Seoul Economic Daily",
+   "url": "https://en.sedaily.com/economy/2026/11/20/feds-waller-signals-possible-half-point-hike-lifting"
   }
  ],
- "pozisyon_notu": "COT, Fear & Greed, AAII, haftalık ima hareket ve Fed fiyatlaması önceki baskılardan; Londra taramasında yeni değer bulunamadı. Dealer gamma ücretli kaynaklarda; yok."
+ "pozisyon_notu": "COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan; NY taramasında yeni değer bulunamadı. Fed fiyatlaması 20 Kas haberiyle teyit edildi (50 bp ~%10). Dealer gamma ücretli kaynaklarda; yok."
 }
