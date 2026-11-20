@@ -1,6 +1,6 @@
 {
- "baski": "NY öncesi baskı",
- "derleme_notu": "NY öncesi tarama 20 Kas 2026 ~15:50 TR (07:50 ET); fiyatlar veri dosyasından. Takvim BUGÜNÜN (Cum 20 Kas, ET) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "Gün sonu baskısı",
+ "derleme_notu": "Gün sonu taraması 21 Kas 2026 ~00:45 TR (20 Kas 16:45 ET); kapanış rakamları veri dosyasından (Yahoo günlük). Takvim tablosu YARININ (bir sonraki işlem günü: Pzt 23 Kas, ET) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,100 +8,84 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Bugün (Cum 20 Kas) veri günü DEĞİL, OPEX: 16:25 TR Waller · 17:30 TR RTH açılışı/aylık opsiyon vadesi · 18:00 TR Michigan nihai (bekl. 51.0) ve 1Y enflasyon beklentisi (bekl. %4.3) · 20:15 TR Cook · 21:00 TR Baker Hughes.",
-  "Gece ne değişti — US100: Nasdaq-100 vadelileri 06:47 ET itibarıyla −%1.52 (26,195.5); Londra baskısındaki ~−%0.6'dan kayıp derinleşti. Gerekçe olarak Anthropic halka arzı sonrası AI değerleme kaygısı ve şahin Fed beklentisi gösteriliyor (JournalArta). S&P vadelileri −%0.67, Dow yatay.",
-  "Gece ne değişti — XAU: Asya'daki sert satışın ardından spot ~3,584 $ (−%2.3, 06:47 ET, JournalArta); Aralık vadelisi 07:19 ET'de 3,576 $ (−%3.0, Yahoo). Seviye Eylül 2025'ten beri en düşük bölge; 10Y getiri %5.05, DXY 103.85.",
-  "Fed: Waller (bugün 16:25 TR) Aralık için 50 bp artışı yeniden gündeme getirdi; Aralık'ta 50 bp olasılığı ~%10 olarak aktarılıyor (Seoul Economic Daily, 20 Kas). Cook 20:15 TR'de; Ekim'de artış yönünde oy kullanmıştı.",
-  "Beklenen RTH aralığı (model, %80 bant — gece seansı 09:30 ET'de bittiği için durum 'ön tahmin'): US100 ana 484–1,301 puan (medyan 770, vol rejimi 'aşırı'); gece şu ana kadar 0.74 ATR (504 puan) olduğundan gerçek gece aralığıyla bant ~495–1,329 (medyan ~786). XAU ana 28–77 $ (medyan 45); gece şu ana kadar 2.60 ATR (123 $) — model eğitim aralığının ucunda, gerçek gece aralığıyla bant ~34–94 $ (medyan ~54). 0.25 ATR stop: US100 171 puan → 0.01 lotta 34.2 $, 25 $ riske SIĞMIYOR; XAU 11.8 $ → 0.02 lot ~23.7 $, sığıyor."
+  "Karne — US100: gerçekleşen RTH aralığı 1,528 puan (24,897–26,424); NY baskısı bandı %50 600–1,005 ve %80 484–1,301 → iki bandın da DIŞINDA (üstünde, q90'ı ~227 puan aştı; gece aralığıyla düzeltilmiş ~495–1,329 bandının da dışında). Önceki gün low (26,353) ve gece low (25,920) kırıldı; önceki gün high (27,758) ve gece high (26,524) kırılmadı. Kapanış RTH low'una yakın (RTH kapanış 25,062).",
+  "Karne — XAU: gerçekleşen RTH aralığı 84.1 $ (3,499.4–3,583.5); NY baskısı ana bandı %50 34.9–59.0 / %80 28.1–77.5 → ikisinin de DIŞINDA. Gerçek gece aralığıyla bant (kesin, %50 42.0–71.1 / %80 33.9–93.3) ile ölçülürse %80 içinde, %50 dışında. Önceki gün low (3,617) gece zaten kırılmıştı; gece low (3,511) RTH'de kırıldı; önceki gün high ve gece high (3,635) kırılmadı.",
+  "Gün: NDX −%5.6 (25,029), S&P 500 −%3.7 (6,910; 7. ardışık düşüş), VIX 35.9 (+%26), GC vadeli 3,522.8 (−%4.4, haftalık ~−%9.5), 10Y %4.91. Gerekçe olarak Anthropic halka arzı sonrası AI harcama getirisi kaygısı, yarı iletkenlerde sert satış (Micron, Broadcom, AMD çift hane) ve Aralık'ta Fed artışı beklentisi gösteriliyor (CBS, StockTitan). Cook: artışta gecikmenin geride kalma riski taşıdığını söyledi. Michigan nihai 51.5 (bekl. 51.0).",
+  "Yarın (Pzt 23 Kas) veri günü DEĞİL: 17:30 TR RTH açılışı · 17:45 TR S&P Global imalat PMI öncü (önceki 54.9) · Williams (saat —) · HPE bilançosu. Japonya tatilde (Asya likiditesi ince).",
+  "Hafta: Çar 25 Kas VERİ GÜNÜ (16:30 TR PCE Ekim + GDP Ç3 2. tahmin + işsizlik başvuruları + dayanıklı mallar; Bej Kitap) · Sal 24 18:00 TR Conference Board güveni, Dell/HP bilançoları · Per 26 Şükran Günü kapalı · Cum 27 erken kapanış."
  ],
  "takvim_bugun": [
   {
-   "tr": "16:25",
-   "et": "08:25",
-   "olay": "Fed Guvernörü Waller konuşması",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "orta",
-   "not": "Waller Kasım başında 50 bp artışın da düşünülebileceğini söylemişti (Admirals, Kitco'ya atıfla)",
-   "kaynak": "Investing.com",
-   "url": "https://www.investing.com/news/stock-market-news/michigan-consumer-sentiment-and-baker-hughes-rig-count-due-friday-93CH-5039764"
-  },
-  {
    "tr": "17:30",
    "et": "09:30",
-   "olay": "Aylık opsiyon vadesi (OPEX) · RTH açılışı",
+   "olay": "ABD hisse piyasası RTH açılışı",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "",
-   "kaynak": "SimianX",
-   "url": "https://www.simianx.ai/stories/us-economic-calendar-this-month-in-your-time-zone"
+   "not": "Cuma −%5.6 NDX düşüşünün ardından ilk seans; Japonya tatilde",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026"
   },
   {
-   "tr": "18:00",
-   "et": "10:00",
-   "olay": "Michigan tüketici güveni (Kasım, nihai)",
-   "beklenti": "51.0",
-   "onceki": "51.0 (öncü) · Ekim 48.0",
+   "tr": "17:45",
+   "et": "09:45",
+   "olay": "S&P Global imalat PMI (Kasım öncü)",
+   "beklenti": "—",
+   "onceki": "54.9",
    "onem": "orta",
-   "not": "Rio Times konsensüsü 51.5 veriyor; Investing ve Admirals 51.0",
-   "kaynak": "Investing.com · Admirals",
-   "url": "https://www.investing.com/news/stock-market-news/michigan-consumer-sentiment-and-baker-hughes-rig-count-due-friday-93CH-5039764"
+   "not": "Konsensüs okunan kaynaklarda yok; hizmet/bileşik PMI saati ayrıca teyit edilmedi",
+   "kaynak": "FinancialJuice",
+   "url": "https://features.financialjuice.com/2026/11/20/week-ahead-economic-indicators-23rd-27th-november-us/"
   },
   {
-   "tr": "18:00",
-   "et": "10:00",
-   "olay": "Michigan 1Y / 5Y enflasyon beklentisi (nihai)",
-   "beklenti": "%4.3 / %3.4",
-   "onceki": "%4.3 / %3.4 (öncü) · Ekim %4.7 / %3.5",
-   "onem": "orta",
-   "not": "",
-   "kaynak": "Investing.com · Admirals",
-   "url": "https://admiralmarkets.com/education/articles/forex-analysis/michigan-consumer-sentiment-final-november-2026-preview"
-  },
-  {
-   "tr": "20:15",
-   "et": "12:15",
-   "olay": "Fed Guvernörü Cook konuşması",
+   "tr": "—",
+   "et": "—",
+   "olay": "NY Fed Başkanı Williams konuşması",
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "Cook Ekim toplantısında artış yönünde oy kullandı (Rio Times)",
-   "kaynak": "Investing.com",
-   "url": "https://www.investing.com/news/stock-market-news/michigan-consumer-sentiment-and-baker-hughes-rig-count-due-friday-93CH-5039764"
+   "not": "Saat kaynakta verilmemiş",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026"
   },
   {
-   "tr": "21:00",
-   "et": "13:00",
-   "olay": "Baker Hughes sondaj sayısı",
+   "tr": "—",
+   "et": "—",
+   "olay": "Hewlett Packard Enterprise bilançosu",
    "beklenti": "—",
-   "onceki": "601 (toplam)",
+   "onceki": "—",
    "onem": "düşük",
-   "not": "",
-   "kaynak": "Investing.com",
-   "url": "https://www.investing.com/news/stock-market-news/michigan-consumer-sentiment-and-baker-hughes-rig-count-due-friday-93CH-5039764"
+   "not": "Newsquawk Salı'ya da 'HP' koymuş; HPE/HP Inc. ayrımı teyit edilmedi",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026"
+  },
+  {
+   "tr": "—",
+   "et": "—",
+   "olay": "Japonya tatil (Emek Şükran Günü)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "Asya seansında ince likidite (altın)",
+   "kaynak": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026"
   }
  ],
  "takvim_hafta": [
   {
-   "gun": "Cum 20",
-   "etiket": "OPEX",
-   "olaylar": "Aylık opsiyon vadesi · Waller 16:25 · Michigan nihai + enflasyon beklentileri 18:00 · Cook 20:15"
-  },
-  {
    "gun": "Pzt 23",
    "etiket": "Normal",
-   "olaylar": "Önemli ABD verisi listelenmedi (SimianX)"
+   "olaylar": "İmalat PMI öncü 17:45 · Williams · HPE · Japonya tatil"
   },
   {
    "gun": "Sal 24",
    "etiket": "Normal",
-   "olaylar": "Önemli ABD verisi listelenmedi (SimianX)"
+   "olaylar": "Conference Board tüketici güveni 18:00 (önceki 91.7) · ADP haftalık · Dell, HP bilançoları"
   },
   {
    "gun": "Çar 25",
    "etiket": "Veri günü",
-   "olaylar": "GDP 2. tahmin + PCE (Ekim) + işsizlik başvuruları 16:30 · Bej Kitap 22:00"
+   "olaylar": "PCE (Ekim) + GDP Ç3 2. tahmin 16:30 · işsizlik başvuruları · dayanıklı mallar · Bej Kitap · Avustralya TÜFE"
   },
   {
    "gun": "Per 26",
@@ -111,59 +95,59 @@
   {
    "gun": "Cum 27",
    "etiket": "Olay riski",
-   "olaylar": "Hisse erken kapanış 21:00 TR, tahvil 22:00 TR (SIFMA önerisi)"
+   "olaylar": "ABD erken kapanış (saat bu taramada teyit edilmedi; önceki baskı: hisse 21:00 TR) · Fransa S&P not incelemesi"
   }
  ],
- "takvim_notu": "Michigan konsensüsü: Investing/Admirals 51.0, Rio Times 51.5. Pzt–Sal satırları tek kaynağa dayanıyor. NQ vadeli yüzdesi 06:47 ET, gecikmeli olabilir.",
+ "takvim_notu": "Okunan iki kaynak (Newsquawk, FinancialJuice) konsensüs vermiyor; beklentiler '—'. Williams'ın saati yok. Dallas/Richmond Fed ve FOMC tutanakları listelerde görünmedi. Kapanış seviyeleri Yahoo günlük verisinden (NDX 16:00 ET); haber sitelerinin rakamları farklı saatlere ait olabilir.",
  "basliklar": [
   {
-   "baslik": "Nasdaq-100 vadelileri NY öncesi −%1.5",
-   "ozet": "Perşembe'yi %2'nin üzerinde kayıpla kapatan endekslerde satış gece devam etti; teknoloji ağırlıklı Nasdaq-100 vadelileri en sert düşen oldu. Dow vadelileri ise yatay seyrediyor.",
+   "baslik": "Nasdaq-100 günü −%5.6 ile kapattı",
+   "ozet": "Erken saatlerde sınırlı olan kayıp gün boyunca derinleşti; Nasdaq Bileşik yılın ikinci en kötü gününü yaşayıp 2026 kazancını sildi. S&P 500 ve Dow düzeltme bölgesine girdi.",
    "etki": "US100",
-   "kaynak": "JournalArta",
-   "url": "https://journalarta.com/en/2026/11/20/stock-market-today-nasdaq-sp-500-futures-slide-as-ai-selloff-deepens/"
+   "kaynak": "CBS News",
+   "url": "https://www.cbsnews.com/news/why-stocks-are-falling-ai-fears"
   },
   {
-   "baslik": "Altın düşüşü sürüyor; vadeli 3,576 $",
-   "ozet": "Aralık altın vadelisi sabah saatlerinde ~%3 ekside; haftalık kayıp %6'nın üzerinde. Güçlü dolar ve yakın Fed artışı beklentisi gerekçe olarak öne çıkıyor.",
-   "etki": "XAU",
-   "kaynak": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-november-20-2026-gold-prices-continue-to-fall-as-rate-hike-expectations-crystallize-121116915.html"
+   "baslik": "Yarı iletkenlerde çöküş",
+   "ozet": "Micron, Broadcom ve AMD gün içinde çift haneli, Nvidia ~%7 kaybetti; Ticaret Bakanlığı'nın Çin'e gelişmiş çip satışını kısıtlama hamlesi de baskıya eklendi.",
+   "etki": "US100",
+   "kaynak": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
   },
   {
-   "baslik": "Waller 50 bp artış seçeneğini yeniden masaya koydu",
-   "ozet": "Fed Guvernörü Waller, enflasyon beklentilerini kırmak için daha büyük bir Aralık adımının gerekebileceğini söyledi; piyasada 50 bp olasılığı yükseldi. Bugün 08:25 ET'de yeniden konuşacak.",
+   "baslik": "Anthropic halka arz sonrası satışta",
+   "ozet": "18 Kas'ta 83 $'dan fiyatlanan hisse gün içinde ~%13 düştü; dokuz aylık zarar rakamı AI harcamalarının getirisi tartışmasını büyüttü.",
+   "etki": "US100",
+   "kaynak": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+  },
+  {
+   "baslik": "Cook: artışı geciktirmek riskli",
+   "ozet": "Fed Guvernörü Cook, faiz artışını beklemenin politikayı geride bırakabileceğini söyledi ve Ekim'de artış istediğini yineledi. Piyasa Aralık artışını ana senaryo olarak fiyatlıyor.",
    "etki": "İkisi",
-   "kaynak": "Seoul Economic Daily",
-   "url": "https://en.sedaily.com/economy/2026/11/20/feds-waller-signals-possible-half-point-hike-lifting"
+   "kaynak": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
   },
   {
-   "baslik": "Williams'tan büyük artışa karşı uyarı",
-   "ozet": "NY Fed Başkanı Williams, Aralık'ta jumbo artış tartışmasına temkinli yaklaştı; Fed içinde adım büyüklüğü konusunda ayrışma görünüyor.",
-   "etki": "Bağlam",
-   "kaynak": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/economy/policy/articles/fed-williams-signals-warning-jumbo-173300088.html"
-  },
-  {
-   "baslik": "Perşembe kapanışı: AMD −%7.7, Dow −1,100 puan",
-   "ozet": "AMD açığa satış raporu sonrası sert düştü; Nasdaq Bileşik −%2.25, S&P 500 −%2.0 kapandı. Palo Alto ve Zscaler ise bilanço sonrası yükseldi.",
-   "etki": "US100",
+   "baslik": "Altın haftayı sert kayıpla kapatıyor",
+   "ozet": "Asya'da başlayan satışla spot altın 3,500'lerin başına geriledi; gümüş daha sert düştü. Fed artış beklentisi ve güçlü dolar gerekçe olarak gösteriliyor.",
+   "etki": "XAU",
    "kaynak": "JournalArta",
-   "url": "https://journalarta.com/en/2026/11/20/stock-market-today-nasdaq-sp-500-futures-slide-as-ai-selloff-deepens/"
+   "url": "https://journalarta.com/en/2026/11/20/gold-price-today-bullion-drops-3-71-to-3530-75-in-broad-metals-and-equity-selloff/"
   },
   {
-   "baslik": "Nvidia altı seanstır düşüyor; Kaliforniya'dan celp",
-   "ozet": "NVDA Perşembe %3'ün üzerinde geriledi; habere göre Kaliforniya başsavcılığı şirkete celp gönderdi.",
-   "etki": "US100",
-   "kaynak": "Asianet/Stocktwits",
-   "url": "https://newsable.asianetnews.com/markets/nasdaq-dow-s-p-500-futures-slip-as-anthropic-s-record-debut-fails-to-lift-ai-stocks-slv-gld-amd-nvda-in-focus-articleshow-l7i74l0"
-  },
-  {
-   "baslik": "Şükran Günü haftası: veri Çarşamba'ya yığıldı",
-   "ozet": "GDP, PCE ve işsizlik başvuruları 25 Kas'ta aynı saatte; Perşembe piyasa kapalı, Cuma erken kapanış.",
+   "baslik": "İran ve Hürmüz riski gündemde",
+   "ozet": "ABD ve İsrail'in İran'a yeni bir operasyonu değerlendirdiği haberleri ve Hürmüz'deki tanker aksaklıkları petrol riskini canlı tutuyor.",
    "etki": "Bağlam",
-   "kaynak": "SimianX",
-   "url": "https://www.simianx.ai/stories/us-economic-calendar-this-month-in-your-time-zone"
+   "kaynak": "CBS News",
+   "url": "https://www.cbsnews.com/news/why-stocks-are-falling-ai-fears"
+  },
+  {
+   "baslik": "Washington: 11 Aralık bütçe tarihi",
+   "ozet": "Hükümetin kapanmaması için 11 Aralık'a kadar finansman gerekiyor; Ocak'ta Kongre dengesinin değişmesi veri merkezi düzenlemesi riskini gündeme getiriyor.",
+   "etki": "Bağlam",
+   "kaynak": "CBS News",
+   "url": "https://www.cbsnews.com/news/why-stocks-are-falling-ai-fears"
   }
  ],
  "pozisyon": [
@@ -216,5 +200,5 @@
    "url": "https://en.sedaily.com/economy/2026/11/20/feds-waller-signals-possible-half-point-hike-lifting"
   }
  ],
- "pozisyon_notu": "COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan; NY taramasında yeni değer bulunamadı. Fed fiyatlaması 20 Kas haberiyle teyit edildi (50 bp ~%10). Dealer gamma ücretli kaynaklarda; yok."
+ "pozisyon_notu": "COT, Fear & Greed, AAII, haftalık ima hareket ve Fed fiyatlaması önceki baskılardan taşındı; gün sonu taramasında yeni değer aranmadı/bulunamadı. Cuma VIX 35.9 (veri dosyası). Dealer gamma ücretli kaynaklarda; yok."
 }
