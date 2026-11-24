@@ -1,6 +1,6 @@
 {
- "baski": "Gün sonu baskısı",
- "derleme_notu": "Gün sonu taraması 24 Kas 2026 ~00:50 TR (23 Kas 16:50 ET); kapanış rakamları veri dosyasından (Yahoo günlük/5 dk, son bar 00:30 TR). Takvim tablosu YARININ (Sal 24 Kas, ET) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "Londra öncesi baskı",
+ "derleme_notu": "Londra öncesi tarama 24 Kas 2026 ~10:50 TR (02:50 ET); fiyat rakamları veri dosyasından (Yahoo 5 dk, son bar 10:35 TR). Takvim bugünün (Sal 24 Kas, ET) olaylarıdır; takvim satırları dünkü gün sonu taramasından, gece haberleri Reuters (Yahoo), Saxo, Mitrade. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Londra açılışı 11:00 TR.",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,11 +8,11 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Karne — US100: gerçekleşen RTH aralığı 687 puan (26,386–27,072); NY baskısı bandı (ön tahmin) %50 727–1,217 / %80 587–1,576 → %80 bandın İÇİNDE, %50 bandın ALTINDA (medyan 932'nin ~245 puan altı). Gerçek gece aralığıyla (1,417 puan, 1.92 ATR) hesaplanan kesin bantla (%80 785–2,108) ölçülürse q10'un da altında. Önceki gün high (26,523) ve gece high (26,814) kırıldı; önceki gün low (24,896) ve gece low (25,397) kırılmadı. Hareketin büyük kısmı RTH öncesi geldi (RTH açılışı 26,814).",
-  "Karne — XAU: gerçekleşen RTH aralığı 61.2 $ (3,626.3–3,687.5); NY baskısı bandı %50 37.5–63.5 / %80 30.3–83.4 → iki bandın da İÇİNDE (medyan 48.1'in üstünde). Önceki gün high (3,634.6) gece zaten aşılmıştı; gece high (3,687.3) RTH'de yalnızca 0.2 $ aşıldı (ofset hata payı içinde, fiilen test). Önceki gün low (3,499.4) ve gece low (3,562.8) kırılmadı; RTH kapanışı günün low'una yakın (3,632).",
-  "Gün: NDX +%6.9 (26,746), S&P 500 +%4.7 (7,237), VIX 26.6 (−%26), VXN 36.3; Nvidia +%31.5 (165 $) — yönetim kurulu Huang'ı CEO olarak geri getirdi (Reuters/Kitco). GC vadeli 3,636.9 (+%3.5), 10Y %4.92, DXY 104.3 (+%0.5, 19 ayın zirvesi), WTI 80.3 (−%4.4). CrowdStrike −%9.5 (çeyrek beklentiyi aşmasına rağmen; Zscaler alımı gündemde). Williams'ın 16:00 ET konuşmasına dair içerik taramada bulunamadı (—); Aralık FOMC öncesi son Fed konuşması olarak geçiyor.",
-  "Yarın (Sal 24 Kas) veri günü DEĞİL. TR: 17:00 Case-Shiller (bekl. +%0.2) ve FHFA · 18:00 Conference Board güveni (bekl. 92.1, önceki 91.7) + Richmond Fed imalat (bekl. −3, önceki −2) · 21:00 5Y ihale (70 mlr $) · açılış öncesi Analog Devices, Best Buy, Medtronic · kapanış sonrası (00:05+ Çar) Dell, Workday, HP, Autodesk. Fed konuşmacısı yok (FOMC sessizlik dönemi).",
-  "Hafta: Çar 25 Kas VERİ GÜNÜ — 16:30 TR PCE Ekim (çekirdek a/a bekl. %3.4, önceki %3.1) + GDP Ç3 2. tahmin (bekl. %3.5) + işsizlik başvuruları (~201K) + dayanıklı mallar · 18:00 yeni konut satışları · 22:00 Bej Kitap. Per 26 Şükran Günü kapalı · Cum 27 erken kapanış (21:00 TR)."
+  "Altın gece: Asya'nın başında spot ~3,658 $'a (+%0.7, Reuters) uzanan dip alımları geri verildi — XAU (veri dosyası, GC − ofset) gece aralığı 3,609–3,673 $ (64 $, ~1.2 ATR), şu an ~3,613 $, önceki RTH kapanışına göre −%0.5 ve gece low'una yakın. Mitrade 1 saatlikte destek 3,572–3,591 $, direnç 3,685–3,700 $ veriyor (teknik görüş, ikincil kaynak); Natixis Ocak'a kadar 3,340 $ riskini not ediyor.",
+  "US100 gece: 26,614–26,966 aralığı (352 puan, ~0.46 ATR), şu an ~26,760 — Pazartesi RTH kapanışıyla yatay. Asya'da AI rallisi sürdü: Tayvan +%9.1, KOSPI +%7.5 (sidecar devreye girdi), Nikkei +%4.5 (Reuters/Saxo). Aralık modeli bugünü 'aşırı' rejimde sınıflıyor (%80 RTH aralığı 419–1,125 puan, ön tahmin).",
+  "Fed/faiz: FedWatch Aralık (9 Ara) artışını artık kesin fiyatlıyor (Cuma %89), 50 bp olasılığı ~%5 (Reuters). 2Y %4.69–4.70, 10Y ~%4.94; dolar euroya karşı 19 ayın zirvesi civarında (DXY 104.3). FOMC sessizlik dönemi — bugün Fed konuşmacısı yok.",
+  "Bugün veri günü DEĞİL. TR: 17:00 Case-Shiller/FHFA · 17:30 RTH açılışı (açılış öncesi Best Buy, Medtronic, Dollar Tree, Analog Devices) · 18:00 Conference Board güveni (bekl. 92.1, önceki 91.7) + Richmond Fed · 21:00 5Y ihale (70 mlr $) · 00:05+ Dell, Workday, HP, Autodesk bilançoları. Yarın (Çar) 16:30 PCE + GDP: VERİ GÜNÜ.",
+  "Jeopolitik/petrol: Trump İran'a yeni saldırıları yılbaşı sonrasına erteledi; Vance Katar Başbakanı ile Tahran'la olası görüşmeyi konuştu; İran Hormuz'u açmak için abluka ve yaptırımların kalkmasını istiyor (Saxo). Brent ~89.5 $, WTI ~80 $ (Pazartesi −%4.5)."
  ],
  "takvim_bugun": [
   {
@@ -126,63 +126,63 @@
    "olaylar": "ABD erken kapanış: hisse 21:00, tahvil 22:00 TR · 16:30 dış ticaret öncü (bekl. ~−135 mlr $)"
   }
  ],
- "takvim_notu": "TradingKey bir paragrafta Bej Kitap'ı Salı'ya koyuyor; diğer kaynaklar Çarşamba 14:00 ET. Konsensüsler kaynaklar arasında küçük farklar gösteriyor (güven 92.1/92.2; işsizlik başvuruları 200K/201K). FTM CFD seans saatleri (Per/Cum) teyit edilmedi — MT5 sembol seanslarına bak.",
+ "takvim_notu": "Bej Kitap Çarşamba 14:00 ET (22:00 TR); bir kaynak Salı diyor. Pazartesi açıklanan flash PMI: bileşik 54.6 (önceki 55.9, 4 ayın dibi), hizmet 54.7 (Saxo/Mitrade) — bugünün takvimi değil. Dell bilanço beklentileri kaynaklar arasında farklı. FTM CFD Per/Cum seans saatleri teyit edilmedi.",
  "basliklar": [
   {
-   "baslik": "Nvidia Huang'ı CEO olarak geri getirdi, hisse +%31",
-   "ozet": "Yönetim kurulu Huang'ı derhal geçerli olmak üzere yeniden CEO yaptı; ayrılığı AI yatırım döngüsüne dair şüpheleri büyütmüştü. Hisse günü yaklaşık %31 yükselişle 165 $'dan kapattı.",
+   "baslik": "Asya'da AI rallisi: Tayvan +%9, KOSPI +%7.5",
+   "ozet": "Huang'ın Nvidia CEO'luğuna dönmesi bölgedeki yarı iletken hisselerini sert yükseltti; MSCI Asya-Pasifik (Japonya hariç) iki haftanın en büyük yükselişine gitti.",
    "etki": "US100",
-   "kaynak": "Reuters (Kitco) · 24/7 Wall St.",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/stocks-soar-nvidia-reinstates-huang-reviving-ai-trade"
+   "kaynak": "Reuters (Yahoo)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
   },
   {
-   "baslik": "Nasdaq 100 +%6.9, geçen haftanın kaybının bir kısmı geri alındı",
-   "ozet": "Geçen hafta Nasdaq Bileşik ~%10 düşmüş, Mart 2020'den beri en kötü haftayı yaşamıştı. Pazartesi S&P +%4.7, Dow +%3 ile kapandı; VIX 40'ların üstünden 26.6'ya indi.",
-   "etki": "US100",
-   "kaynak": "24/7 Wall St. · Reuters (Yahoo)",
-   "url": "https://247wallst.com/cards/anyone-who-sat-out-today-missed-the-kind-of-session-that-res-gspc-market-bell-01m853j2rdb4zqsc9g1xm1nzmw"
-  },
-  {
-   "baslik": "Dolar 19 ayın zirvesinde, getiriler yukarı",
-   "ozet": "Dolar endeksi daha şahin Fed beklentileriyle 104 üstünde 19 ayın zirvesini gördü; 10 yıllık getiri ~%4.9–5.0 bandında.",
-   "etki": "İkisi",
-   "kaynak": "Reuters (Kitco · Yahoo)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html"
-  },
-  {
-   "baslik": "Altın 3,600 $ üstünde, güçlü dönüş",
-   "ozet": "Altın gün içinde %4'ü aşan yükselişle 3,680 $ civarını gördü; Cuma 14 ayın dibine inmişti. Riskli varlıklardaki toparlanma nakit ihtiyacı kaynaklı satış baskısını azalttı.",
+   "baslik": "Altında Asya sabahı alım, sonra geri çekilme",
+   "ozet": "Spot altın Asya'nın başında ~3,658 $'a çıktı (Reuters); sonrasında gece low'u 3,610 $ civarına geriledi (veri dosyası). Natixis yine de Ocak'a kadar 3,340 $ olasılığını not ediyor.",
    "etki": "XAU",
-   "kaynak": "Reuters (Kitco)",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/stocks-soar-nvidia-reinstates-huang-reviving-ai-trade"
+   "kaynak": "Reuters (Yahoo) · Mitrade",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
   },
   {
-   "baslik": "Aralık FOMC öncesi sessizlik dönemi başlıyor",
-   "ozet": "Williams'ın Pazartesi konuşması 9 Aralık toplantısı öncesi son Fed konuşması olarak listeleniyor. Piyasa Aralık'ta 25 bp artışı büyük ölçüde fiyatlıyor; Waller 50 bp seçeneğini dile getirdi.",
+   "baslik": "Aralık artışı tamamen fiyatlanıyor",
+   "ozet": "Vadeli fed funds 9 Aralık'ta 25 bp artışı kesin sayıyor; AI toparlanmasının büyüme kaygılarını azaltması gerekçe gösteriliyor. 2 yıllık getiri yükselmeye devam etti.",
    "etki": "İkisi",
-   "kaynak": "ZeroHedge · Bloomberg (swissinfo)",
-   "url": "https://www.zerohedge.com/markets/key-events-holiday-shortened-week-all-about-pce"
+   "kaynak": "Reuters (Yahoo)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
   },
   {
-   "baslik": "CrowdStrike −%9.5",
-   "ozet": "Hisse, çeyrek sonuçları beklentiyi aşmasına rağmen sert düştü; şirketin Zscaler'ı satın alma anlaşması da gündemde. İkisi de Nasdaq 100 bileşeni.",
+   "baslik": "Nasdaq vadeli rekor günün ardından yatay/hafif eksi",
+   "ozet": "NDX Pazartesi +%6.9 ile Nisan 2025'ten bu yana en iyi gününü yaşadı; Salı erken saatlerde Nasdaq vadeli ~%0.2 geride.",
    "etki": "US100",
-   "kaynak": "24/7 Wall St.",
-   "url": "https://247wallst.com/cards/anyone-who-sat-out-today-missed-the-kind-of-session-that-res-gspc-market-bell-01m853j2rdb4zqsc9g1xm1nzmw"
+   "kaynak": "Saxo · Reuters (Yahoo)",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--24-november-2026-24112026"
   },
   {
-   "baslik": "Petrol geriliyor",
-   "ozet": "WTI günü %4'ün üzerinde düşüşle ~80 $'da kapattı. Brent seviyesi kaynaklar arasında tutarsız (90.7 / 80.4 $).",
+   "baslik": "Trump İran saldırılarına yılbaşına kadar ara verdi",
+   "ozet": "Görüşmeler başarısız olursa saldırıların yeniden başlayabileceği belirtildi; İran Hormuz'u açmak için abluka ve yaptırımların kaldırılmasını şart koşuyor.",
+   "etki": "İkisi",
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--24-november-2026-24112026"
+  },
+  {
+   "baslik": "Huang'ın dönüşünde Trump baskısı",
+   "ozet": "Trump, Nvidia yönetim kuruluyla anlaşmayı kendisinin yaptığını söyledi.",
+   "etki": "US100",
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--24-november-2026-24112026"
+  },
+  {
+   "baslik": "Petrol 3 ayın dibine yakın",
+   "ozet": "Orta Doğu arzındaki artış ve risk iştahı petrolü Pazartesi %3'ün üzerinde düşürdü; Brent Salı ~89.5 $'da yatay.",
    "etki": "Bağlam",
-   "kaynak": "Reuters (Kitco · Yahoo)",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/stocks-soar-nvidia-reinstates-huang-reviving-ai-trade"
+   "kaynak": "Reuters (Yahoo) · Saxo",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
   },
   {
-   "baslik": "Yarın akşam Dell ve Workday bilançoları",
-   "ozet": "AI sunucu talebi açısından izlenen Dell, Salı kapanış sonrası açıklıyor; Workday, HP ve Autodesk de aynı akşam.",
+   "baslik": "Bugün bilanço yoğunluğu: Best Buy, Medtronic sabah; Dell, Workday akşam",
+   "ozet": "Dell AI sunucu talebi açısından izleniyor; HP ve Autodesk de kapanış sonrası açıklıyor.",
    "etki": "US100",
-   "kaynak": "FXEmpire · TradingKey",
-   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262316778-week-ahead-us-gdp-pce-dell-hpe-report-anthropic-tradingkey"
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--24-november-2026-24112026"
   }
  ],
  "pozisyon": [
@@ -228,12 +228,12 @@
   },
   {
    "ad": "Fed fiyatlaması (9 Aralık)",
-   "deger": "25 bp artış ~%90 · 50 bp ~%10",
-   "degisim": "—",
-   "tarih": "19–20 Kas",
-   "kaynak": "Business Recorder (CME FedWatch) · Seoul Economic Daily",
-   "url": "https://en.sedaily.com/economy/2026/11/20/feds-waller-signals-possible-half-point-hike-lifting"
+   "deger": "25 bp artış ~%100 (kesin) · 50 bp ~%5",
+   "degisim": "Cuma %89",
+   "tarih": "24 Kas",
+   "kaynak": "Reuters (Yahoo, CME FedWatch)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-rally-huangs-nvidia-013042563.html"
   }
  ],
- "pozisyon_notu": "COT, Fear & Greed, AAII, haftalık ima hareket ve Fed fiyatlaması önceki baskılardan taşındı; gün sonu taramasında daha yeni değer bulunamadı. Kapanış: VIX 26.6, VXN 36.3 (veri dosyası). Dealer gamma ücretli kaynaklarda; yok."
+ "pozisyon_notu": "Fed fiyatlaması güncellendi (Reuters). COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan taşındı; Londra taramasında daha yeni değer bulunamadı. Dealer gamma ücretli kaynaklarda; yok."
 }
