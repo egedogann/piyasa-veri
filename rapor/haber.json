@@ -1,6 +1,6 @@
 {
- "baski": "Londra öncesi baskı",
- "derleme_notu": "Londra öncesi tarama 25 Kas 2026 ~10:50 TR (02:50 ET); fiyatlar veri dosyasından (Yahoo 5 dk, son bar 10:35 TR). Takvim bugünün (Çar 25 Kas, ET) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). Londra açılışı 08:00 Londra = 11:00 TR.",
+ "baski": "NY öncesi baskı",
+ "derleme_notu": "NY öncesi tarama 25 Kas 2026 ~15:50 TR (07:50 ET); fiyatlar veri dosyasından (Yahoo 5 dk, son bar 15:35 TR). Takvim bugünün (Çar 25 Kas, ET) olaylarıdır; her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati). RTH açılışı 09:30 ET = 17:30 TR.",
  "bugun_bayraklar": {
   "ev_major": 1,
   "ev_fomc": 0,
@@ -8,16 +8,16 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "BUGÜN VERİ GÜNÜ — TR 16:30: PCE Ekim (çekirdek aylık bekl. +%0.3; çekirdek yıllık bekl. %3.2–3.3, önceki %3.1) + GDP Ç3 2. tahmin (bekl. %3.5, ilk %3.4) + işsizlik başvuruları (bekl. 197–201K, önceki 203K) + dayanıklı mallar · 17:30 RTH açılışı · 18:00 yeni konut satışları · 21:00 7Y ihale · 22:00 Bej Kitap. Yarın Şükran Günü (ABD kapalı), Cuma erken kapanış.",
-  "Asya: çip satışı derinleşti — MSCI Asya-Pasifik (Japonya hariç) −%2.3; Güney Kore gün içinde −%5.3'e, Tayvan −%5.1'e, Nikkei −%2.9'a kadar düştü (Reuters/Yahoo; kapanış seviyeleri —). US100 eşdeğeri 25,647 — önceki RTH kapanışına göre −569 puan (−%2.2); gece high 26,287 (01:05 TR), gece low 25,595 (10:35 TR, son bar). Ek baskı: USTR'nin 16 ortağa yönelik aşırı kapasite soruşturması bulgularını açıklamaya hazırlandığı haberi (Reuters, isimsiz kaynaklar).",
-  "Altın (XAUUSD eşdeğeri, veri dosyası): Asya'da 05:30 TR'de 3,570'e kadar toparlanıp Asya ortasından itibaren satıldı; gece low 3,508 (09:55 TR), şu an 3,519 — önceki RTH kapanışına göre −29 $ (−%0.8). Dünkü −%2.8 düşüşün üstüne. DXY ~103.9, ABD 10Y ~%4.90, Fed 9 Aralık 25 bp artış ~%96 / 50 bp ~%4 (CME FedWatch, Stocktwits). Altın ETF'lerinden geçen hafta ~20 ton çıkış (Kobeissi via Stocktwits).",
-  "Gece ne değişti: Dell kapanış sonrası tepkisi kaynaklar arasında çelişkili (Reuters +%4.1 / Stocktwits düşüş) — teyit edilmedi. Ambarella −%37 (zayıf görünüm). Brent Hürmüz yakınındaki gemi saldırıları sonrası dün +%2'nin üstünde kapanıp Asya'da ~%1 geri verdi (~90–91 $). Avustralya Ekim TÜFE beklentiyi aştı."
+  "BUGÜN VERİ GÜNÜ — TR 16:30: PCE Ekim (çekirdek yıllık bekl. %3.2, önceki %3.1; manşet aylık bekl. +%0.3, önceki +%0.5) + GDP Ç3 2. tahmin (bekl. %3.5, ilk %3.4) + işsizlik başvuruları (bekl. ~200K, önceki 203K) + dayanıklı mallar · 17:30 RTH açılışı · 18:00 yeni konut satışları · 21:00 7Y ihale · 22:00 Bej Kitap. Yarın Şükran Günü (ABD kapalı), Cuma erken kapanış.",
+  "Gece ne değişti: Nasdaq vadeli satışı derinleşti — US100 eşdeğeri 25,493, önceki RTH kapanışına göre −721 puan (−%2.75, ≈ −0.94 ATR gap); gece aralığı şimdiden 880 puan (1.15 ATR), gece low 25,407. Sürücüler: çip/AI satışı (NVDA ~−%5, AMD/Micron ~−%6 açılış öncesi), Dell güçlü görünüme rağmen ~−%5–6, USTR'nin 16 ortağa yönelik Section 301 tarife paketi haberi (resmi açıklama yok; boyutu kaynaklar arasında çelişkili). VIX 30.9, VXN 36.4.",
+  "Altın (XAUUSD eşdeğeri): 06:55 ET'de ~3,508'e (gece low, bir yılı aşkın dip bölgesi) inip hızla toparlandı; şu an 3,551, önceki RTH kapanışına göre +3 $ (yatay). Haber kaynakları spot için 07:00 ET civarı 3,494–3,510 veriyor — o anki dibe denk geliyor. DXY ~104.0, 10Y ~%4.90–4.92, Fed 9 Aralık 25 bp artış ~%96–97, Ocak'ta ikinci artış ~%63 (CME FedWatch, Le Private Banker). Hürmüz: İran kontrolü sıkılaştırma tehdidi, yeni gemi olayları (UKMTO).",
+  "Beklenen RTH aralığı (%80, ön tahmin — gece seansı 09:30 ET'de kapanıyor): US100 ana senaryo 444–1,194 puan (medyan 706); gece şimdiden geniş senaryo varsayımında (1.15 vs 1.17 ATR) → geniş senaryo 488–1,312 (medyan 776). XAU 35–97 $ (medyan 56; gece medyan varsayımda). 0.25 ATR stop: US100 192 puan → 0.01 lotta 38 $, 25 $ riske SIĞMIYOR (0.15 ATR = 115 puan / 23 $ sığar); XAU 14.0 $ → 0.01 lotta 14 $, 25 $ riske sığar."
  ],
  "takvim_bugun": [
   {
    "tr": "açılış öncesi",
    "et": "açılış öncesi",
-   "olay": "Deere bilançosu (açılış öncesi)",
+   "olay": "Deere bilançosu",
    "beklenti": "EPS 4.07 $ · gelir 10.30 mlr $",
    "onceki": "—",
    "onem": "düşük",
@@ -29,17 +29,17 @@
    "tr": "16:30",
    "et": "08:30",
    "olay": "PCE fiyat endeksi (Ekim) · kişisel gelir/harcama",
-   "beklenti": "Çekirdek aylık +%0.3 · çekirdek yıllık %3.2–3.3",
-   "onceki": "Çekirdek +%0.3 / %3.1 · manşet +%0.5 / %3.6",
+   "beklenti": "Manşet aylık +%0.3 · çekirdek yıllık %3.2",
+   "onceki": "Manşet aylık +%0.5 · çekirdek yıllık %3.1",
    "onem": "yüksek",
-   "kaynak": "heygotrade · TradingView · Admirals",
+   "kaynak": "Yahoo (ADVFN) · Le Private Banker · Admirals",
    "url": "https://admiralmarkets.com/analytics/traders-blog/pce-inflation-october-2026-preview",
-   "not": "Yıllık çekirdek beklentisi kaynaklara göre %3.2 (TradingView) / %3.3 (RBC, Pantheon); önceki baskıda yazılan %3.4 teyit edilmedi. Gelir/harcama beklentisi bulunamadı."
+   "not": "Çekirdek yıllık beklentisi %3.2 (TradingView, Le Private Banker) / %3.3 (RBC, Pantheon). Çekirdek aylık +%0.3 Londra taramasından (heygotrade). Gelir/harcama beklentisi bulunamadı."
   },
   {
    "tr": "16:30",
    "et": "08:30",
-   "olay": "GDP Ç3 (2. tahmin)",
+   "olay": "GDP Ç3 (2. tahmin) · şirket kârları",
    "beklenti": "%3.5",
    "onceki": "%3.4 (ilk tahmin)",
    "onem": "yüksek",
@@ -54,9 +54,9 @@
    "beklenti": "197K–201K",
    "onceki": "203K",
    "onem": "orta",
-   "kaynak": "TradingView · heygotrade",
-   "url": "https://tradingview.com/news/binance_news:762e4bbee094b:0-u-s-october-core-pce-and-fed-beige-book-to-test-rate-hike-expectations-before-thanksgiving",
-   "not": "beklenti kaynaklar arasında farklı (197K / 201K)"
+   "kaynak": "Company Chronicle · TradingView · heygotrade",
+   "url": "https://thecompanychronicle.com/story/before-the-bell-nasdaq-futures-down-2-9-percent-tariff-blitz-gdp-pce-november-25-2026",
+   "not": "beklenti kaynaklara göre 197K / 200K / 201K"
   },
   {
    "tr": "16:30",
@@ -65,8 +65,8 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "kaynak": "ZeroHedge",
-   "url": "https://www.zerohedge.com/markets/key-events-holiday-shortened-week-all-about-pce",
+   "kaynak": "ZeroHedge · Continuum Economics",
+   "url": "https://continuumeconomics.com/a/60fc5d9d/preview-due-november-25-us-october-durable-goods-orders-momentum-has-slowed",
    "not": "beklenti bulunamadı"
   },
   {
@@ -78,7 +78,7 @@
    "onem": "orta",
    "kaynak": "Admirals",
    "url": "https://admiralmarkets.com/analytics/traders-blog/pce-inflation-october-2026-preview",
-   "not": "Çarşamba normal seans; Şükran Günü öncesi son tam gün"
+   "not": "Şükran Günü öncesi son tam seans"
   },
   {
    "tr": "18:00",
@@ -111,14 +111,14 @@
    "onem": "orta",
    "kaynak": "Admirals · heygotrade",
    "url": "https://admiralmarkets.com/analytics/traders-blog/pce-inflation-october-2026-preview",
-   "not": "FOMC sessizlik dönemi; Fed konuşmacısı listelenmemiş"
+   "not": "Bugün için listelenmiş Fed konuşmacısı bulunamadı"
   }
  ],
  "takvim_hafta": [
   {
    "gun": "Çar 25",
    "etiket": "Veri günü",
-   "olaylar": "16:30 PCE Ekim + GDP Ç3 2. tahmin + işsizlik başvuruları + dayanıklı mallar · 18:00 yeni konut satışları · 21:00 7Y ihale · 22:00 Bej Kitap · Deere açılış öncesi"
+   "olaylar": "16:30 PCE Ekim + GDP Ç3 2. tahmin + işsizlik başvuruları + dayanıklı mallar · 17:30 RTH · 18:00 yeni konut satışları · 21:00 7Y ihale · 22:00 Bej Kitap"
   },
   {
    "gun": "Per 26",
@@ -131,56 +131,56 @@
    "olaylar": "ABD erken kapanış: hisse 21:00, tahvil 22:00 TR · 16:30 dış ticaret öncü"
   }
  ],
- "takvim_notu": "Çekirdek PCE yıllık beklentisi kaynaklar arasında %3.2–3.3; Stocktwits (Bloomberg anketi) manşet PCE yıllık beklentisini %3.8 veriyor, diğer kaynaklarla karşılaştırılamadı. İşsizlik başvuruları beklentisi 197K/201K. Dayanıklı mallar, yeni konut satışları ve 7Y ihale beklentisi bulunamadı. FTM CFD Per/Cum seans saatleri teyit edilmedi.",
+ "takvim_notu": "Çekirdek PCE yıllık beklentisi kaynaklar arasında %3.2–3.3; işsizlik başvuruları 197K/200K/201K. Dayanıklı mallar, yeni konut satışları ve 7Y ihale beklentisi bulunamadı. Londra baskısındaki 'FOMC sessizlik dönemi' notu düzeltildi: 8–9 Aralık toplantısı için sessizlik 28 Kas'ta başlar; bugün listelenmiş konuşmacı bulunamadı. FTM CFD Per/Cum seans saatleri teyit edilmedi.",
  "basliklar": [
   {
-   "baslik": "Asya'da çip satışı: Kore ve Tayvan %5'e kadar düştü",
-   "ozet": "ABD'deki yarı iletken satışı Asya'ya taştı; bölge endeksi %2'nin üstünde geriledi, en sert kayıp çip ağırlıklı borsalarda.",
+   "baslik": "Nasdaq vadeli %2.5–2.9 ekside",
+   "ozet": "Çip ve AI hisselerindeki satış açılış öncesi derinleşti; S&P vadelisi ~%1.5–1.8, Dow ~%1 geride. VIX 30'un üstünde.",
    "etki": "US100",
-   "kaynak": "Reuters (Yahoo)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html"
+   "kaynak": "Company Chronicle · Le Private Banker",
+   "url": "https://thecompanychronicle.com/story/before-the-bell-nasdaq-futures-down-2-9-percent-tariff-blitz-gdp-pce-november-25-2026"
   },
   {
-   "baslik": "Nasdaq vadeli Asya'da ~%1 ekside",
-   "ozet": "NQ gece seansında dünkü düşüşü sürdürdü; S&P vadelisi daha sınırlı geriledi, Dow vadelisi en az düşen.",
-   "etki": "US100",
-   "kaynak": "Stocktwits · Yahoo",
-   "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ"
-  },
-  {
-   "baslik": "USTR yeni tarife adımına hazırlanıyor (haber)",
-   "ozet": "İsimsiz kaynaklara göre ABD Ticaret Temsilciliği, Çin ve AB dahil 16 ortağın aşırı sanayi kapasitesine dair soruşturma bulgularını açıklamaya hazırlanıyor.",
+   "baslik": "USTR: 16 ortağa yeni tarife paketi (haber)",
+   "ozet": "Mart'ta açılan aşırı kapasite soruşturmasının bulgularıyla Çin, AB, Japonya, Meksika dahil 16 ekonomiye yeni tarifeler bekleniyor; mevcut anlaşma tavanlarının korunacağı belirtiliyor. Ek artışın boyutu kaynaklar arasında çelişkili, resmi açıklama yok.",
    "etki": "İkisi",
-   "kaynak": "Reuters (Yahoo)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html"
+   "kaynak": "Company Chronicle (NY Post) · Yahoo (Bloomberg)",
+   "url": "https://thecompanychronicle.com/story/before-the-bell-nasdaq-futures-down-2-9-percent-tariff-blitz-gdp-pce-november-25-2026"
   },
   {
-   "baslik": "Altın 3,550 $ civarında tutunmaya çalışıyor",
-   "ozet": "Dünkü sert düşüş sonrası Asya'da sınırlı hareket; güçlü dolar ve Aralık artış fiyatlaması arka planda, ETF çıkışları sürüyor.",
+   "baslik": "Çip satışı: NVDA ~−%5, AMD/Micron ~−%6",
+   "ozet": "Salı günkü analog çip çöküşünün (ADI −%17, TXN −%11) ardından açılış öncesi yarı iletkenlerde satış sürüyor; mega-cap'ler de %2.5–3.5 ekside.",
+   "etki": "US100",
+   "kaynak": "Le Private Banker",
+   "url": "https://leprivatebanker.com/2026/11/25/nasdaq-futures-sink-up-to-3-as-chip-rout-deepens-ahead-of-pce-data-and-a-holiday-shortened-week/"
+  },
+  {
+   "baslik": "Dell görünümü yükseltti, hisse ~%5–6 düştü",
+   "ozet": "Dell yıllık gelir beklentisini ~202 mlr $'a çekti ve AI sipariş birikimini açıkladı; buna rağmen hisse açılış öncesi ekside (Londra baskısındaki çelişki giderildi).",
+   "etki": "US100",
+   "kaynak": "Yahoo (ADVFN) · Le Private Banker",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-ai-095129084.html"
+  },
+  {
+   "baslik": "Altın bir yılı aşkın dibi test edip toparlandı",
+   "ozet": "Spot 07:00 ET civarında 3,500'ün altına sarktı, ardından vadeli kontrat 3,550'ye döndü. Şahin Fed fiyatlaması ve güçlü dolar baskı unsuru; risk-off'ta güvenli liman talebi görülmedi.",
    "etki": "XAU",
-   "kaynak": "Upstox · Stocktwits",
-   "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/"
+   "kaynak": "Le Private Banker · Company Chronicle",
+   "url": "https://leprivatebanker.com/2026/11/25/nasdaq-futures-sink-up-to-3-as-chip-rout-deepens-ahead-of-pce-data-and-a-holiday-shortened-week/"
   },
   {
-   "baslik": "Fed: Aralık'ta 25 bp artış ~%96",
-   "ozet": "Salı akşamki şahin yorumlar artış beklentisini biraz yükseltti; bugünkü PCE toplantı öncesi son büyük enflasyon verisi.",
+   "baslik": "Fed: Aralık artışı ~%96–97, Ocak ~%63",
+   "ozet": "Fed Ekim'de 2023'ten beri ilk artışı yapmıştı; bugünkü PCE 9 Aralık kararı öncesi son büyük enflasyon verisi, 4 Aralık'ta istihdam raporu var.",
    "etki": "İkisi",
-   "kaynak": "Stocktwits (CME FedWatch) · Upstox",
-   "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ"
+   "kaynak": "Le Private Banker (CME FedWatch) · Yahoo",
+   "url": "https://leprivatebanker.com/2026/11/25/nasdaq-futures-sink-up-to-3-as-chip-rout-deepens-ahead-of-pce-data-and-a-holiday-shortened-week/"
   },
   {
-   "baslik": "Dell: güçlü çeyrek, tepki belirsiz",
-   "ozet": "Dell AI sunucu talebiyle beklentiyi aştı; kapanış sonrası hisse hareketi kaynaklar arasında çelişiyor.",
-   "etki": "US100",
-   "kaynak": "Reuters (Yahoo) · Stocktwits",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html"
-  },
-  {
-   "baslik": "Petrol Hürmüz gerginliği sonrası geri çekildi",
-   "ozet": "Brent dün gemi saldırıları haberleriyle %2'den fazla yükselmişti; Asya'da yaklaşık %1 geri verdi.",
+   "baslik": "Hürmüz: İran tehdidi, yeni gemi olayları",
+   "ozet": "İran taleplerini karşılanana kadar boğaz kontrolünü sıkılaştırmakla tehdit etti; UKMTO yeni olaylar bildirdi. Brent 91 $'ın altında, geri çekiliyor.",
    "etki": "Bağlam",
-   "kaynak": "Reuters (Yahoo) · Stocktwits",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-retreat-ai-rebound-stumbles-015155560.html"
+   "kaynak": "Yahoo (ADVFN)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-ai-095129084.html"
   }
  ],
  "pozisyon": [
@@ -226,12 +226,12 @@
   },
   {
    "ad": "Fed fiyatlaması (9 Aralık)",
-   "deger": "25 bp artış ~%96 · 50 bp ~%4",
-   "degisim": "dün ~%95 / ~%5",
-   "tarih": "25 Kas (Asya)",
-   "kaynak": "Stocktwits (CME FedWatch)",
-   "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-lower-amid-tech-selloff-ahead-of-key-inflation-data-dell-amba-soxl-mstr-in-focus/cNbHbLoR9lJ"
+   "deger": "25 bp artış ~%96–97 · Ocak ek artış ~%63",
+   "degisim": "Londra: ~%96",
+   "tarih": "25 Kas (NY öncesi)",
+   "kaynak": "Le Private Banker (CME FedWatch)",
+   "url": "https://leprivatebanker.com/2026/11/25/nasdaq-futures-sink-up-to-3-as-chip-rout-deepens-ahead-of-pce-data-and-a-holiday-shortened-week/"
   }
  ],
- "pozisyon_notu": "Fed fiyatlaması Londra taramasında güncellendi. COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan taşındı (tarihleri satırda); daha yeni değer bulunamadı."
+ "pozisyon_notu": "Fed fiyatlaması NY taramasında güncellendi. COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan taşındı (tarihleri satırda); daha yeni değer bulunamadı."
 }
