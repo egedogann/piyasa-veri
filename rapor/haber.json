@@ -1,6 +1,6 @@
 {
- "baski": "Londra öncesi baskı",
- "derleme_notu": "Londra öncesi tarama 26 Kas 2026 ~10:50 TR (02:50 ET). Fiyat/aralık rakamları veri dosyasından (Yahoo 5 dk, son bar 07:55 TR = 23:55 ET Çar; veri iş akışı 10:47 TR'de tetiklendi ama yeni bar gelmedi). Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "NY öncesi baskı",
+ "derleme_notu": "NY öncesi tarama 26 Kas 2026 ~15:55 TR (07:55 ET). UYARI: Yahoo 5 dk verisi 07:55 TR'de (23:55 ET Çar) duruyor; veri iş akışı 15:46 TR'de yeniden çalıştı ama yeni bar gelmedi (tatil). Fiyat, gece aralığı ve aralık bandı bu son bara göre — gece aralığı 'kesin' değil. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,46 +8,13 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "UYARI — altın seviyesi: rapordaki XAUUSD tahmini (GC=F 3,620 + 9 gün önceki ofset −3.5 ≈ 3,617) haber kaynaklarındaki spotun ~35–50 $ ÜSTÜNDE (FinanceFeeds 06:43 GMT spot 3,565, Aralık vadeli 3,570; TraderFactor ~3,581). GC=F'de 22 Kas 23:10 UTC'de +52.6 $'lık açılış boşluğu var → muhtemelen Yahoo kontrat geçişi (Aralık→Şubat) ve ofset eskidi. XAU seviyeleri (gece high/low, önceki gün, yuvarlaklar) mutlak olarak güvenilmez; aralık genişliği ve ATR etkilenmez. FTM'de ofset yeniden ölçülmeli.",
-  "Bugün ABD ŞÜKRAN GÜNÜ — NYSE/Nasdaq ve tahvil kapalı, ABD verisi yok → veri günü DEĞİL; olay riski: tatil likiditesi. CME Globex NQ/GC tatil saatleri ve FTM CFD saatleri teyit edilemedi (CME sayfası saatleri göstermedi). Cuma: ABD hisse erken kapanış 21:00 TR (13:00 ET).",
-  "Gece/Asya: Wall Street'in gün içi dipten dönüşü sonrası Asya toparlandı — Nikkei +%1.3 (57,769), Kospi +%1.2, Hang Seng +%1.9, Taiex +%2.6, Shanghai yatay (AP, 05:21 UTC). Kore MB faizi 25 bp artırarak %3.25'e çıkardı (beklentiye uygun; Korea Times, SBS). US100 (NQ tahmini) 26,334: önceki RTH kapanışına göre +292 puan (+%1.1); gece aralığı şimdiye kadar 439 puan (25,941–26,380; ATR14 RTH 738).",
-  "Altın: Çarşamba 3,446'yla Ağustos 2025'ten beri en düşüğü görüp tatil öncesi kısa kapatmayla toparlandı; Perşembe sabah kaynaklarda 3,561–3,603 bandı (CNBC, FinanceFeeds aracılığıyla), 06:43 GMT spot 3,565 (−%0.44). GC=F gece aralığı şimdiye kadar 55.9 $ (ATR14 RTH 63.4). Sürücüler: çekirdek PCE %3.3 (bekl. %3.2), Fed 9 Aralık 25 bp artış tam fiyatlı, USTR tarife önerisi.",
-  "Londra seansı (açılış 11:00 TR): 10:00 Alman GfK · 12:00 ECB parasal gelişmeler · 13:30 BoE Finansal İstikrar Raporu · 15:30 ECB Ekim tutanakları · Cuma 02:30 Tokyo TÜFE. USD/JPY ~159.1, 10Y ~%4.86 yatay, WTI ~84.3 $ (AP)."
+  "Bugün ABD ŞÜKRAN GÜNÜ — veri günü DEĞİL, ama normal gün de değil: NYSE/Nasdaq ve tahvil kapalı, US100 için RTH yok. CME vadelileri erken duruyor: endeks vadelileri 21:00 TR (13:00 ET), altın/gümüş 22:30 TR (14:30 ET); yeniden açılış 02:00 TR Cuma (Longbridge/Jin10 UTC+8 saatlerinden çevrildi; CrossTrade Cuma 12:00 CT kapanışla uyumlu; CME resmi sayfası okunamadı). FTM CFD saatleri teyit edilmedi — MT5'te kontrol et.",
+  "Veri uyarısı: Yahoo 5 dk barları 07:55 TR'den beri gelmiyor; rapordaki fiyat (US100 ≈26,334, XAU ≈3,617) ve gece aralığı 8 saat eski. ATFX sabah US100 vadelisini ≈26,284 (25,104 dipten dönüş), altın spotu 3,573 (+%0.54) verdi. XAU mutlak seviyeleri ofset sorunu nedeniyle hâlâ ~35–50 $ yüksek olabilir (londra baskısı uyarısı geçerli).",
+  "Gece/Avrupa: Asya %1–2.6 yükseldi, DAX +%1.9. Altın Çarşamba 3,426–3,450 civarındaki 15 ayın dibinden V dönüşü yaptı (ATFX, TraderFactor). DXY ≈103.7, ABD 10Y %4.85, 2Y %4.64, Brent 94.6 $ (+%3.5, Suudi tesislerine/Hürmüz'deki gemilere saldırı haberleri; OPEC+ Pazar). Fed 9 Aralık artışı büyük ölçüde fiyatlı. Avrupa olayları geride: 13:30 BoE FSR, 15:30 ECB tutanakları.",
+  "Cuma: hisse ve CME endeks vadelileri 21:00 TR'de erken kapanış (TraderFactor 18:00 UTC, CrossTrade 12:00 CT). Sabah 02:30 TR Tokyo TÜFE, 11:55 TR Almanya işsizlik, 13:00 TR Euro Bölgesi ekonomik güven. Haftanın kalanında ABD verisi yok.",
+  "Beklenen aralık (model, %80, ÖN TAHMİN — gece verisi eksik ve model tatil gününe göre kalibre değil; bugün US100 RTH yok, CME 21:00 TR'de duruyor → büyük olasılıkla fazla geniş): US100 469–1,260 puan (medyan 745; ATR14 RTH 738). XAU 38–105 $ (medyan 61; ATR 63.4). 0.25 ATR stop: US100 184.5 puan → 0.01 lotta 36.9 $, 25 $'a SIĞMIYOR. XAU 15.8 $ → 0.01 lotta 15.9 $, 25 $'a sığıyor."
  ],
  "takvim_bugun": [
-  {
-   "tr": "04:00",
-   "et": "20:00 (Çar)",
-   "olay": "Kore MB faiz kararı — 25 bp artış, %3.25",
-   "beklenti": "%3.25",
-   "onceki": "%3.00",
-   "onem": "düşük",
-   "kaynak": "Korea Times · SBS",
-   "url": "https://www.koreatimes.co.kr/economy/20261126/bok-raises-key-rate-by-quarter-point-to-325-as-inflation-concerns-mount",
-   "not": "gerçekleşti; beklenti başlıklara göre 'beklendiği gibi'"
-  },
-  {
-   "tr": "10:00",
-   "et": "02:00",
-   "olay": "Almanya GfK tüketici güveni (Aralık)",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "düşük",
-   "kaynak": "TraderFactor",
-   "url": "https://traderfactor.com/gold-holds-rebound-as-thanksgiving-thins-trading/",
-   "not": "sonuç bulunamadı"
-  },
-  {
-   "tr": "12:00",
-   "et": "04:00",
-   "olay": "ECB parasal gelişmeler (M3)",
-   "beklenti": "—",
-   "onceki": "—",
-   "onem": "düşük",
-   "kaynak": "TraderFactor",
-   "url": "https://traderfactor.com/gold-holds-rebound-as-thanksgiving-thins-trading/",
-   "not": ""
-  },
   {
    "tr": "13:30",
    "et": "05:30",
@@ -55,9 +22,9 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "kaynak": "TraderFactor",
-   "url": "https://traderfactor.com/gold-holds-rebound-as-thanksgiving-thins-trading/",
-   "not": ""
+   "kaynak": "ATFX · TraderFactor",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight",
+   "not": "gerçekleşti"
   },
   {
    "tr": "15:30",
@@ -66,9 +33,9 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "kaynak": "TraderFactor · ThriveInMarkets",
+   "kaynak": "ATFX · TraderFactor",
    "url": "https://traderfactor.com/gold-holds-rebound-as-thanksgiving-thins-trading/",
-   "not": ""
+   "not": "gerçekleşti; içerik tarama anında bulunamadı"
   },
   {
    "tr": "tüm gün",
@@ -77,9 +44,42 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "kaynak": "FinanceFeeds · TraderFactor",
-   "url": "https://financefeeds.com/gold-price-today-3565-thursday-holiday-bounce-from-15-month-low-bull-3697-bear-3446/",
-   "not": "CME Globex NQ/GC ve FTM CFD saatleri teyit edilmedi"
+   "kaynak": "Longbridge (Jin10) · TraderFactor",
+   "url": "https://longbridge.com/en/news/306779616",
+   "not": "US100 için RTH yok"
+  },
+  {
+   "tr": "21:00",
+   "et": "13:00",
+   "olay": "CME endeks vadelileri (NQ/ES) erken duruş",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "kaynak": "Longbridge (Jin10)",
+   "url": "https://longbridge.com/en/news/306779616",
+   "not": "kaynak UTC+8 02:00 (27 Kas) veriyor, çeviri bizim; FTM CFD saati teyit edilmedi"
+  },
+  {
+   "tr": "22:30",
+   "et": "14:30",
+   "olay": "CME değerli metal vadelileri (GC) erken duruş",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "orta",
+   "kaynak": "Longbridge (Jin10)",
+   "url": "https://longbridge.com/en/news/306779616",
+   "not": "kaynak UTC+8 03:30 (27 Kas); FTM XAUUSD saati teyit edilmedi"
+  },
+  {
+   "tr": "02:00 (Cum)",
+   "et": "18:00",
+   "olay": "CME Globex yeniden açılış (Cuma işlem günü)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "kaynak": "CrossTrade",
+   "url": "https://crosstrade.io/blog/cme-trading-hours-2026",
+   "not": "17:00 CT"
   },
   {
    "tr": "02:30 (Cum)",
@@ -88,7 +88,7 @@
    "beklenti": "Çekirdek a/a %2.9 · manşet a/a %2.9",
    "onceki": "Çekirdek %2.6 · manşet %2.8",
    "onem": "orta",
-   "kaynak": "Kaohoon",
+   "kaynak": "Kaohoon · ATFX",
    "url": "https://www.kaohooninternational.com/economics/595221",
    "not": "beklenti/önceki yalnız Kaohoon'da"
   }
@@ -97,64 +97,64 @@
   {
    "gun": "Per 26",
    "etiket": "Olay riski",
-   "olaylar": "Şükran Günü — ABD hisse/tahvil kapalı (ince likidite) · 13:30 BoE FSR · 15:30 ECB tutanakları · Cuma 02:30 Tokyo TÜFE"
+   "olaylar": "Şükran Günü — ABD hisse/tahvil kapalı · CME endeks 21:00 TR, metal 22:30 TR erken duruş · 02:30 (Cum) Tokyo TÜFE"
   },
   {
    "gun": "Cum 27",
    "etiket": "Olay riski",
-   "olaylar": "ABD erken kapanış: hisse 21:00 TR (13:00 ET) · 04:30 Çin sanayi kârları · 10:45 Fransa/İspanya öncü TÜFE · ABD öncü mal ticaret dengesi/stoklar (saat kaynakta yok) · akşam S&P Fransa notu"
+   "olaylar": "ABD yarım gün: hisse ve CME endeks 21:00 TR (13:00 ET) kapanış · 11:55 Almanya işsizlik · 13:00 Euro Bölgesi ekonomik güven · ABD tier-1 veri yok · ince likidite"
   }
  ],
- "takvim_notu": "CME Globex NQ/GC ve FTM CFD için Per/Cum tatil saatleri teyit edilemedi. Alman GfK sonucu tarama anında bulunamadı. Altın spot için kaynaklar arasında ~15 $ fark var (FinanceFeeds 3,565 / TraderFactor ~3,581); rapordaki XAU seviyesi ofset sorunu nedeniyle ayrıca yüksek (özet madde 1).",
+ "takvim_notu": "Tatil saatleri ikincil kaynaklardan (Longbridge/Jin10 UTC+8, CrossTrade CT); CME resmi sayfası ve FTM CFD saatleri teyit edilemedi. Almanya işsizlik saati ATFX'te 16:55 GMT+8 (=11:55 TR). ATFX ile TraderFactor'ın Nasdaq 100 referansları ~240 puan farklı (26,284 vadeli / 26,047 nakit kapanış).",
  "basliklar": [
   {
-   "baslik": "Asya, Wall Street'in toparlanmasını izledi",
-   "ozet": "AI/çip hisseleri öncülüğünde Nikkei, Kospi ve Hang Seng %1–2 yükseldi; SoftBank ve Kioxia çift haneye yakın arttı. Shanghai yatay kaldı.",
-   "etki": "US100",
-   "kaynak": "AP (ClickOnDetroit)",
-   "url": "https://www.clickondetroit.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
-  },
-  {
-   "baslik": "Kore MB faizi %3.25'e çıkardı",
-   "ozet": "Bank of Korea politika faizini 25 bp artırdı; gerekçe enflasyon baskısı ve çip kaynaklı güçlü büyüme. Karar beklentiye uygundu.",
-   "etki": "Bağlam",
-   "kaynak": "Korea Times · SBS",
-   "url": "https://www.koreatimes.co.kr/economy/20261126/bok-raises-key-rate-by-quarter-point-to-325-as-inflation-concerns-mount"
-  },
-  {
-   "baslik": "Altın 15 ayın dibinden tatil öncesi toparlandı",
-   "ozet": "Çarşamba 3,446'ya kadar düşen altın kısa kapatmayla 3,600 civarına döndü; Perşembe sabah 3,560–3,600 aralığında işlem görüyor.",
+   "baslik": "Altın 15 ayın dibinden V dönüşü",
+   "ozet": "Çarşamba kısa süre 3,500'ün altına inip 3,426 civarından toparlanan altın, Perşembe sabah 3,573–3,581 bandında. İnce tatil likiditesi uyarısı.",
    "etki": "XAU",
-   "kaynak": "FinanceFeeds · TraderFactor",
-   "url": "https://financefeeds.com/gold-price-today-3565-thursday-holiday-bounce-from-15-month-low-bull-3697-bear-3446/"
+   "kaynak": "ATFX · TraderFactor",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
   },
   {
-   "baslik": "Fed 9 Aralık artışı tam fiyatlı",
-   "ozet": "Çekirdek PCE %3.3 ve GDP Ç3 %4.3 revizyonu sonrası CME FedWatch 25 bp artışı tam fiyatlıyor.",
+   "baslik": "Petrol: Suudi tesis ve Hürmüz saldırı haberleri",
+   "ozet": "Brent %3.5 artışla 94.6 $, WTI 83.7 $'dan kapandı; OPEC+ Pazar toplanıyor. Enflasyon beklentisi ve altın için bağlam.",
    "etki": "İkisi",
-   "kaynak": "FinanceFeeds (CME FedWatch)",
-   "url": "https://financefeeds.com/gold-price-today-3565-thursday-holiday-bounce-from-15-month-low-bull-3697-bear-3446/"
+   "kaynak": "ATFX (Reuters)",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
   },
   {
-   "baslik": "Nvidia ikinci gün zayıf; not uyarısı",
-   "ozet": "NVDA Çarşamba −%3.9 kapandı; AP'ye göre S&P Global yönetim/yönetişim gerekçesiyle olası not indirimi uyarısı yaptı.",
+   "baslik": "Sıcak PCE'ye rağmen getiriler düştü",
+   "ozet": "Çekirdek PCE a/a %3.3'e çıktı, GDP Ç3 %4.3'e revize edildi; buna rağmen 2Y %4.64, 10Y %4.85'e geriledi. Aralık artışı büyük ölçüde fiyatlı.",
+   "etki": "İkisi",
+   "kaynak": "ATFX",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
+  },
+  {
+   "baslik": "Nvidia baskı altında",
+   "ozet": "Huang'ın CEO'luğa dönüşüyle 24 Kas'taki sert yükselişten sonra NVDA Çarşamba −%3.9; AI hisselerinde satış sürüyor.",
    "etki": "US100",
-   "kaynak": "AP (ClickOnDetroit)",
-   "url": "https://www.clickondetroit.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+   "kaynak": "ATFX",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
   },
   {
-   "baslik": "USTR tarife önerisi: yürürlük en erken Ocak",
-   "ozet": "Section 301 önerisi 14 ekonomiyi kapsıyor; yorumlar 5 Ocak, duruşmalar 25 Ocak'tan itibaren.",
+   "baslik": "Wall Street dipten döndü",
+   "ozet": "Nasdaq Bileşik gün içi %4'ün üzerinde düştükten sonra −%0.62 kapandı; Dow +%0.33. Asya bu toparlanmayı izledi.",
+   "etki": "US100",
+   "kaynak": "ATFX · AP",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
+  },
+  {
+   "baslik": "ABD tarife önerisi 14 ekonomiyi kapsıyor",
+   "ozet": "Çin, Japonya ve AB dahil öneriler yorum ve duruşma sürecinde; yürürlük en erken Ocak. İthalat maliyeti/enflasyon belirsizliği.",
    "etki": "İkisi",
-   "kaynak": "FinanceFeeds",
+   "kaynak": "ATFX · FinanceFeeds",
    "url": "https://financefeeds.com/gold-price-today-3565-thursday-holiday-bounce-from-15-month-low-bull-3697-bear-3446/"
   },
   {
-   "baslik": "Petrol yüksek seyrediyor",
-   "ozet": "Brent ~91 $, WTI ~84 $; Asya'da %0.5–0.8 artıda.",
+   "baslik": "USD/JPY 160'a yakın",
+   "ozet": "Yen ≈159.1'de; 160 civarı müdahale riski olarak izleniyor. Cuma sabah Tokyo TÜFE.",
    "etki": "Bağlam",
-   "kaynak": "AP (ClickOnDetroit)",
-   "url": "https://www.clickondetroit.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses/"
+   "kaynak": "ATFX",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
   }
  ],
  "pozisyon": [
@@ -207,5 +207,5 @@
    "url": "https://financefeeds.com/gold-price-today-3565-thursday-holiday-bounce-from-15-month-low-bull-3697-bear-3446/"
   }
  ],
- "pozisyon_notu": "Fed fiyatlaması FinanceFeeds'te 'tam fiyatlı' olarak teyit edildi. COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan taşındı (tarihleri satırda); daha yeni değer bulunamadı."
+ "pozisyon_notu": "Fed fiyatlaması FinanceFeeds (CME FedWatch) 26 Kas sabah; ATFX 'büyük ölçüde fiyatlı' diyor. COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan taşındı (tarihleri satırda); daha yeni değer bulunamadı."
 }
