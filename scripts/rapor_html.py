@@ -112,7 +112,7 @@ def panel(p, V, S):
     on_tag = tag("on") if "dar_gece" in a else tag("model")
     kp = [("FTM tahmini fiyat", fp(p["fiyat"], dec), f'kaynak {fp(of["kaynak_fiyat"], dec)} {fs(of["deger"], dec)} ofset'),
           ("Önceki RTH kapanışına göre", fs(p["degisim_onceki_rth_kapanis"], dec) + f' <small>({fs(p["degisim_yuzde"], 2, "%")})</small>', f'kapanış {fp(p["onceki"]["r_close"], dec)}'),
-          ("Gece aralığı (şimdiye kadar)", fp(g["aralik"], dec), f'{g["aralik"] / atr:.2f} ATR · {fp(g["low"], dec)} – {fp(g["high"], dec)}'),
+          ("Gece aralığı (şimdiye kadar)", fp(g["aralik"], dec), (f'{g["aralik"] / atr:.2f} ATR · {fp(g["low"], dec)} – {fp(g["high"], dec)}' if g["aralik"] is not None else "veri boşluğu — gece barları yok")),
           ("ATR14 (RTH)", fp(atr, dec), f'rejim: <b>{vr["etiket"]}</b> · 2 yıllık persentil {pc(vr["atr_persentil_2y"])}'),
           ("Beklenen RTH aralığı, %50", f'{fp(A["q25"], 0 if sym == "US100" else 1)} – {fp(A["q75"], 0 if sym == "US100" else 1)}', f'medyan {fp(A["q50"], 0 if sym == "US100" else 1)} {u}'),
           (f'İma edilen günlük 1σ ({im["endeks"]} {im["deger"]:.1f})', fp(im["gunluk_1sigma"], 0 if sym == "US100" else 1), f'{im["gunluk_1sigma_atr"]:.2f} ATR')]
@@ -135,7 +135,7 @@ def panel(p, V, S):
                    [[f'Dar ({gv["dar"]:.2f} ATR)', f'{fp(a["dar_gece"]["q10"], d0)} – {fp(a["dar_gece"]["q90"], d0)}', f'{fp(a["dar_gece"]["q25"], d0)} – {fp(a["dar_gece"]["q75"], d0)}', fp(a["dar_gece"]["q50"], d0)],
                     {"cls": "now", "cells": [f'Medyan ({gv["medyan"]:.2f} ATR)', f'{fp(A["q10"], d0)} – {fp(A["q90"], d0)}', f'{fp(A["q25"], d0)} – {fp(A["q75"], d0)}', fp(A["q50"], d0)]},
                     [f'Geniş ({gv["genis"]:.2f} ATR)', f'{fp(a["genis_gece"]["q10"], d0)} – {fp(a["genis_gece"]["q90"], d0)}', f'{fp(a["genis_gece"]["q25"], d0)} – {fp(a["genis_gece"]["q75"], d0)}', fp(a["genis_gece"]["q50"], d0)]],
-                   foot=f'Gece seansı sürüyor (şimdiye kadar {a["gece_simdiye_kadar_atr"]:.2f} ATR). NY öncesi baskıda tek satıra iner.')
+                   foot=(f'Gece seansı sürüyor (şimdiye kadar {a["gece_simdiye_kadar_atr"]:.2f} ATR). NY öncesi baskıda tek satıra iner.' if a["gece_simdiye_kadar_atr"] is not None else 'Gece barları veri kaynağında eksik (veri boşluğu); bant kesinleştirilemedi.'))
     else:
         sc = ""
     gt = p["gun_tipi"]; b = gt["taban"]; bz = p["benzer"]; ac = p["acilis"]; gp = p.get("gap"); o = p["or15"]

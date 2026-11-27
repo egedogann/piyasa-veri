@@ -243,11 +243,14 @@ def panel(sym, d, S, news_flags, now_utc):
         ff = dict(f, l_on=l_on)
         p = co["sabit"] + sum(co[k] * ff[k] for k in co if k != "sabit")
         return {k: math.exp(p + v) for k, v in q.items()}
+    if on_done and not np.isfinite(t.loc[today, "on_range"]):
+        on_done = False  # gece barları eksik (veri boşluğu): kesin bant hesaplanamaz
     if on_done:
         l_on = math.log(max(float(t.loc[today, "on_range"]) / atr, 0.05)); senaryo = "kesin (gece aralığı tamam)"
         out["aralik"] = {"durum": senaryo, "ana": band(l_on)}
     else:
-        out["aralik"] = {"durum": "ön tahmin — gece seansı sürüyor; ana senaryo medyan gece aralığı",
+        out["aralik"] = {"durum": ("ön tahmin — gece seansı sürüyor; ana senaryo medyan gece aralığı" if not out["gece"]["tamam"]
+                                   else "ön tahmin — gece barları eksik (veri boşluğu); ana senaryo medyan gece aralığı"),
                          "ana": band(lon_q[0.5]), "dar_gece": band(lon_q[0.1]), "genis_gece": band(lon_q[0.9]),
                          "gece_aralik_varsayim_atr": {k: math.exp(v) for k, v in zip(("dar", "medyan", "genis"), (lon_q[0.1], lon_q[0.5], lon_q[0.9]))},
                          "gece_simdiye_kadar_atr": (on_now / atr) if on_now else None}
