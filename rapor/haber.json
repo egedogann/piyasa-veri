@@ -1,6 +1,6 @@
 {
- "baski": "Gün sonu baskısı",
- "derleme_notu": "Gün sonu taraması 27 Kas 2026 ~00:45 TR (26 Kas 16:45 ET). UYARI: Yahoo 5 dk verisi hâlâ 26 Kas 07:55 TR'de (04:55 UTC) duruyor; veri iş akışı 00:27 TR'de çalıştı, yeni bar yok. Bugünün gerçekleşen RTH aralığı hesaplanamadı (US100 için RTH zaten yoktu). Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
+ "baski": "Londra öncesi baskı",
+ "derleme_notu": "Londra öncesi tarama 27 Kas 2026 ~10:50 TR (02:50 ET). UYARI: Yahoo 5 dk verisi hâlâ 26 Kas 07:55 TR'de (04:55 UTC) duruyor; veri iş akışı 10:47 TR'de yeniden çalıştırıldı (başarılı) ama yeni 5 dk bar gelmedi. Sayfadaki fiyat, gece aralığı ve seviyeler bu eski bara dayanıyor — güncel değil. Güncel referans için özetteki günlük vadeli (D1) değerlerine bak. Her satırın kaynağı yanında. Saatler ET → TR (+8, ABD kış saati).",
  "bugun_bayraklar": {
   "ev_major": 0,
   "ev_fomc": 0,
@@ -8,23 +8,34 @@
   "ev_nfp": 0
  },
  "ozet": [
-  "Karne (26 Kas, FTM günü): US100 — Şükran Günü, RTH yok; %50/%80 bant karşılaştırması yapılamaz (—). XAU — 5 dk veri 23:55 ET Çar'dan sonra gelmediği için gerçekleşen RTH aralığı — ; bant (%50: 47–80 $, %80: 38–105 $) sınanamadı. Yalnız eldeki gece verisiyle (04:55 UTC'ye kadar): US100 gece high 26,380 önceki FTM günü high'ını (26,287) ve önceki RTH high'ını (26,083) aştı, önceki low (24,964) kırılmadı; XAU gece high 3,631 önceki gün high'ını (3,614) aştı, low (3,450) kırılmadı. Gün sonuna kadarki kısım bilinmiyor.",
-  "Gün içi (ikincil kaynak): altın spotu 16:30 TR civarı ≈3,576 $ (−%0.4), Aralık vadelisi 3,600 üzerinde (mining.com.au); ATFX sabah spotu 3,573 verdi. Rapordaki XAU fiyatı (≈3,617) eski bar + ofset — mutlak seviyede ~40 $ yüksek olabilir. NQ vadelisi sabah ≈26,301 (+%0.8), S&P vadelisi 7,247 (+%0.7); Avrupa +%1.5–1.9 kapandı (Company Chronicle).",
-  "Bağlam değişmedi: Fed 9–10 Aralık'ta 25 bp artış ~%97 fiyatlı, Ocak'ta ek artış ~%63 (Company Chronicle, CME FedWatch). Brent Çar 94.8 $ (+%3.7) — Husi'lerin Suudi rafinerisine saldırısı (IC Markets); OPEC+ Pazar (ATFX).",
-  "Yarın (Cum 27 Kas): 02:30 TR Tokyo TÜFE, 11:55 TR Almanya işsizlik, 13:00 TR Euro Bölgesi ekonomik güven. ABD tier-1 veri yok. NYSE yarım gün: kapanış 21:00 TR (13:00 ET); tahvil piyasası 22:00 TR (14:00 ET) erken kapanış. İnce likidite. FTM CFD saatleri teyit edilmedi — MT5'te kontrol et.",
-  "Gelecek hafta: Sal 1 Ara ISM imalat ve JOLTS; Cum 4 Ara Kasım tarım dışı istihdam (beklenti 90 bin, önceki 165 bin, işsizlik beklentisi %4.1) — VERİ GÜNÜ. Tek kaynak (Company Chronicle); saatler kaynakta yok."
+  "VERİ UYARISI: 5 dk barlar 26 Kas 04:55 UTC'de kesik (≈27 saat eski). Sayfadaki US100 ≈26,333 ve XAU ≈3,617 eski. Repo D1 vadeli (Yahoo, ≈07:47 UTC): NQ 26,721 (gece seansı açılışı 26,068.5, high 26,868.75), GC Aralık 3,689.5 (açılış 3,619.8, high 3,693.9). Ofset uygulanmamış vadeli fiyatlardır; MT5'te kontrol et.",
+  "Gece risk iştahı geri geldi: NQ vadelisi 02:13 ET'de +%2.47 (PiQ), daha sonra +%2.8–2.9 (Bloomberg, TipRanks 01:41 ET); ES +%1.7. Gerekçe olarak AI hisselerinde toparlanma ve Çin Devlet Konseyi'nin hisse piyasasına destek mesajı gösteriliyor. Asya: Topix +%1.7, Hang Seng +%2.3, Şanghay +%3.3 (Bloomberg).",
+  "Altın: spot +%2.1 ile ≈3,641 $, gün içi ≈3,670'e kadar (Bloomberg); gümüş %7'ye varan artış. Sürücü olarak hisse toparlanması ve hafif zayıf dolar anılıyor; Fed artış beklentisi (Aralık 25 bp ~%99, PiQ/CME FedWatch) arka planda. 10Y +7 bp %4.92, USDJPY 159.33. Petrol: WTI +%3.2 86.4 $, Brent ≈97 $ — Orta Doğu enerji altyapısına saldırılar.",
+  "Bugün (Cum 27 Kas): ABD tier-1 veri yok. 11:55 TR Almanya işsizlik, 13:00 TR Euro Bölgesi ekonomik güven. Londra açılışı 11:00 TR (08:00 Londra). NYSE/Nasdaq yarım gün: kapanış 21:00 TR (13:00 ET); tahvil 22:00 TR (14:00 ET). İnce likidite + büyük gece boşluğu. FTM CFD tatil saatleri teyit edilmedi.",
+  "Gelecek hafta: Sal 1 Ara JOLTS 18:00 TR ve ISM imalat — VERİ GÜNÜ; Çar 2 Ara ADP; Cum 4 Ara Kasım NFP 16:30 TR — VERİ GÜNÜ. FOMC kararı Çar 9 Ara 22:00 TR (8–9 Ara toplantısı; önceki baskıdaki '9–10 Ara' düzeltildi)."
  ],
  "takvim_bugun": [
   {
    "tr": "02:30",
    "et": "18:30 (Per)",
-   "olay": "Tokyo TÜFE (Kasım)",
+   "olay": "Tokyo TÜFE (Kasım) — açıklandı",
    "beklenti": "Çekirdek a/a %2.9 · manşet a/a %2.9",
    "onceki": "Çekirdek %2.6 · manşet %2.8",
    "onem": "orta",
-   "not": "beklenti/önceki yalnız Kaohoon'da",
-   "kaynak": "Kaohoon · ATFX",
+   "not": "Gerçekleşen doğrulanamadı (yalnız Mitrade'de okunmamış bir başlık: '%2.8'); beklenti Kaohoon'dan (önceki baskı)",
+   "kaynak": "Kaohoon · Mitrade (başlık)",
    "url": "https://www.kaohooninternational.com/economics/595221"
+  },
+  {
+   "tr": "11:00",
+   "et": "03:00",
+   "olay": "Londra açılışı (08:00 Londra)",
+   "beklenti": "—",
+   "onceki": "—",
+   "onem": "düşük",
+   "not": "",
+   "kaynak": "—",
+   "url": ""
   },
   {
    "tr": "11:55",
@@ -55,9 +66,9 @@
    "beklenti": "—",
    "onceki": "—",
    "onem": "orta",
-   "not": "CME endeks vadelileri de 12:00 CT (CrossTrade); FTM CFD saati teyit edilmedi",
-   "kaynak": "Company Chronicle (NYSE takvimi) · CrossTrade",
-   "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
+   "not": "CME endeks vadelileri erken kapanış 12:00 CT (önceki baskı, CrossTrade); FTM CFD saati teyit edilmedi",
+   "kaynak": "TipRanks · FinanceFeeds",
+   "url": "https://www.tipranks.com/news/u-s-stock-futures-in-focus-ahead-of-a-shortened-black-friday-session"
   },
   {
    "tr": "22:00",
@@ -67,82 +78,92 @@
    "onceki": "—",
    "onem": "düşük",
    "not": "",
-   "kaynak": "Company Chronicle (SIFMA)",
-   "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
+   "kaynak": "Saxo · Company Chronicle",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--27-november-2026-27112026"
   }
  ],
  "takvim_hafta": [
   {
    "gun": "Cum 27",
    "etiket": "Olay riski",
-   "olaylar": "ABD yarım gün (hisse 21:00 TR kapanış, tahvil 22:00 TR) · 02:30 Tokyo TÜFE · 11:55 Almanya işsizlik · 13:00 EZ ekonomik güven · ABD tier-1 veri yok"
+   "olaylar": "ABD yarım gün (hisse 21:00 TR, tahvil 22:00 TR) · büyük gece boşluğu (NQ ≈+%2.5–2.9) · 11:55 Almanya işsizlik · 13:00 EZ güven · ABD tier-1 veri yok"
   },
   {
    "gun": "Pzt 30",
    "etiket": "Normal",
-   "olaylar": "Bilinen ABD tier-1 veri yok (takvim teyit edilmedi) · OPEC+ toplantısı Pazar 29 Kas — sonucu Asya açılışında fiyatlanır"
+   "olaylar": "Ay sonu · 3 ve 6 aylık bono ihalesi (Saxo) · bilinen ABD tier-1 veri yok · OPEC+ toplantı tarihi teyit edilemedi"
   },
   {
    "gun": "Sal 1 Ara",
    "etiket": "Veri günü",
-   "olaylar": "ISM imalat PMI · JOLTS (saat/beklenti kaynakta yok)"
+   "olaylar": "JOLTS (Ekim) 18:00 TR · ISM imalat (saat kaynakta yok; genelde aynı saat — teyit et)"
+  },
+  {
+   "gun": "Çar 2 Ara",
+   "etiket": "Normal",
+   "olaylar": "ADP istihdam (Kasım; saat kaynakta yok) · ISM hizmet tarihi teyit edilmedi"
+  },
+  {
+   "gun": "Per 3 Ara",
+   "etiket": "Normal",
+   "olaylar": "Bilinen tier-1 veri yok (takvim teyit edilmedi)"
   },
   {
    "gun": "Cum 4 Ara",
    "etiket": "Veri günü",
-   "olaylar": "Kasım tarım dışı istihdam — beklenti 90 bin, önceki 165 bin, işsizlik bkl. %4.1 (saat kaynakta yok)"
+   "olaylar": "Kasım tarım dışı istihdam 16:30 TR — beklenti 101 bin (U.S. Bank konsensüs) / 90 bin (Company Chronicle), işsizlik bkl. %4.1"
   }
  ],
- "takvim_notu": "Gelecek haftanın takvimi tek kaynaktan (Company Chronicle); LiteFinance haftalık takvimi okunamadı. ADP, ISM hizmet, Fed konuşmacıları ve diğer günler doğrulanmadı. Tatil saatleri ikincil kaynaklardan; CME resmi sayfası ve FTM CFD saatleri teyit edilemedi.",
+ "takvim_notu": "NFP beklentisi kaynaklar arasında farklı (101 bin U.S. Bank 20 Kas konsensüsü; 90 bin Company Chronicle). FOMC tarihi 8–9 Ara (fedratecalc, U.S. Bank, Mitrade); önceki baskılardaki 9–10 Ara hatalıydı. ISM imalat/hizmet saatleri ve ADP saati kaynakta yok. Fed konuşmacı takvimi bulunamadı. OPEC+ bir sonraki toplantı tarihi teyit edilemedi (önceki baskıda 'Pazar 29 Kas' ATFX'ten; bu taramada doğrulanmadı).",
  "basliklar": [
   {
-   "baslik": "Altın 15 ayın dibinden sonra 3,600 civarında",
-   "ozet": "Çarşamba kısa süre 3,500'ün altına inen spot, Perşembe ince işlemde ≈3,576'da; Aralık vadelisi 3,600 üzerinde. Fed artış beklentisi baskı unsuru olarak anılıyor.",
+   "baslik": "Tatil sonrası vadelilerde sert toparlanma",
+   "ozet": "Nasdaq 100 vadelisi gece %2.5–2.9 yükseldi, S&P vadelisi ≈%1.7. Hareket AI hisselerindeki toparlanma ve Çin'in hisse piyasasına destek mesajıyla ilişkilendiriliyor; Çarşamba endeks kısa süre ayı piyasası eşiğine inmişti.",
+   "etki": "US100",
+   "kaynak": "Bloomberg (swissinfo) · PiQ · TipRanks",
+   "url": "https://www.swissinfo.ch/eng/stocks-rise-with-nasdaq-futures,-treasuries-fall:-markets-wrap/92446051"
+  },
+  {
+   "baslik": "Altın 3,640'ın üzerine sıçradı",
+   "ozet": "Spot altın Asya'da %2'nin üzerinde yükselip 3,670'e kadar gördü; gümüş ve platin daha sert arttı. Zayıf dolar ve hisse toparlanması destek olarak anılıyor.",
    "etki": "XAU",
-   "kaynak": "mining.com.au · ATFX",
-   "url": "https://mining.com.au/gold-price-drifts-lower-in-thin-us-thanksgiving-trading/"
+   "kaynak": "Bloomberg (swissinfo) · Mitrade",
+   "url": "https://www.swissinfo.ch/eng/stocks-rise-with-nasdaq-futures,-treasuries-fall:-markets-wrap/92446051"
   },
   {
-   "baslik": "Wall Street kapalı, vadeliler yukarıda",
-   "ozet": "Tatil inceliğinde NQ vadelisi sabah +%0.8, S&P vadelisi +%0.7; Avrupa endeksleri %1.5–1.9 yükseldi. Kaynak, hareketin yalnız havayı gösterdiğini not ediyor.",
+   "baslik": "Asya'da teknoloji ve Çin rallisi",
+   "ozet": "Çin Devlet Konseyi'nin piyasa desteğini yinelemesiyle anakara hisseleri ≈%3–4 yükseldi; SK Hynix, Samsung ve Kioxia çip tarafında öne çıktı. Kore'de istikrar fonunun büyütülmesi tartışılıyor (başlık).",
    "etki": "US100",
-   "kaynak": "Company Chronicle",
-   "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
+   "kaynak": "Bloomberg (swissinfo) · Saxo",
+   "url": "https://www.swissinfo.ch/eng/stocks-rise-with-nasdaq-futures,-treasuries-fall:-markets-wrap/92446051"
   },
   {
-   "baslik": "Petrol: Suudi rafinerisine saldırı",
-   "ozet": "Husi'lerin Suudi Arabistan'ın en büyük rafinerisine saldırdığı haberleriyle Brent Çarşamba %3.7 artışla 94.8 $'dan kapandı; WTI Perşembe ≈84.6 $. OPEC+ Pazar toplanıyor.",
+   "baslik": "Petrol: Orta Doğu'da enerji altyapısına saldırılar",
+   "ozet": "WTI ≈86 $'a (+%3.2) çıktı, Brent ≈97 $ ve haftalık ≈+%4.5. Husi'lerin Suudi rafinerisine saldırısı ve İran kaynaklı ihracat aksaması endişesi fiyatlanıyor.",
    "etki": "İkisi",
-   "kaynak": "IC Markets · Company Chronicle · ATFX",
-   "url": "https://www.ic.com/blog/general-market-analysis-26-november-2026-ic/"
+   "kaynak": "Bloomberg (swissinfo) · Saxo",
+   "url": "https://www.swissinfo.ch/eng/stocks-rise-with-nasdaq-futures,-treasuries-fall:-markets-wrap/92446051"
   },
   {
-   "baslik": "Fed Aralık artışı neredeyse kesin fiyatlı",
-   "ozet": "CME FedWatch'a göre 9–10 Aralık'ta artış olasılığı ~%97, Ocak'ta ikinci artış ~%63. Sıcak enflasyon ve GDP sonrası beklentiler sabit.",
+   "baslik": "Getiriler yükseliyor, Fed Aralık artışı fiyatlı",
+   "ozet": "10Y getiri +7 bp ile %4.92. Vadeliler 8–9 Aralık'ta 25 bp artışı ≈%99 fiyatlıyor; Fed Başkanı Warsh'un enflasyonun sıkılaşmayı desteklediği görüşü anılıyor.",
    "etki": "İkisi",
-   "kaynak": "Company Chronicle (CME FedWatch) · IC Markets",
-   "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
+   "kaynak": "Bloomberg (swissinfo) · PiQ · Mitrade · Saxo",
+   "url": "https://piqmarkets.com/story/us-equity-futures-rise-nasdaq-100-contracts-up-2-47"
   },
   {
-   "baslik": "Getiriler sıcak veriye rağmen düştü",
-   "ozet": "Çarşamba 2Y %4.64 (−4 bp), 10Y %4.85 (−8 bp); DXY 103.7. Tatil nedeniyle Perşembe nakit tahvil işlemi yok.",
-   "etki": "Bağlam",
-   "kaynak": "IC Markets",
-   "url": "https://www.ic.com/blog/general-market-analysis-26-november-2026-ic/"
-  },
-  {
-   "baslik": "Tarife gündemi: 14 ticaret ortağı",
-   "ozet": "ABD'nin 14 ortağa yönelik tarife önerileri ve Brezilya ürünlerine yeni vergiler Çarşamba hisseleri baskıladı; yürürlük en erken Ocak.",
+   "baslik": "Yeni tarife dalgası",
+   "ozet": "Yönetim, Yüksek Mahkeme'nin önceki versiyonu iptalinin ardından Çin, AB ve çok sayıda ekonomiye yeni tarifeler duyurdu; Japonya %15 orana itiraz etti.",
    "etki": "İkisi",
-   "kaynak": "IC Markets · Company Chronicle · ATFX",
-   "url": "https://www.ic.com/blog/general-market-analysis-26-november-2026-ic/"
+   "kaynak": "Saxo",
+   "url": "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--27-november-2026-27112026"
   },
   {
-   "baslik": "Nvidia ve AI hisselerinde satış",
-   "ozet": "Huang'ın CEO'luğa dönüşüyle gelen yükselişten sonra NVDA Çarşamba −%3.9; teknoloji satış baskısı sürdü.",
+   "baslik": "Nvidia: Huang dönüşü sonrası oynaklık",
+   "ozet": "Huang'ın 23 Kas'ta CEO'luğa dönüşü vadelilerde %7 limit hareketi yaratmıştı; NVDA Çarşamba −%3.9 ile 149.3 $'da kapandı. Bugünkü toparlanmada çip hisseleri yine öncü.",
    "etki": "US100",
-   "kaynak": "ATFX · IC Markets",
-   "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
+   "kaynak": "FinanceFeeds · Yahoo Finance",
+   "url": "https://financefeeds.com/nasdaq-composite-23586-black-friday-futures-up-2-9-percent-bull-24430-bear-22948/"
   }
  ],
  "pozisyon": [
@@ -187,13 +208,13 @@
    "url": "https://riskreversal.substack.com/p/the-week-ahead-a-huge-week-for-ai"
   },
   {
-   "ad": "Fed fiyatlaması (9 Aralık)",
-   "deger": "Aralık 25 bp artış ~%97 · Ocak ek artış ~%63",
-   "degisim": "sabah ~%98",
-   "tarih": "26 Kas",
-   "kaynak": "Company Chronicle (CME FedWatch)",
-   "url": "https://thecompanychronicle.com/story/before-the-bell-thanksgiving-november-26-2026"
+   "ad": "Fed fiyatlaması (9 Aralık kararı)",
+   "deger": "Aralık 25 bp artış ~%99",
+   "degisim": "26 Kas ~%97",
+   "tarih": "27 Kas",
+   "kaynak": "PiQ (CME FedWatch) · Mitrade (%99.4)",
+   "url": "https://piqmarkets.com/story/us-equity-futures-rise-nasdaq-100-contracts-up-2-47"
   }
  ],
- "pozisyon_notu": "Fed fiyatlaması Company Chronicle (CME FedWatch) 26 Kas. COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan taşındı (tarihleri satırda); daha yeni değer bulunamadı."
+ "pozisyon_notu": "Fed fiyatlaması 27 Kas (PiQ/CME FedWatch, Mitrade). Ocak için ek artış olasılığı bu taramada bulunamadı. COT, Fear & Greed, AAII ve haftalık ima hareket önceki baskılardan taşındı (tarihleri satırda); daha yeni değer bulunamadı."
 }
